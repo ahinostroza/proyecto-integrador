@@ -1,0 +1,66 @@
+@use "colores" as *;
+
+.containerCucardas {
+  display: grid;
+  grid-row-gap: 7px;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  list-style: none;
+  font-size: 11px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cucarda25 {
+  position: absolute;
+  line-height: 24px;
+  top: -25vh;
+  left: 18vh;
+  background-color: $firebrick;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+
+  .descuentoPorciento {
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: -0.01em;
+    padding-block-start: 9px;
+    width: 1em;
+    padding-inline-start: 15px;
+  }
+}
+.cucarda4x3 {
+  position: absolute;
+  top: -18vh;
+  left: 18vh;
+  background-color: $darkslategray;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.cucarda2x1 {
+  position: absolute;
+  top: -11vh;
+  left: 18vh;
+  background-color: $navy;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+
+  line-height: 18px;
+  letter-spacing: -0.106em;
+  font-style: normal;
+  font-weight: 100;
+}
+.marginFixed {
+  margin-top: 16px !important;
+}

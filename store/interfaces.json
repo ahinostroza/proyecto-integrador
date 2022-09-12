@@ -1,0 +1,46 @@
+{
+  "mega-menu": {
+    "component": "MegaMenu"
+  },
+  "menu-mobile": {
+    "component": "MenuMobile"
+  },
+  "cucardas-product": {
+    "component": "Cucardas"
+  },
+  "product-availability": {
+    "component": "ProductAvalaibility"
+  },
+  "tabs": {
+    "component": "Tabs"
+  },
+  "input-hidden": {
+    "component": "InputHidden"
+  },
+  "table-pricing-fixed": {
+    "component": "TablePricing"
+  },
+  "slider-category": {
+    "component": "CategoryInfo",
+    "composition": "children"
+  },
+  "not-found-search": {
+    "component": "NotFound"
+  },
+  "search-bar-mobile":{
+    "component": "ModalSearch"
+  },
+  "custom-order-placed": {
+    "component": "CustomOrderPlaced"
+  },
+  "whatsapp-button": {
+    "component": "WhatsAppButton"
+  },
+  "Gtm-context":{
+    "component": "Gtm"
+  },
+  "collapsible":{
+    "component":"Collapsible",
+    "composition": "children"
+  }
+}

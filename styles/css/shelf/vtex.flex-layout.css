@@ -1,0 +1,25 @@
+.flexRowContent--shelf{
+    padding: 0 100px;
+}
+.flexRowContent--deliverySectionCont{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: auto;
+    min-width: 912px;
+}
+
+@media screen and (max-width:1024px) {
+    .flexRowContent--shelf{
+        padding: 0px;
+    }
+    /*.flexRow--deliverySectionCont{
+        margin-right: 0;
+        margin-left: 0;
+        width: auto;
+    }
+    .flexRowContent--deliverySectionCont .stretchChildrenWidth{
+        width: 65vw !important;
+    }*/
+}

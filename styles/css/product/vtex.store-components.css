@@ -1,0 +1,83 @@
+.priceContainer {
+  text-align: left !important;
+  justify-content: start !important;
+  width: 100%;
+}
+
+.imageElement--vinoimages:hover{
+  opacity: .7;
+  cursor: pointer;
+}
+
+.shareLabel{
+  display: none;
+}
+
+.shareButtons{
+  flex-direction: column;
+}
+.shareSocialButton:hover{
+  opacity: 1;
+}
+
+.shareSocialIcon{
+  width: 42px;
+  height: 42px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.shareButtons .shareSocialButton:last-child .shareSocialIcon:first-child{
+  border: 2px solid #58CF65;
+}
+.shareButtons .shareSocialButton:last-child:hover .shareSocialIcon:first-child{
+  background-color:#58CF65;
+}
+.shareButtons .shareSocialButton:first-child .shareSocialIcon:last-child{
+  border: 2px solid #3B5998;
+}
+.shareButtons .shareSocialButton:first-child:hover .shareSocialIcon:last-child{
+  background-color: #3B5998;
+}
+
+.productBrandName{
+  color: #9E9E9E;
+  margin-bottom: 5px;
+  display: inline-flex;
+}
+.productBrand{
+  color: #000;
+  font-size: 32px;
+  margin-bottom: 24px;
+  display: inline-flex;
+  font-weight: 600;
+}
+
+.productDescriptionContainer{
+  margin: 32px 60px 72px;
+  text-align: center;
+}
+
+.productDescriptionTitle{
+  color: #8B3C57;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 0 24px 24px;
+  border-bottom: 2px solid #8B3C57;
+  justify-content: center;
+  white-space: nowrap;
+  display: flex;
+  margin: 0 auto 24px;
+  max-width: 300px;
+}
+
+.productDescriptionText{
+  color: #616161;
+  font-size: 14px;
+}
+
+@media screen and (max-width:1024px) {
+  .productDescriptionContainer{
+    margin: 32px 0px;
+  }
+}

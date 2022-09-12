@@ -1,0 +1,1436 @@
+{}
+/*{
+  "menu-mobile": {
+    "props": {
+      "categories": [
+        {
+          "id": 6,
+          "name": "Telas",
+          "href": "/telas",
+          "slug": "adhesivos",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": 7,
+              "name": "Cuerinas",
+              "href": "/telas/cuerinas",
+              "slug": "de-contacto",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": 0,
+                  "name": "Cuerina Bufalo",
+                  "href": "/telas/cuerinas/Cuerina-bufalo",
+                  "slug": "cuerinas-bufalo"
+                },
+                {
+                  "name": "Cuerina Fiore",
+                  "href": "/telas/cuerinas/cuerina-fiore"
+                },
+                {
+                  "name": "Cuerina milano",
+                  "href": "/telas/cuerinas/cuerina-milano"
+                },
+                {
+                  "name": "Cuerina talampaya",
+                  "href": "/telas/cuerinas/cuerina-talampaya"
+                }
+              ],
+              "__typename": "Category"
+            },
+            {
+              "id": 8,
+              "name": "Telas interior",
+              "href": "/telas/telas-interior",
+              "slug": "diluyentes",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Arpillera",
+                  "href": "/telas/telas-interior/arpillera"
+                },
+                {
+                  "name": "Chenille",
+                  "href": "/telas/telas-interior/Chenille"
+                },
+                {
+                  "name": "Friselina",
+                  "href": "/telas/telas-interior/Friselina"
+                },
+                {
+                  "name": "Lino",
+                  "href": "/telas/telas-interior/Lino"
+                },
+                {
+                  "name": "Lona cruda de algodón",
+                  "href": "/telas/telas-interior/Lona-cruda-de-algodon"
+                },
+                {
+                  "name": "Neolux",
+                  "href": "/telas/telas-interior"
+                },
+                {
+                  "name": "Pana",
+                  "href": "/telas/telas-interior/pana"
+                },
+                {
+                  "name": "Tela tipo lino",
+                  "href": "/telas/telas-interior/Tela-tipo-lino"
+                }
+              ],
+              "__typename": "Category"
+            },
+            {
+              "id": 9,
+              "name": "Telas náuticas",
+              "href": "/telas/telas-nauticas/",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Acrílicas",
+                  "href": "/telas/telas-nauticas/Acrilicas"
+                },
+                {
+                  "name": "Cuerina náutica barracuda",
+                  "href": "/telas/telas-nauticas/Cuerina-náutica-barracuda"
+                },
+                {
+                  "name": "Cuerina náutica carbon fiber",
+                  "href": "/telas/telas-nauticas/Cuerina-nautica-carbon-fiber"
+                },
+                {
+                  "name": "Cuerina náutica silvertex",
+                  "href": "/telas/telas-nauticas/Cuerina-nautica-silvertex"
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "name": "Telas plásticas",
+              "href": "/telas/telas-plasticas/",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/telas/telas-plasticas/Arkansas",
+                  "name": "Arkansas"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Bagun",
+                  "name": "Bagun"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Capota",
+                  "name": "Capota"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Carioca",
+                  "name": "Carioca"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Cobertura",
+                  "name": "Cobertura"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Cristal-de-PVC",
+                  "name": "Cristal de PVC"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Cubrecercos",
+                  "name": "Cubrecercos"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Econoflex",
+                  "name": "Econoflex"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Media-sombra",
+                  "name": "Media sombra"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Mosquitero",
+                  "name": "Mosquitero"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Pampa",
+                  "name": "Pampa"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Rafia",
+                  "name": "Rafia"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Satin",
+                  "name": "Satín"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Tela-cordura",
+                  "name": "Tela cordura"
+                }
+              ]
+            }
+          ],
+          "__typename": "Category"
+        },
+        {
+          "id": 9,
+          "name": "Cortinas y toldos",
+          "href": "",
+          "slug": "cierres",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": 10,
+              "name": "Insumos cortinas Roller",
+              "href": "/Insumos-cortinas-Roller",
+              "slug": "deslizadores",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Insumos-cortinas-Roller/Cadenas",
+                  "name": "Cadenas"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Componentes",
+                  "name": "Componentes"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Mecanismos",
+                  "name": "Mecanismos"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Motores",
+                  "name": "Motores"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Soportes",
+                  "name": "Soportes"
+                },
+
+                {
+                  "href": "/Insumos-cortinas-Roller/Tubos-de-aluminio",
+                  "name": "Tubos de aluminio"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Zocalos",
+                  "name": "Zócalos"
+                },
+                {
+                  "href": "/Telas-cortinas-roller",
+                  "name": "Telas cortinas roller",
+                  "hasChildren": true,
+                  "children": [
+                    {
+                      "href": "/Telas-cortinas-roller/Black-out",
+                      "name": "Black out"
+                    },
+                    {
+                      "href": "/Telas-cortinas-roller/Sun-Screen",
+                      "name": "Sun Screen"
+                    },
+                    {
+                      "href": "/Telas-cortinas-roller/Tela-Deco-Carina",
+                      "name": "Tela Deco Carina"
+                    },
+                    {
+                      "href": "/Telas-cortinas-roller/Tela-Deco-Lima",
+                      "name": "Tela Deco Lima"
+                    }
+                  ]
+                }
+              ],
+              "__typename": "Category"
+            },
+            {
+              "id": 12,
+              "name": "Toldos",
+              "href": "/toldos",
+              "slug": "desmontables",
+              "hasChildren": false,
+              "children": [],
+              "__typename": "Category"
+            }            
+          ],
+          "__typename": "Category"
+        },
+        {
+          "id": 17,
+          "name": "Hogar",
+          "href": "",
+          "slug": "cintas",
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Hogar y jardin",
+              "href": "/Hogar-y-jardin",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Alfombras y felpudos",
+                  "href": "/Hogar-y-jardin/Alfombras-y-felpudos"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Antideslizantes",
+                  "name": "Antideslizantes"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Yoga",
+                  "name": "Yoga"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Cortinas-de-baño",
+                  "name": "Cortinas de baño"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Fundas",
+                  "name": "Fundas"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Mantas",
+                  "name": "Mantas"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Piletas",
+                  "name": "Piletas"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Pisos",
+                  "name": "Pisos"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Redes",
+                  "name": "Redes"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Almohadones-y-colchonetas",
+                  "name": "Almohadones y colchonetas",
+                  "hasChildren": true,
+                  "children": [
+                    {
+                      "name": "Almohadones de jardín estándar",
+                      "href": "/Hogar-y-jardin/Alfombras-y-felpudos/Almohadones-de-jardin-estandar"
+                    },
+                    {
+                      "name": "Colchonetas de gimnasia",
+                      "href": "/Hogar-y-jardin/Alfombras-y-felpudos/Colchonetas-de-gimnasia"
+                    },
+                    {
+                      "name": "Vivo plástico",
+                      "href": "/Hogar-y-jardin/Alfombras-y-felpudos/Vivo-plastico"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "href": "/Polietileno",
+              "name": "Polietileno"
+            },
+            {
+              "name": "Goma eva",
+              "href": "/Goma-eva",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Pisos de goma eva",
+                  "href": "/Goma-eva/Pisos-de-goma-eva"
+                },
+                {
+                  "href": "/Goma-eva/Planchas-de-goma-eva",
+                  "name": "Planchas de goma eva"
+                }
+              ]
+            },
+            {
+              "name": "Sogas",
+              "href": "/sogas",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/sogas/Sogas-de-algodon",
+                  "name": "Sogas de algodón"
+                },
+                {
+                  "href": "/sogas/Sogas-de-poliester",
+                  "name": "Sogas de poliéster"
+                },
+                {
+                  "href": "/sogas/Sogas-elasticas",
+                  "name": "Sogas elásticas"
+                }
+              ]
+            },
+            {
+              "href": "/aislantes",
+              "name": "Aislantes",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/aislantes/Camping",
+                  "name": "Camping"
+                },
+                {
+                  "href": "/aislantes/Polex",
+                  "name": "Polex"
+                },
+                {
+                  "href": "/aislantes/Poly-Foil",
+                  "name": "Poly Foil"
+                }
+              ]
+            }
+          ],
+          "__typename": "Category"
+        },
+        {
+          "id": 22,
+          "name": "Artículos y Tapicería",
+          "href": "",
+          "slug": "correas",
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Adhesivos",
+              "href": "/Adhesivos",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Adhesivos/de-contacto",
+                  "name": "De contacto"
+                },
+                {
+                  "name": "Diluyentes",
+                  "href": "/Adhesivos/Diluyentes"
+                }
+              ]
+            },
+            {
+              "name": "Cierres",
+              "href": "/Cierres",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Deslizadores",
+                  "href": "/Cierres/Deslizadores"
+                },
+                {
+                  "name": "Cadena continua",
+                  "href": "/cierres/Cadena-continua"
+                },
+                {
+                  "name": "Desmontables",
+                  "href": "/cierres/Desmontables",
+                  "hasChildren": true,
+                  "children": [
+                    {
+                      "name": "Diente de perro 80 cm",
+                      "href": "/cierres/Desmontables/Diente-de-perro-80-cm"
+                    },
+                    {
+                      "name": "Diente de perro cadena 10 YKK",
+                      "href": "/cierres/Desmontables/Diente-de-perro-cadena-10-YKK"
+                    },
+                    {
+                      "name": "Diente de perro cadena 5 YKK",
+                      "href": "/cierres/Desmontables/Diente-de-perro-cadena-5-YKK"
+                    },
+                    {
+                      "name": "Cadena Nº 6 de 80 cm",
+                      "href": "/cierres/Desmontables/Cadena-Nº-6-de-80-cm"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cintas",
+              "href": "/Cintas",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Cintas/Cintas-adhesivas",
+                  "name": "Cintas adhesivas"
+                },
+                {
+                  "name": "Cintas de PVC",
+                  "href": "/cintas/Cintas-de-PVC"
+                },
+                {
+                  "name": "Cintas plasticas",
+                  "href": "/cintas/Cintas-plasticas"
+                },
+                {
+                  "href": "/cintas/velcro",
+                  "name": "velcro"
+                }
+              ]
+            },
+            {
+              "name": "Correas",
+              "href": "/correas",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Correas de algodón",
+                  "href": "/correas/Correas-de-algodon"
+                },
+                {
+                  "name": "Correas de nylon",
+                  "href": "/correas/Correas-de-nylon"
+                },
+                {
+                  "name": "Correa de poliester",
+                  "href": "/correas/Correa-de-poliester"
+                },
+                {
+                  "name": "Correas de Polipropileno",
+                  "href": "/correas/Correas-de-Polipropileno"
+                }
+              ]
+            },
+            {
+              "name": "Herrajes de metal",
+              "href": "/Herrajes-de-metal",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Broche imán",
+                  "href": "/Herrajes-de-metal/Broche-iman"
+                },
+                {
+                  "href": "/Herrajes-de-metal/Broches",
+                  "name": "Broches"
+                },
+                {
+                  "href": "/Herrajes-de-metal/Torniquetes",
+                  "name": "Torniquetes"
+                },
+                {
+                  "href": "/Herrajes-de-metal/Hebillas-de-atraque",
+                  "name": "Hebillas de atraque"
+                }
+              ]
+            },
+            {
+              "name": "Herrajes plasticos",
+              "href": "/Herrajes-plasticos",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Dados",
+                  "href": "/Herrajes-plasticos/Dados"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Escaleritas",
+                  "name": "Escaleritas"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Ganchos",
+                  "name": "Ganchos"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Hebillas",
+                  "name": "Hebillas"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Manijas",
+                  "name": "Manijas"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Mosquetones",
+                  "name": "Mosquetones"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Reguladores",
+                  "name": "Reguladores"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Tancas",
+                  "name": "Tancas"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Triangulos",
+                  "name": "Triángulos"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Ganchos",
+                  "name": "Ganchos"
+                }
+              ]
+            },
+            {
+              "name": "Herramientas",
+              "href": "/Herramientas",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Herramientas/Cutter",
+                  "name": "Cutter"
+                },
+                {
+                  "href": "/Herramientas/Lapices",
+                  "name": "Lapices"
+                },
+                {
+                  "href": "/Herramientas/Leznas",
+                  "name": "Leznas"
+                },
+                {
+                  "href": "/Herramientas/Remachadores",
+                  "name": "Remachadores"
+                },
+                {
+                  "href": "/Herramientas/Sacabocados",
+                  "name": "Sacabocados"
+                },
+                {
+                  "href": "/Herramientas/Tijeras",
+                  "name": "Tijeras"
+                }
+              ]
+            },
+            {
+              "name": "Hilos",
+              "href": "/Hilos",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Hilos de poliéster",
+                  "href": "/Hilos/Hilos-de-poliester"
+                },
+                {
+                  "name": "Hilos encerados",
+                  "href": "/Hilos/Hilos-encerados"
+                }
+              ]
+            },
+            {
+              "name": "Rellenos",
+              "href": "/Rellenos"
+            },
+            {
+              "name": "Maquinas y accesorios",
+              "href": "/Maquinas-y-accesorios",
+              "children": [
+                {
+                  "href": "/Maquinas-y-accesorios/Aceites",
+                  "name": "Aceites"
+                },
+                {
+                  "href": "/Maquinas-y-accesorios/Agujas",
+                  "name": "Agujas"
+                },
+                {
+                  "href": "/Maquinas-y-accesorios/Boquillas",
+                  "name": "Boquillas"
+                },
+                {
+                  "href": "/Maquinas-y-accesorios/Máquinas-de-ojalillar",
+                  "name": "Máquinas de ojalillar"
+                },
+                {
+                  "href": "/Maquinas-y-accesorios/Matrices",
+                  "name": "Matrices"
+                }
+              ],
+              "hasChildren": true
+            },
+            {
+              "name": "Metalurgica",
+              "href": "/Metalurgica",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Metalurgica/Ojales-bronceados",
+                  "name": "Ojales bronceados"
+                },
+                {
+                  "href": "/Metalurgica/Ojalillos",
+                  "name": "Ojalillos"
+                },
+                {
+                  "href": "/Metalurgica/Remaches",
+                  "name": "Remaches"
+                },
+                {
+                  "href": "/Metalurgica/Tachas",
+                  "name": "Tachas"
+                }
+              ]
+            }
+          ],
+          "__typename": "Category"
+        },
+        {
+          "id": 27,
+          "name": "Confecciones",
+          "href": "",
+          "slug": "herrajes-de-metal",
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Cortinas roller",
+              "href": "/Cortinas-roller",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Sun screen",
+                  "href": "/Cortinas-roller/Sun-screen"
+                },
+                {
+                  "name": "Black kout",
+                  "href": "/Cortinas-roller/Black-kout"
+                },
+                {
+                  "name": "Deco translúcidas",
+                  "href": "/Cortinas-roller/Deco-translucidas"
+                },
+                {
+                  "name": "Cortinas roller dobles",
+                  "href": "/Cortinas-roller/Cortinas-roller-dobles"
+                }
+              ]
+            },
+            {
+              "name": "Cerramientos plásticos",
+              "href": "/Cerramientos-plasticos"
+            },
+            {
+              "name": "Confección de lonas con ojales",
+              "href": "/confeccion-de-lonas-con-ojales"
+            },
+            {
+              "name": "Confección de colchonetas y almohadones",
+              "href": "/Confeccion-de-colchonetas-y-almohadones"
+            },
+            {
+              "name": "Fundas de exterior",
+              "href": "/fundas-de-exterior"
+            },
+            {
+              "name": "Cubrepileta",
+              "href": "/cubrepileta"
+            }
+          ],
+          "__typename": "Category"
+        }
+      ]
+    }
+  },
+  "mega-menu": {
+    "props": {
+      "categories": [
+        {
+          "id": 6,
+          "name": "Telas",
+          "href": "/telas",
+          "slug": "adhesivos",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": 7,
+              "name": "Cuerinas",
+              "href": "/telas/cuerinas",
+              "slug": "de-contacto",
+              "hasChildren": true,
+              "children": [
+                {
+                  "id": 0,
+                  "name": "Cuerina Bufalo",
+                  "href": "/telas/cuerinas/Cuerina-bufalo",
+                  "slug": "cuerinas-bufalo"
+                },
+                {
+                  "name": "Cuerina Fiore",
+                  "href": "/telas/cuerinas/cuerina-fiore"
+                },
+                {
+                  "name": "Cuerina milano",
+                  "href": "/telas/cuerinas/cuerina-milano"
+                },
+                {
+                  "name": "Cuerina talampaya",
+                  "href": "/telas/cuerinas/cuerina-talampaya"
+                }
+              ],
+              "__typename": "Category"
+            },
+            {
+              "id": 8,
+              "name": "Telas interior",
+              "href": "/telas/telas-interior",
+              "slug": "diluyentes",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Arpillera",
+                  "href": "/telas/telas-interior/arpillera"
+                },
+                {
+                  "name": "Chenille",
+                  "href": "/telas/telas-interior/Chenille"
+                },
+                {
+                  "name": "Friselina",
+                  "href": "/telas/telas-interior/Friselina"
+                },
+                {
+                  "name": "Lino",
+                  "href": "/telas/telas-interior/Lino"
+                },
+                {
+                  "name": "Lona cruda de algodón",
+                  "href": "/telas/telas-interior/Lona-cruda-de-algodon"
+                },
+                {
+                  "name": "Neolux",
+                  "href": "/telas/telas-interior"
+                },
+                {
+                  "name": "Pana",
+                  "href": "/telas/telas-interior/pana"
+                },
+                {
+                  "name": "Tela tipo lino",
+                  "href": "/telas/telas-interior/Tela-tipo-lino"
+                }
+              ],
+              "__typename": "Category"
+            },
+            {
+              "id": 9,
+              "name": "Telas náuticas",
+              "href": "/telas/telas-nauticas/",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Acrílicas",
+                  "href": "/telas/telas-nauticas/Acrilicas"
+                },
+                {
+                  "name": "Cuerina náutica barracuda",
+                  "href": "/telas/telas-nauticas/Cuerina-náutica-barracuda"
+                },
+                {
+                  "name": "Cuerina náutica carbon fiber",
+                  "href": "/telas/telas-nauticas/Cuerina-nautica-carbon-fiber"
+                },
+                {
+                  "name": "Cuerina náutica silvertex",
+                  "href": "/telas/telas-nauticas/Cuerina-nautica-silvertex"
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "name": "Telas plásticas",
+              "href": "/telas/telas-plasticas/",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/telas/telas-plasticas/Arkansas",
+                  "name": "Arkansas"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Bagun",
+                  "name": "Bagun"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Capota",
+                  "name": "Capota"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Carioca",
+                  "name": "Carioca"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Cobertura",
+                  "name": "Cobertura"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Cristal-de-PVC",
+                  "name": "Cristal de PVC"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Cubrecercos",
+                  "name": "Cubrecercos"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Econoflex",
+                  "name": "Econoflex"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Media-sombra",
+                  "name": "Media sombra"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Mosquitero",
+                  "name": "Mosquitero"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Pampa",
+                  "name": "Pampa"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Rafia",
+                  "name": "Rafia"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Satin",
+                  "name": "Satín"
+                },
+                {
+                  "href": "/telas/telas-plasticas/Tela-cordura",
+                  "name": "Tela cordura"
+                }
+              ]
+            }
+          ],
+          "__typename": "Category"
+        },
+        {
+          "id": 9,
+          "name": "Cortinas y toldos",
+          "href": "",
+          "slug": "cierres",
+          "hasChildren": true,
+          "children": [
+            {
+              "id": 10,
+              "name": "Insumos cortinas Roller",
+              "href": "/Insumos-cortinas-Roller",
+              "slug": "deslizadores",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Insumos-cortinas-Roller/Cadenas",
+                  "name": "Cadenas"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Componentes",
+                  "name": "Componentes"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Mecanismos",
+                  "name": "Mecanismos"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Motores",
+                  "name": "Motores"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Soportes",
+                  "name": "Soportes"
+                },
+
+                {
+                  "href": "/Insumos-cortinas-Roller/Tubos-de-aluminio",
+                  "name": "Tubos de aluminio"
+                },
+                {
+                  "href": "/Insumos-cortinas-Roller/Zocalos",
+                  "name": "Zócalos"
+                },
+                {
+                  "href": "/Telas-cortinas-roller",
+                  "name": "Telas cortinas roller",
+                  "hasChildren": true,
+                  "children": [
+                    {
+                      "href": "/Telas-cortinas-roller/Black-out",
+                      "name": "Black out"
+                    },
+                    {
+                      "href": "/Telas-cortinas-roller/Sun-Screen",
+                      "name": "Sun Screen"
+                    },
+                    {
+                      "href": "/Telas-cortinas-roller/Tela-Deco-Carina",
+                      "name": "Tela Deco Carina"
+                    },
+                    {
+                      "href": "/Telas-cortinas-roller/Tela-Deco-Lima",
+                      "name": "Tela Deco Lima"
+                    }
+                  ]
+                }
+              ],
+              "__typename": "Category"
+            },
+            {
+              "id": 12,
+              "name": "Toldos",
+              "href": "/toldos",
+              "slug": "desmontables",
+              "hasChildren": false,
+              "children": [],
+              "__typename": "Category"
+            }            
+          ],
+          "__typename": "Category"
+        },
+        {
+          "id": 17,
+          "name": "Hogar",
+          "href": "",
+          "slug": "cintas",
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Hogar y jardin",
+              "href": "/Hogar-y-jardin",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Alfombras y felpudos",
+                  "href": "/Hogar-y-jardin/Alfombras-y-felpudos"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Antideslizantes",
+                  "name": "Antideslizantes"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Yoga",
+                  "name": "Yoga"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Cortinas-de-baño",
+                  "name": "Cortinas de baño"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Fundas",
+                  "name": "Fundas"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Mantas",
+                  "name": "Mantas"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Piletas",
+                  "name": "Piletas"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Pisos",
+                  "name": "Pisos"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Redes",
+                  "name": "Redes"
+                },
+                {
+                  "href": "/Hogar-y-jardin/Almohadones-y-colchonetas",
+                  "name": "Almohadones y colchonetas",
+                  "hasChildren": true,
+                  "children": [
+                    {
+                      "name": "Almohadones de jardín estándar",
+                      "href": "/Hogar-y-jardin/Alfombras-y-felpudos/Almohadones-de-jardin-estandar"
+                    },
+                    {
+                      "name": "Colchonetas de gimnasia",
+                      "href": "/Hogar-y-jardin/Alfombras-y-felpudos/Colchonetas-de-gimnasia"
+                    },
+                    {
+                      "name": "Vivo plástico",
+                      "href": "/Hogar-y-jardin/Alfombras-y-felpudos/Vivo-plastico"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "href": "/Polietileno",
+              "name": "Polietileno"
+            },
+            {
+              "name": "Goma eva",
+              "href": "/Goma-eva",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Pisos de goma eva",
+                  "href": "/Goma-eva/Pisos-de-goma-eva"
+                },
+                {
+                  "href": "/Goma-eva/Planchas-de-goma-eva",
+                  "name": "Planchas de goma eva"
+                }
+              ]
+            },
+            {
+              "name": "Sogas",
+              "href": "/sogas",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/sogas/Sogas-de-algodon",
+                  "name": "Sogas de algodón"
+                },
+                {
+                  "href": "/sogas/Sogas-de-poliester",
+                  "name": "Sogas de poliéster"
+                },
+                {
+                  "href": "/sogas/Sogas-elasticas",
+                  "name": "Sogas elásticas"
+                }
+              ]
+            },
+            {
+              "href": "/aislantes",
+              "name": "Aislantes",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/aislantes/Camping",
+                  "name": "Camping"
+                },
+                {
+                  "href": "/aislantes/Polex",
+                  "name": "Polex"
+                },
+                {
+                  "href": "/aislantes/Poly-Foil",
+                  "name": "Poly Foil"
+                }
+              ]
+            }
+          ],
+          "__typename": "Category"
+        },
+        {
+          "id": 22,
+          "name": "Artículos y Tapicería",
+          "href": "",
+          "slug": "correas",
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Adhesivos",
+              "href": "/Adhesivos",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Adhesivos/de-contacto",
+                  "name": "De contacto"
+                },
+                {
+                  "name": "Diluyentes",
+                  "href": "/Adhesivos/Diluyentes"
+                }
+              ]
+            },
+            {
+              "name": "Cierres",
+              "href": "/Cierres",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Deslizadores",
+                  "href": "/Cierres/Deslizadores"
+                },
+                {
+                  "name": "Cadena continua",
+                  "href": "/cierres/Cadena-continua"
+                },
+                {
+                  "name": "Desmontables",
+                  "href": "/cierres/Desmontables",
+                  "hasChildren": true,
+                  "children": [
+                    {
+                      "name": "Diente de perro 80 cm",
+                      "href": "/cierres/Desmontables/Diente-de-perro-80-cm"
+                    },
+                    {
+                      "name": "Diente de perro cadena 10 YKK",
+                      "href": "/cierres/Desmontables/Diente-de-perro-cadena-10-YKK"
+                    },
+                    {
+                      "name": "Diente de perro cadena 5 YKK",
+                      "href": "/cierres/Desmontables/Diente-de-perro-cadena-5-YKK"
+                    },
+                    {
+                      "name": "Cadena Nº 6 de 80 cm",
+                      "href": "/cierres/Desmontables/Cadena-Nº-6-de-80-cm"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Cintas",
+              "href": "/Cintas",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Cintas/Cintas-adhesivas",
+                  "name": "Cintas adhesivas"
+                },
+                {
+                  "name": "Cintas de PVC",
+                  "href": "/cintas/Cintas-de-PVC"
+                },
+                {
+                  "name": "Cintas plasticas",
+                  "href": "/cintas/Cintas-plasticas"
+                },
+                {
+                  "href": "/cintas/velcro",
+                  "name": "velcro"
+                }
+              ]
+            },
+            {
+              "name": "Correas",
+              "href": "/correas",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Correas de algodón",
+                  "href": "/correas/Correas-de-algodon"
+                },
+                {
+                  "name": "Correas de nylon",
+                  "href": "/correas/Correas-de-nylon"
+                },
+                {
+                  "name": "Correa de poliester",
+                  "href": "/correas/Correa-de-poliester"
+                },
+                {
+                  "name": "Correas de Polipropileno",
+                  "href": "/correas/Correas-de-Polipropileno"
+                }
+              ]
+            },
+            {
+              "name": "Herrajes de metal",
+              "href": "/Herrajes-de-metal",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Broche imán",
+                  "href": "/Herrajes-de-metal/Broche-iman"
+                },
+                {
+                  "href": "/Herrajes-de-metal/Broches",
+                  "name": "Broches"
+                },
+                {
+                  "href": "/Herrajes-de-metal/Torniquetes",
+                  "name": "Torniquetes"
+                },
+                {
+                  "href": "/Herrajes-de-metal/Hebillas-de-atraque",
+                  "name": "Hebillas de atraque"
+                }
+              ]
+            },
+            {
+              "name": "Herrajes plasticos",
+              "href": "/Herrajes-plasticos",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Dados",
+                  "href": "/Herrajes-plasticos/Dados"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Escaleritas",
+                  "name": "Escaleritas"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Ganchos",
+                  "name": "Ganchos"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Hebillas",
+                  "name": "Hebillas"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Manijas",
+                  "name": "Manijas"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Mosquetones",
+                  "name": "Mosquetones"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Reguladores",
+                  "name": "Reguladores"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Tancas",
+                  "name": "Tancas"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Triangulos",
+                  "name": "Triángulos"
+                },
+                {
+                  "href": "/Herrajes-plasticos/Ganchos",
+                  "name": "Ganchos"
+                }
+              ]
+            },
+            {
+              "name": "Herramientas",
+              "href": "/Herramientas",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Herramientas/Cutter",
+                  "name": "Cutter"
+                },
+                {
+                  "href": "/Herramientas/Lapices",
+                  "name": "Lapices"
+                },
+                {
+                  "href": "/Herramientas/Leznas",
+                  "name": "Leznas"
+                },
+                {
+                  "href": "/Herramientas/Remachadores",
+                  "name": "Remachadores"
+                },
+                {
+                  "href": "/Herramientas/Sacabocados",
+                  "name": "Sacabocados"
+                },
+                {
+                  "href": "/Herramientas/Tijeras",
+                  "name": "Tijeras"
+                }
+              ]
+            },
+            {
+              "name": "Hilos",
+              "href": "/Hilos",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Hilos de poliéster",
+                  "href": "/Hilos/Hilos-de-poliester"
+                },
+                {
+                  "name": "Hilos encerados",
+                  "href": "/Hilos/Hilos-encerados"
+                }
+              ]
+            },
+            {
+              "name": "Rellenos",
+              "href": "/Rellenos"
+            },
+            {
+              "name": "Maquinas y accesorios",
+              "href": "/Maquinas-y-accesorios",
+              "children": [
+                {
+                  "href": "/Maquinas-y-accesorios/Aceites",
+                  "name": "Aceites"
+                },
+                {
+                  "href": "/Maquinas-y-accesorios/Agujas",
+                  "name": "Agujas"
+                },
+                {
+                  "href": "/Maquinas-y-accesorios/Boquillas",
+                  "name": "Boquillas"
+                },
+                {
+                  "href": "/Maquinas-y-accesorios/Máquinas-de-ojalillar",
+                  "name": "Máquinas de ojalillar"
+                },
+                {
+                  "href": "/Maquinas-y-accesorios/Matrices",
+                  "name": "Matrices"
+                }
+              ],
+              "hasChildren": true
+            },
+            {
+              "name": "Metalurgica",
+              "href": "/Metalurgica",
+              "hasChildren": true,
+              "children": [
+                {
+                  "href": "/Metalurgica/Ojales-bronceados",
+                  "name": "Ojales bronceados"
+                },
+                {
+                  "href": "/Metalurgica/Ojalillos",
+                  "name": "Ojalillos"
+                },
+                {
+                  "href": "/Metalurgica/Remaches",
+                  "name": "Remaches"
+                },
+                {
+                  "href": "/Metalurgica/Tachas",
+                  "name": "Tachas"
+                }
+              ]
+            }
+          ],
+          "__typename": "Category"
+        },
+        {
+          "id": 27,
+          "name": "Confecciones",
+          "href": "",
+          "slug": "herrajes-de-metal",
+          "hasChildren": true,
+          "children": [
+            {
+              "name": "Cortinas roller",
+              "href": "/Cortinas-roller",
+              "hasChildren": true,
+              "children": [
+                {
+                  "name": "Sun screen",
+                  "href": "/Cortinas-roller/Sun-screen"
+                },
+                {
+                  "name": "Black kout",
+                  "href": "/Cortinas-roller/Black-kout"
+                },
+                {
+                  "name": "Deco translúcidas",
+                  "href": "/Cortinas-roller/Deco-translucidas"
+                },
+                {
+                  "name": "Cortinas roller dobles",
+                  "href": "/Cortinas-roller/Cortinas-roller-dobles"
+                }
+              ]
+            },
+            {
+              "name": "Cerramientos plásticos",
+              "href": "/Cerramientos-plasticos"
+            },
+            {
+              "name": "Confección de lonas con ojales",
+              "href": "/confeccion-de-lonas-con-ojales"
+            },
+            {
+              "name": "Confección de colchonetas y almohadones",
+              "href": "/Confeccion-de-colchonetas-y-almohadones"
+            },
+            {
+              "name": "Fundas de exterior",
+              "href": "/fundas-de-exterior"
+            },
+            {
+              "name": "Cubrepileta",
+              "href": "/cubrepileta"
+            }
+          ],
+          "__typename": "Category"
+        }
+      ]
+    }
+  }
+}
+*/

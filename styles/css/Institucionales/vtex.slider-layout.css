@@ -1,0 +1,18 @@
+.paginationDotsContainer--NuestrasAlianzas{ 
+  bottom: -50px;
+}
+.caretIcon--sliderInstitucionales{
+  filter: invert(1);
+}
+.paginationDotsContainer--sliderInstitucionales{
+  bottom: 14px;
+}
+.sliderLayoutContainer--sliderInstitucionales{
+  width: 95%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 416px){
+  .sliderLayoutContainer--sliderInstitucionales{
+    width: 100% !important;
+  }
+}

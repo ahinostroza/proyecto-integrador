@@ -1,0 +1,13 @@
+.flexRow--gridCategoriesChildren{
+    width: 100%;
+}
+.flexRowContent--gridCategoriesChildren{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,150px);
+    column-gap: 2.5rem;
+    row-gap: 4rem;
+    justify-content: center;
+}
+.flexRowContent--gridCategoriesChildren .stretchChildrenWidth{
+    text-align: center;
+}

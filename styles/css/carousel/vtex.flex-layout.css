@@ -1,0 +1,22 @@
+.flexRow--carouselContainer{
+  background: #F5F5F5 !important;
+}
+
+.flexRowContent--MalbecBlendContainer{
+  padding-top: 20px;
+}
+.flexRow--marcasMovile{
+  overflow-x: overlay;
+}
+.flexRowContent--marcasMovile{
+  width: 275%;
+  display: flex;
+  padding: 0px;
+  gap: 18px;
+}
+@media screen and (max-width:416px){
+  .flexRowContent--marcas{
+    padding-bottom: 29px;
+    padding-top: 13px;
+  }
+}

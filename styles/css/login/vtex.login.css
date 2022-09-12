@@ -1,0 +1,154 @@
+.profileIcon {
+    color: #fff;
+}
+
+.buttonSocial :global(.vtex-button):hover {
+    background-color: transparent;
+}
+
+.content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border-radius: 8px;
+    min-height: 440px;
+    align-items: center;
+    column-gap: 4rem;
+    overflow: hidden;
+}
+
+.content--accountOptions {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.contentContainer .content {
+    min-height: 18.75rem;
+}
+
+.accountOptionsSectionTitle {
+    margin-bottom: .05rem;
+    padding-bottom: .45rem;
+    margin-top: .5rem;
+    border-bottom: 1px solid #E0E0E0;
+    color: #5D5D5D;
+}
+
+.content--accountOptions {
+    min-height: unset !important;
+    padding-top: 0rem;
+    padding-bottom: calc(32px - .75rem - 2.5px);
+}
+
+.content--accountOptions .contentForm {
+    width: 100%;
+}
+
+.logoutButton {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+    text-align: left;
+    padding: 0 12px;
+    height: 32px;
+    background-color: #EEEEEE;
+    text-transform: uppercase;
+    transform: translateY(calc(-.75rem - 2.5px));
+}
+
+.logoutButton:hover {
+    color: #5B0D2E;
+}
+
+.oauthLabel {
+    color: #4B4647;
+}
+
+.accessCodeOptionBtn :global(.vtex-button),
+.emailPasswordOptionBtn :global(.vtex-button) {
+    background-color: rgb(230, 230, 230);
+    border-radius: none;
+    color: #424242;
+}
+
+.accessCodeOptionBtn :global(.vtex-button):hover,
+.emailPasswordOptionBtn :global(.vtex-button):hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: none;
+    color: #424242;
+}
+
+.container :global(.vtex-button) {
+    min-height: 64px;
+    border-radius: 0;
+    outline: none;
+    border: none;
+}
+
+.container :global(.vtex-button):focus {
+    background-color: transparent;
+}
+
+.container :global(.vtex-button):hover {
+    background-color: #4B4647;
+}
+
+.formFooter :global(.vtex-button) {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    height: 48px;
+}
+
+.formFooter :global(.vtex-button__label) {
+    text-transform: uppercase !important;
+}
+
+.backButton,
+.sendButton {
+    width: 50%;
+}
+
+.backButton :global(.vtex-button) {
+    color: #4B4647;
+}
+
+.backButton :global(.vtex-button):hover {
+    background-color: transparent;
+}
+
+.arrowUp {
+    width: 1rem;
+    height: 1rem;
+    transform: translateX(-.475rem) rotate(-45deg);
+}
+
+@media screen and (max-width:1024px) {
+    .container :global(.vtex-button):hover {
+        background-color: #5B0D2E;
+    }
+
+    .container :global(.vtex-button):active {
+        background-color: #5B0D2E;
+    }
+
+    .container :global(.vtex-button):focus {
+        background-color: #5B0D2E;
+    }
+
+    .content {
+        min-height: 18.75rem;
+    }
+}
+
+.addressStoreAddressNumber {
+    background: red;
+}
+
+:global(.vtex-disclosure-layout-1-x-trigger){
+    margin-bottom: 30px
+}

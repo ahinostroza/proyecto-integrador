@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#topSearchs": {
+        "title":"Vitrina top ventas",
+        "children": [
+            "flex-layout.col#topSearchs"
+        ],
+        "props": {
+            "colGap": 0,
+            "borderWidth": 0,
+            "colSizing": "",
+            "preventVerticalStretch": true,
+            "blockClass": ["shelf","shelftopSearchs","bg-gray"]
+        }
+    },
+    "flex-layout.col#topSearchs":{
+        "title":"Contenido",
+        "children":[
+            "rich-text#topSearchs",
+            "flex-layout.row#productostopSearchs"
+        ]
+    },
+
+    "flex-layout.row#productostopSearchs": {
+        "title": "Productos",
+        "props": {
+            "blockClass": "Más buscados"
+        },
+        "children": ["list-context.product-list#topSearchs"]
+    },
+
+    "rich-text#topSearchs":{
+        "props":{
+            "text":"Más vendidos",
+            "blockClass": ["shelfTitle", "topSearchs"]
+        }
+    },
+    "list-context.product-list#topSearchs": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#shelf"],
+		"props": {
+			"blockClass":["topSearchs", "contenedorproductos"],
+		    "orderBy": "OrderByTopSaleDESC"
+		}
+	}
+}

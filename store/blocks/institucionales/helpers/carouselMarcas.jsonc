@@ -1,0 +1,84 @@
+{
+  "flex-layout.row#CarouselNuestrasAlianzas": {
+    "props": {
+      "blockClass": ["carouselContainer", "NuestrasAlianzas"],
+      "paddingBottom": 8,
+      "paddingTop": 8
+    },
+    "children": [
+      "flex-layout.col#CarouselNuestrasAlianzasCol"
+    ]
+  },
+
+  "flex-layout.col#CarouselNuestrasAlianzasCol": {
+    "children": [
+      "rich-text#NuestrasAlianzas",
+      "slider-layout#CarouselNuestrasAlianzasContent"
+    ]
+  },
+
+  "rich-text#NuestrasAlianzas": {
+    "props": {
+      "blockClass": ["NuestrasNuestrasAlianzas","flower"],
+      "text": "Nuestras Alianzas",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "slider-layout#CarouselNuestrasAlianzasContent": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": ["carousel","NuestrasAlianzas"],
+      "showPaginationDots": "always"
+    },
+    "children": [
+      "image#imageCarouselNuestrasAlianzas1",
+      "image#imageCarouselNuestrasAlianzas2",
+      "image#imageCarouselNuestrasAlianzas3",
+      "image#imageCarouselNuestrasAlianzas4",
+      "image#imageCarouselNuestrasAlianzas5"
+    ]
+  },
+
+  "image#imageCarouselNuestrasAlianzas1": {
+    "props": {
+      "src": "https://imgur.com/IZt3cv9.png",
+      "blockClass": ["imageCarouselNuestrasAlianzas"]
+    }
+  },
+
+  "image#imageCarouselNuestrasAlianzas2": {
+    "props": {
+      "src": "https://imgur.com/YSWycmb.png",
+      "blockClass": ["imageCarouselNuestrasAlianzas"]
+    }
+  },
+
+  "image#imageCarouselNuestrasAlianzas3": {
+    "props": {
+      "src": "https://imgur.com/RDDosne.png",
+      "blockClass": ["imageCarouselNuestrasAlianzas"]
+    }
+  },
+
+  "image#imageCarouselNuestrasAlianzas4": {
+    "props": {
+      "src": "https://imgur.com/bAp8q7E.png",
+      "blockClass": ["imageCarouselNuestrasAlianzas"]
+    }
+  },
+
+  "image#imageCarouselNuestrasAlianzas5": {
+    "props": {
+      "src": "https://imgur.com/bAp8q7E.png",
+      "blockClass": ["imageCarouselNuestrasAlianzas"]
+    }
+  }
+}

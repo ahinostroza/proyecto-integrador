@@ -1,0 +1,20 @@
+.newsletter .container{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.newsletter .inputGroup{
+    display: flex;
+    align-items: flex-end;
+}
+
+.newsletter .inputGroup :global(.vtex-input){
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 800px){
+    .newsletter .inputGroup .buttonContainer :global(.vtex-button){
+        width: 130px;
+    }
+}
+

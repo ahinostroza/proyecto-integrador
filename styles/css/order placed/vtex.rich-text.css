@@ -1,0 +1,36 @@
+.container--order-placed-contact-time{
+  display: flex;
+  justify-content: flex-start;
+  color: #727273;
+  padding: 0px;    
+  margin-top: -20px;
+}
+
+.wrapper--order-placed-card-title{
+  color: #424242;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.container--order-placed-producto{
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.paragraph--pedido-confirmado{
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #1A1A1A;
+  background-color: #fff;
+}
+
+@media screen and (max-width:1024px) {
+  .container--order-placed-contact-time{           
+      margin-top: 0px;
+  }    
+}

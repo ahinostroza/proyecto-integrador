@@ -1,0 +1,41 @@
+.flexRowContent--BannerCabernat {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.flexRow--bg-gray {
+  background-color: #F5F5F5;
+}
+
+.flexRowContent--MalbecBlendContainer {
+  padding: 0px 3.125vw;
+}
+
+.flexRow--element-minicart {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+@media screen and (max-width:1024px) {
+  .flexRow--scrollX {
+    overflow-x: auto;
+    margin: 24px 3.125vw;
+  }
+
+  .flexRow--scrollX :global(.vtex-store-components-3-x-container) {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .flexRowContent--scrollX .stretchChildrenWidth {
+    justify-content: flex-start;
+  }
+}
+
+.flexRow--minicart-footer {
+  width: 100%;
+}
+
+
+:global(.vtex-store-locator-0-x-addressStoreAddressNumber) {
+  margin-right: 10px;
+}

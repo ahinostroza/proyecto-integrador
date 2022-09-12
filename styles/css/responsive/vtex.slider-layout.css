@@ -1,0 +1,14 @@
+
+
+@media only screen and (max-width: 639px){
+  .slide--deliverySection{
+    border-right: none !important;
+  }
+}
+
+@media only screen and (max-width: 1275px){
+  .slide--lastVisible{
+    border-right: 2px solid #E0E0E0 !important;
+  }
+}
+

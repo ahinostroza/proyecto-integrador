@@ -1,0 +1,89 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": ["sticky-layout#desktop"]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["header-row#desktop", "mega-menu"]
+  },
+  "header-row#desktop": {
+    "props": {
+      /*"horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,*/
+      "blockClass": "header-container"
+    },
+    "children": [
+      "logo",
+      //"flex-layout.col#spacer",
+      "header-spacer",
+      "search-bar",
+      //"locale-switcher",
+      "header-spacer",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo"]
+  },
+  "logo": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/LogoDeBarricas.png",
+      "width": "112"
+    }
+  },
+  "header-layout.mobile": {
+    "children": ["sticky-layout#mobile"]
+  },
+  "sticky-layout#mobile": {
+    "children": ["header-row#mobile"]
+  },
+  "header-row#mobile": {
+    "children": [
+      "drawer#menu-mobile",
+      "logo",
+      "header-spacer",
+      "search-bar-mobile",
+      "login",
+      "minicart.v2"
+    ]
+  },
+  "drawer-header#my-drawer": {
+    "children": ["logo", "drawer-close-button"],
+    "props": {
+      "blockClass": "HeaderMenuMobile"
+    }
+  },
+  "drawer#menu-mobile": {
+    "children": ["menu-mobile"],
+    "blocks": ["drawer-trigger#menu-mobile", "drawer-header#my-drawer"],
+    "props": {
+      "blockClass": "MenuCategoriasMobile"
+      //"slideDirection": "vertical"
+    }
+  },
+
+  "drawer-trigger#menu-mobile": {
+    "children": ["icon-menu"]
+  }
+}

@@ -1,0 +1,36 @@
+@media only screen and (max-width: 639px){
+  .imageElement--imgDelivery{
+    display: flex;
+    margin:0 auto;
+  }
+  .imageElement--Blend{
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1217px){
+  .imageElement--vinoimages{
+    padding: 0 20px;
+  }
+}
+@media screen and (max-width: 416px){
+  .imageElement--imgDelivery{
+    width: 49px !important;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .imageElement--vinoimages{
+    width: 221px;
+    height: 225px;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .imageElement--vinoimages{
+    width: 396px;
+    height: 404px;
+    object-fit: cover;
+  }
+}

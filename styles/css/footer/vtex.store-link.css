@@ -1,0 +1,67 @@
+.label--linkAyuda{
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+
+.link--linkopc3{
+  text-decoration: none; 
+  color:#fff;
+  display: flex;
+  position:relative;
+}
+
+.link--linkopc3::before{
+  content:'';
+  margin-right:10px;
+  background: url("https://svgur.com/i/_8f.svg");
+  background-repeat: no-repeat !important;
+  background-size: 21px 21px !important;
+  width: 21px !important;
+  height: 21px !important;
+  display: block;
+}
+
+.link--linkNosotros{
+  color:#9E9E9E;
+  text-decoration: none;
+  transition: color 1s;
+  margin-bottom: 10px; 
+}
+
+.link--linkNosotros:hover{
+  color:#fff;
+}
+
+.link--linkAyuda{
+  color:#9E9E9E;
+  text-decoration: none;
+  transition: color 1s;
+}
+
+.link--linkAyuda:hover{
+  color:#fff;
+}
+
+.childrenContainer--footer{
+  border-radius: 5px;
+  background-color: #5B0D2E;
+  color: #fff;
+}
+.childrenContainer--footer:hover{
+  background-color: #fff;
+  color: #5B0D2E;
+}
+
+@media screen and (max-width: 1024px) {
+  .link--linkAyuda,
+  .link--linkNosotros{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 15px;
+  }
+  .link--linkAyuda:last-child,
+  .link--linkNosotros:last-child{
+    margin-bottom: 0;
+  }
+}

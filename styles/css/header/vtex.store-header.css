@@ -1,0 +1,15 @@
+.headerRowBackground--header-container, .headerStickyRow{
+    background-color: #231F20;
+}
+.headerRowContentContainer{
+    background-color: #231F20;
+}
+.headerStickyRow{
+    padding: 0 3.125vw;
+}
+
+@media screen and (max-width:1024px) {
+    .headerStickyRow{
+        padding:0;
+    }
+}

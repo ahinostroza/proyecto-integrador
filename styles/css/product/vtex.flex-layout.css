@@ -1,0 +1,18 @@
+@media screen and (max-width:1024px) {
+    .flexCol--colproduct{
+        position: relative;
+    }
+    .flexColChild--colproduct:last-child{
+        position: absolute;
+        top: 0;
+        z-index: 999;
+        right: 0;
+    }
+    .flexRowContent--container-main{
+        margin-bottom: 0;
+    }
+}
+
+:global(.vtex-reviews-and-ratings-3-x-graphContent) {
+    display: none;
+}

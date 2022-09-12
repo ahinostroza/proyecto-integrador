@@ -1,0 +1,11 @@
+.flexRowContent--container-btn-c{
+  margin-bottom: 0 !important;
+  margin-top: 0 !important;
+}
+.flexRowContent--container-btn-c :global(.vtex-button){
+  height: 48px;
+}
+
+.flexCol--ContenedorNoDisponibleText{
+  border-radius: 5px;
+}

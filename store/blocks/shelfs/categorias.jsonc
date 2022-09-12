@@ -1,0 +1,130 @@
+{
+    "flex-layout.row#Categorias": {
+        "title": "Slider Categorias",
+        "children": [
+            "flex-layout.col#Categorias"
+        ],
+        "props": {
+            "colGap": 0,
+            "borderWidth": 0,
+            "colSizing": "",
+            "preventVerticalStretch": true,
+            "blockClass": [
+                "shelf",
+                "shelfCategorias",
+                "bg-gray"
+            ]
+        }
+    },
+    "flex-layout.col#Categorias": {
+        "title": "Contenido",
+        "children": [
+            "rich-text#Categorias",
+            "responsive-layout.desktop#categoriaslider",
+            "responsive-layout.mobile#categoriaslider"
+        ]
+    },
+    "rich-text#Categorias": {
+        "props": {
+            "text": "Categorías",
+            "blockClass": [
+                "shelfTitle",
+                "topVentas"
+            ]
+        }
+    },
+    "responsive-layout.desktop#categoriaslider": {
+        "children": [
+            "flex-layout.row#categoriasImages1",
+            "flex-layout.row#categoriasImages2"
+        ]
+    },
+    "flex-layout.row#categoriasImages1": {
+        "props": {
+            "blockClass": "vinosImagesContainer",
+            "paddingBottom": 3,
+            "paddingTop": 4,
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#categoriaimages1",
+            "image#categoriaimages2",
+            "image#categoriaimages3"
+        ]
+    },
+    "image#categoriaimages1": {
+        "props": {
+            "src": "assets/images/categoria-1.png",
+            "blockClass": [
+            ]
+        }
+    },
+    "image#categoriaimages2": {
+        "props": {
+            "src": "assets/images/categoria-2.png",
+            "blockClass": [
+            ]
+        }
+    },
+    "image#categoriaimages3": {
+        "props": {
+            "src": "assets/images/categoria-3.png",
+            "blockClass": [
+            ]
+        }
+    },
+    "flex-layout.row#categoriasImages2": {
+        "props": {
+            "blockClass": "vinosImagesContainer",
+            "paddingBottom": 8,
+            "paddingTop": 3,
+            "colSizing": "auto"
+        },
+        "children": [
+            "image#categoriaimages4",
+            "image#categoriaimages5",
+            "image#categoriaimages6"
+        ]
+    },
+    "image#categoriaimages4": {
+        "props": {
+            "src": "assets/images/categoria-4.png",
+            "blockClass": [
+            ]
+        }
+    },
+    "image#categoriaimages5": {
+        "props": {
+            "src": "assets/images/categoria-5.png",
+            "blockClass": [
+            ]
+        }
+    },
+    "image#categoriaimages6": {
+        "props": {
+            "src": "assets/images/categoria-6.png",
+            "blockClass": [
+            ]
+        }
+    },
+    "responsive-layout.mobile#categoriaslider": {
+        "children": [
+            "flex-layout.row#categoriasImagesMobile"
+        ]
+    },
+    "flex-layout.row#categoriasImagesMobile": {
+        "props": {
+            "blockClass": "categoriasImagesContainer",
+            "paddingBottom": 6,
+            "colSizing":"auto"
+        },
+        "children": [
+            "image#categoriaimages1",
+            "image#categoriaimages2",
+            "image#categoriaimages3",
+            "image#categoriaimages4",
+            "image#categoriaimages5",
+            "image#categoriaimages6"
+        ]
+    }
+}

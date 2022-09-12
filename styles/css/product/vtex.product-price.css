@@ -1,0 +1,13 @@
+.listPriceValue{
+    font-size: 20px;
+    color: #9E9E9E;
+    display: inline-flex;
+    margin-bottom: 20px;
+}
+.sellingPriceValue{
+    font-size: 28px;
+    display: inline-flex;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #212121;
+}

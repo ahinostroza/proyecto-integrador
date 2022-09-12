@@ -1,0 +1,220 @@
+@use "colores" as *;
+.containerCucardas {
+  display: grid;
+  grid-row-gap: 7px;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  list-style: none;
+  font-size: 11px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
+.containerCucardas > li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.containerCucardas > li >p{
+  color: #fff;
+  font-weight: 500;
+}
+.cucarda25 {
+  line-height: 24px;
+  background-color: #cb1717;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.cucarda25 .descuentoPorciento {
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+}
+
+.cucarda4x3 {
+  background-color: #424242;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.cucarda2x1 {
+  background-color: #000362;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  line-height: 18px;
+  letter-spacing: -0.106em;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.containerMenuMobile {
+  width: 100%;
+  color: #231f20;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.containerMenuMobile li {
+  list-style: none;
+}
+
+.SubContainerClose {
+  background-color: #f5f5f5;
+  padding-inline-start: 0px;
+  padding: 22.5px 0px 22.5px 1px;
+  color: #231f20;
+}
+
+.SubContainerClose div :nth-child(1) :nth-child(2) {
+  color: #231f20;
+  padding-inline-end: 23px;
+}
+
+.SubContainerOpen {
+  background-color: #e0e0e0;
+  padding-inline-start: 0px;
+  padding: 22.5px 0px 0px 0px;
+  color: #231f20;
+}
+
+.SubContainerOpen div :nth-child(1) :nth-child(2) {
+  color: #231f20;
+  padding-inline-end: 23px;
+}
+
+.openName {
+  padding: 23px 27px;
+}
+
+.desplegableColor {
+  background-color: #fafafa;
+  padding-inline-start: 26px;
+  padding-block-start: 1px;
+  padding-block-end: 1px;
+  margin-top: 23px;
+}
+
+.desplegableColor .marcado {
+  text-decoration: underline;
+}
+
+.desplegableColor .openAll {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.desplegableColor .subActivo {
+  font-weight: bold;
+}
+
+.desplegableColor .subInactivo {
+  text-decoration: none;
+}
+
+.desplegableColor li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.desplegableColor li div :nth-child(1) :nth-child(2) {
+  display: none;
+}
+
+.lastLevel {
+  padding-inline-start: 19px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@use "colores" as *;
+.ModalSearchMobile {
+  cursor: pointer;
+  color: #fafafa;
+  height: 64px;
+  width: 50px;
+  text-align: center;
+  position: relative;
+  padding-block-start: 23px;
+  min-width: 50px;
+  margin-left: -40px;
+}
+
+.ModalSearchMobile:hover {
+  background-color: #5b0d2e;
+}
+
+.SearchOpen {
+  position: absolute;
+  min-width: 100%;
+  margin-left: -9px;
+  top: 64px;
+  overflow: hidden;
+  height: calc(100vh - 64px);
+}
+
+.SearchOpen .FirstLisComponent {
+  background-color: #fafafa;
+  position: relative;
+  top: -17px;
+  /*height: 30em;*/
+  box-shadow: 0px 8px 1px black;
+  z-index: 100;
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.SearchOpen .LineDivMobile {
+  background-color: #eeee;
+  height: 2px;
+}
+
+.SearchOpen .SearchLinksMobile {
+  color: #6c6c6c;
+}
+
+.SearchOpen .SearchComponentMobile {
+  background-color: #eeee;
+}
+
+.SearchOpen .LastListComponent {
+  position: relative;
+  height: calc(100vh - 64px);
+  background-color: black;
+  top: -3em;
+  opacity: 0.6;
+}
+
+.SearchOpen .ListTitlleMobile {
+  font-weight: 600;
+}
+
+.SearchOpen .subtitleMenuMobile {
+  list-style: none;
+  padding-inline-start: 1em;
+  padding-block-end: 1em;
+  padding-block-start: 1em;
+}
+
+.SearchOpen .subtitleMenuMobile li {
+  padding-block-end: 8px;
+  padding-block-start: 8px;
+}
+
+.SearchClose {
+  display: none;
+}
+/*# sourceMappingURL=react#styles.css.map */

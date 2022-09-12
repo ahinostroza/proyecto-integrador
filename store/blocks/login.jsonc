@@ -1,0 +1,33 @@
+{
+  "login": {
+    "props": {
+      "showIconProfile": true,
+      "hideIconLabel": true,
+      "blockClass": "header-login",
+      "optionsTitle": "Elegí una opción para iniciar sesión",
+      /*"iconLabel": "MI CUENTA",*/
+      "accesCodeTitle": "Ingresá tu codigo de acceso",
+      "emailAndPasswordTitle": "Ingresá tu mail y contraseña",
+      "disabledEmailInputs": false,
+      "emailPlaceholder": "Correo electrónico",
+      "accountOptionLinks":[
+        {
+          "label":"Perfil",
+          "path":"/account#/profile"
+        },
+        {
+          "label":"Direcciones",
+          "path":"/account#/addresses"
+        },
+        {
+          "label":"Mis pedidos",
+          "path":"/account#/orders"
+        },
+        {
+          "label":"Tarjetas de crédito",
+          "path":"/account#/cards"
+        }
+      ]
+    }
+  }
+}

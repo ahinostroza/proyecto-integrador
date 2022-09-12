@@ -1,0 +1,489 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+  "footer-layout.desktop": {
+    "children": ["flex-layout.row#footer", "flex-layout.row#footer-text"]
+  },
+  "footer-layout.mobile": {
+    "children": ["flex-layout.row#footerMobile", "flex-layout.row#footer-text"]
+  },
+
+  /* MOBILE */
+
+  "flex-layout.row#footerMobile": {
+    "props": {
+      "blockClass": "ContainerMobileFooter"
+    },
+
+    "children": ["flex-layout.col#footerMobile2"]
+  },
+
+  "flex-layout.col#footerMobile2": {
+    "children": [
+      "collapsible#contacto",
+      "collapsible#nosotros",
+      "collapsible#ayuda",
+      "collapsible#pago"
+    ]
+  },
+
+  /* disclousure */
+
+  "collapsible#contacto": {
+    "props":{
+      "Header":"rich-text#tituloContactanos"
+    },
+    "children":[
+      "rich-text#opc1",
+      "rich-text#opc2",
+      "link#opc3",
+      "flex-layout.row#socialnetwork"
+    ]
+  },
+
+  "collapsible#nosotros": {
+    "props":{
+      "Header":"rich-text#tituloNosotros"
+    },
+    "children":[
+      "link#opc1Nosotros",
+      "link#opc2Nosotros",
+      "link#opc3Nosotros",
+      "link#opc4Nosotros",
+      "link#opc5Nosotros"
+    ]
+  },
+
+  "collapsible#ayuda": {
+    "props":{
+      "Header":"rich-text#tituloAyuda"
+    },
+    "children":[
+      "link#opc1Ayuda", "link#opc2Ayuda"
+    ]
+  },
+  "collapsible#pago": {
+    "props":{
+      "Header":"rich-text#tituloPago"
+    },
+    "children":[
+      "flex-layout.row#pagos"
+    ]
+  },
+
+  /* 
+  
+    COLUMNAS
+
+  */
+
+  /* COL 1 */
+
+  "disclosure-trigger#contacto": {
+    "children": ["rich-text#tituloContactanos"]
+  },
+
+  "disclosure-content#contactodesc": {
+    "children": [
+      "rich-text#opc1",
+      "rich-text#opc2",
+      "link#opc3",
+      "flex-layout.row#socialnetwork"
+    ]
+  },
+
+  /* COL 2 */
+
+  "disclosure-trigger#nosotros": {
+    "children": ["rich-text#tituloNosotros"]
+  },
+
+  "disclosure-content#nosotrosdesc": {
+    "children": [
+      "link#opc1Nosotros",
+      "link#opc2Nosotros",
+      "link#opc3Nosotros",
+      "link#opc4Nosotros",
+      "link#opc5Nosotros"
+    ]
+  },
+
+  /* COL 3 */
+
+  "disclosure-trigger#ayuda": {
+    "children": ["rich-text#tituloAyuda"]
+  },
+
+  "disclosure-content#ayudadesc": {
+    "children": ["link#opc1Ayuda", "link#opc2Ayuda"]
+  },
+
+  /* COL 4 */
+
+  "disclosure-trigger#pago": {
+    "children": ["rich-text#tituloPago"]
+  },
+
+  "disclosure-content#pagodesc": {
+    "children": ["flex-layout.row#pagos"]
+  },
+
+  /* 
+  
+  
+  DESKTOP 
+  
+  
+  */
+
+  "flex-layout.row#footer": {
+    "children": [
+      "flex-layout.col#colContacto",
+      "flex-layout.col#colNosotros",
+      "flex-layout.col#colAyuda",
+      "flex-layout.col#colPago"
+    ],
+    "props": {
+      "blockClass": "footerContainer",
+      "colSizing": "auto"
+    }
+  },
+
+  /* 
+
+  COL CONTACTO 
+
+  */
+
+  "flex-layout.col#colContacto": {
+    "children": [
+      "rich-text#tituloContactanos",
+      "rich-text#opc1",
+      "rich-text#opc2",
+      "link#opc3",
+      "flex-layout.row#socialnetwork"
+    ],
+    "props": {
+      "blockClass": ["colContacto", "col-footer"]
+    }
+  },
+
+  /* CONTENT */
+
+  "rich-text#tituloContactanos": {
+    "props": {
+      "text": "Contactanos",
+      "blockClass": ["tituloContactanos", "tituloFooter"]
+    }
+  },
+
+  "rich-text#opc1": {
+    "props": {
+      "blockClass": ["link", "linkopc1"],
+      "text": "Lunes a Sábado: 10:00 - 19:00"
+    }
+  },
+
+  "rich-text#opc2": {
+    "props": {
+      "blockClass": ["link", "linkopc2"],
+      "text": "011 4775-9255"
+    }
+  },
+
+  "link#opc3": {
+    "props": {
+      "blockClass": ["link", "linkopc3"],
+      "href": "",
+      "label": "info@debarricas.com.ar"
+    }
+  },
+
+  "flex-layout.row#socialnetwork": {
+    "title": "Redes sociales",
+    "props": {
+      "blockClass": "socialNetwork",
+      "colGap": 4,
+      "rowGap": 0
+    },
+    "children": ["link#facebook", "link#instagram", "link#twitter", "link#tripadvisor"]
+  },
+  "link#facebook": {
+    "title": "Facebook",
+    "children": ["icon#facebook"],
+    "props": {
+      "href": "www.facebook.com",
+      "blockClass": "footer"
+    }
+  },
+  "link#instagram": {
+    "title": "Instagram",
+    "children": ["icon#instagram"],
+    "props": {
+      "href": "www.instagram.com",
+      "blockClass": "footer"
+    }
+  },
+  "link#twitter": {
+    "title": "Twitter",
+    "children": ["icon#twitter"],
+    "props": {
+      "href": "www.twitter.com",
+      "blockClass": "footer"
+    }
+  },
+
+  "link#tripadvisor": {
+    "title": "Tripadvisor",
+    "children": ["image#tripadvisor"],
+    "props": {
+      "href": "https://www.tripadvisor.com.ar/Attraction_Review-g312741-d9802660-Reviews-DeBarricas_Palermo-Buenos_Aires_Capital_Federal_District.html",
+      "blockClass": "tripadvisorLink"
+    }
+  },
+
+  "icon#facebook": {
+    "props": {
+      "id": "hpa-facebook",
+      "size": 30,
+      "blockClass": "footer"
+    }
+  },
+  "icon#instagram": {
+    "props": {
+      "id": "hpa-instagram",
+      "size": 30,
+      "blockClass": "footer"
+    }
+  },
+  "icon#twitter": {
+    "props": {
+      "id": "hpa-twitter",
+      "size": 30,
+      "blockClass": "footer"
+    }
+  },
+  "image#tripadvisor": {
+    "props": {
+      "blockClass": ["tripadvisor"],
+      "maxHeight": 15,
+      "src": ""
+    }
+  },
+
+  /*
+
+  COL SOBRE NOSOTROS
+
+  */
+
+  "flex-layout.col#colNosotros": {
+    "children": [
+      "rich-text#tituloNosotros",
+      "link#opc1Nosotros",
+      "link#opc2Nosotros",
+      "link#opc3Nosotros",
+      "link#opc4Nosotros",
+      "link#opc5Nosotros"
+    ],
+    "props": {
+      "blockClass": ["colNosotros", "col-footer"]
+    }
+  },
+
+  /* CONTENT */
+
+  "rich-text#tituloNosotros": {
+    "props": {
+      "text": "Sobre Nosotros",
+      "blockClass": ["tituloNosotros", "tituloFooter"]
+    }
+  },
+
+  "link#opc1Nosotros": {
+    "props": {
+      "label": "Quiénes somos",
+      "href": "/quienes-somos",
+      "blockClass": "linkNosotros"
+    }
+  },
+
+  "link#opc2Nosotros": {
+    "props": {
+      "label": "Nuestras Sucursales",
+      "href": "/stores",
+      "blockClass": "linkNosotros"
+    }
+  },
+
+  "link#opc3Nosotros": {
+    "props": {
+      "label": "Degustaciones",
+      "href": "/degustaciones",
+      "blockClass": "linkNosotros"
+    }
+  },
+
+  "link#opc4Nosotros": {
+    "props": {
+      "label": "Soluciones Corporativas",
+      "href": "/soluciones-corporativas",
+      "blockClass": "linkNosotros"
+    }
+  },
+
+  "link#opc5Nosotros": {
+    "props": {
+      "label": "Términos y Condiciones",
+      "href": "/terminos-y-condiciones",
+      "blockClass": "linkNosotros"
+    }
+  },
+
+  /* 
+
+  COL AYUDA
+
+  */
+
+  "flex-layout.col#colAyuda": {
+    "children": ["rich-text#tituloAyuda", "link#opc1Ayuda", "link#opc2Ayuda"],
+    "props": {
+      "rowGap": 0,
+      "blockClass": "col-footer"
+    }
+  },
+
+  /* CONTENT */
+
+  "rich-text#tituloAyuda": {
+    "props": {
+      "text": "Ayuda",
+      "blockClass": ["tituloAyuda", "tituloFooter"]
+    }
+  },
+
+  "link#opc1Ayuda": {
+    "props": {
+      "label": "Cómo Comprar",
+      "href": "/como-comprar",
+      "blockClass": "linkAyuda"
+    }
+  },
+
+  "link#opc2Ayuda": {
+    "props": {
+      "label": "Preguntas Frecuentes",
+      "href": "/preguntas-frecuentes",
+      "blockClass": "linkAyuda"
+    }
+  },
+
+  /* 
+  
+  COL MEDIOS DE PAGO
+  
+  */
+
+  "flex-layout.col#colPago": {
+    "children": ["rich-text#tituloPago", "flex-layout.row#pagos"],
+    "props": {
+      "blockClass": "col-footer"
+    }
+  },
+
+  "rich-text#tituloPago": {
+    "props": {
+      "text": "Medios de Pago",
+      "blockClass": ["tituloPago", "tituloFooter"]
+    }
+  },
+
+  "flex-layout.row#pagos": {
+    "children": ["image#pago1" /*,
+      "image#pago2",
+      "image#pago3"*/],
+    "props": {
+      "blockClass": "pagosContenedorImages"
+    }
+  },
+  "image#pago1": {
+    "props": {
+      "src": "assets/images/mercadopago.png"
+    }
+  },
+  "image#pago2": {
+    "props": {
+      "src": "https://imgur.com/rA9ZyIN.png"
+    }
+  },
+  "image#pago3": {
+    "props": {
+      "src": "https://imgur.com/ke6BSUy.png"
+    }
+  },
+
+  /* DESARROLLADO POR */
+
+  "flex-layout.row#footer-text": {
+    "children": ["rich-text#copy-text"],
+    "props": {
+      "blockClass": "footer-text-Container",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#footer-text-mobile": {
+    "children": ["rich-text#copy-text2"],
+    "props": {
+      "blockClass": "footer-text-Container",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.row#desarrolladoBy": {
+    "children": [
+      "rich-text#desarrolladoPor",
+      "image#logosideas",
+      "image#logovtex"
+    ],
+    "props": {
+      "blockClass": "desarrollado-By"
+    }
+  },
+
+  "rich-text#desarrolladoPor": {
+    "props": {
+      "text": "[Desarrollado por:](http://sideas.com.ar/)",
+      "blockClass": ["createdBy"]
+    }
+  },
+
+  "image#logovtex": {
+    "props": {
+      "src": "https://debarricasar.vteximg.com.br/arquivos/pngegg.png",
+      "blockClass": ["imgVtexCustomWidth"]
+    }
+  },
+  "image#logosideas": {
+    "props": {
+      "link": {
+        "url": "http://sideas.com.ar/"
+      },
+      "src": "https://debarricasar.vteximg.com.br/arquivos/suno.png",
+      "blockClass": ["imgSideasCustomWidth"]
+    }
+  },
+  "rich-text#copy-text": {
+    "props": {
+      "text": "© DeBarricas 2022. Todos los derechos reservados.",
+      "blockClass": ["copy-text"]
+    }
+  },
+  "rich-text#copy-text2": {
+    "props": {
+      "text": "© DeBarricas 2022.\n Todos los derechos reservados.",
+      "blockClass": ["copy-text","mobile-terms"]
+    }
+  }
+}

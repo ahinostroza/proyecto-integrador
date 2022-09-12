@@ -1,0 +1,263 @@
+{
+  "order-placed": {
+    "blocks": ["op-header", "op-order"]
+  },
+  "op-header": {
+    "children": [
+      "op-section#mensaje-confirmacion",
+      "op-section#confirmation",
+      //"op-section#notices",
+      "op-summary-section",
+      "op-bank-invoice-section"
+    ]
+  },
+  "op-section#mensaje-confirmacion":{
+    "children": [
+      "flex-layout.row#row-confirmation"
+    ],
+    "props":{
+      "blockClass":"mensaje-confirmacion"
+    }
+  },
+  "flex-layout.row#row-confirmation":{
+    "children": [
+      "rich-text#msj"    
+    ]
+  },
+  "image#cart-icon": {
+    "props": {
+      "height":"100%",
+      "src": "assets/svg/minicard.svg",
+      "link": "#",
+      "blockClass":"order-placed-cart"
+    }
+  },
+  "rich-text#msj": {
+    "props": {
+      "text": "Pedido Confirmado",
+      "blockClass": "pedido-confirmado"
+    }
+  },        
+  "op-section#confirmation": {
+    "props": {
+      "name": "confirmation",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": [
+      "op-confirmation-icon",
+      "op-confirmation-title",
+      "op-confirmation-message",
+      "rich-text#contact-time"        
+      //"flex-layout.row#confirmation-buttons"
+    ]
+  },
+
+  "rich-text#contact-time": {
+      "props": {
+        "text": "Nos estaremos contactando con vos dentro de las próximas 48 hs hábiles para confirmar la compra",               
+        "blockClass": "order-placed-contact-time"
+      }
+  },
+
+  "flex-layout.row#confirmation-buttons": {
+    "props": {
+      "blockClass": "confirmationButtons",
+      "marginTop": 8,
+      "marginBottom": 8,
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true
+    },
+    "children": ["flex-layout.col#confirmation-buttons"]
+  },
+  "flex-layout.col#confirmation-buttons": {
+    "children": ["op-print-button"]
+  },
+  "op-section#notices": {
+    "props": {
+      "name": "notices",
+      "marginBottom": 9,
+      "borderless": true
+    },
+    "children": ["op-notices"]
+  },
+  // each order section
+  "op-order": {
+    "children": [
+      "flex-layout.row#order-header",
+      "op-order-split-notice",        
+      "op-section#customer-payment-info",        
+      //"op-section#pickup-packages",
+      //"op-section#delivery-packages",
+      "op-section#products-list",
+      "op-order-takeaway-packages"
+    ]
+  },    
+  "op-section#customer-payment-info":{
+      "children":[
+          "op-section#direction",
+          "op-section#payment",
+          "op-section#total"/*,
+          "op-section#delivery-packages"*/
+          ,"op-summary-section"
+      ],
+      "props":{
+          "blockClass": "custmer-payment-info"
+      }
+  },
+  "op-section#products-list":{
+    "children":[        
+      "op-section#pickup-packages",
+      "op-section#delivery-packages",
+      "flex-layout.row#buttons"
+    ]
+  },
+  "flex-layout.row#product-table-header": {
+    "children":[
+      "rich-text#producto",
+      "rich-text#precio",
+      "rich-text#cantidad",
+      "rich-text#total"
+    ],
+    "props":{
+      "blockClass": "product-table-header"
+    }
+  },
+  "rich-text#producto": {
+    "props": {
+      "text": "Producto",               
+      "blockClass": "order-placed-producto"
+    }
+  },
+  "rich-text#precio": {
+    "props": {
+      "text": "Precio",               
+      "blockClass": "order-placed-producto"
+    }
+  },
+  "rich-text#cantidad": {
+    "props": {
+      "text": "Cantidad",               
+      "blockClass": "order-placed-producto"
+    }
+  },
+  "rich-text#total": {
+    "props": {
+      "text": "Total",               
+      "blockClass": "order-placed-producto"
+    }
+  },            
+  "op-section#direction":{
+    "children":["rich-text#direction-title","op-order-customer"],
+    "props":{
+      "blockClass": "order-placed-card"
+    }
+  },
+  "rich-text#direction-title": {
+    "props": {
+      "text": "Dirección",               
+      "blockClass": "order-placed-card-title"
+    }
+  },
+  "op-section#payment":{
+    "children":["rich-text#payment-title","op-order-payment"],
+    "props":{
+      "blockClass": "order-placed-card"
+    }
+  },    
+  "rich-text#payment-title": {
+    "props": {
+      "text": "Método de pago",               
+      "blockClass": "order-placed-card-title"
+    }
+  },
+  "op-section#total":{
+    "children":["rich-text#resume-title","op-order-total"],
+    "props":{
+      "blockClass": "order-placed-card"
+    }
+  },     
+  "rich-text#resume-title": {
+    "props": {
+      "text": "Resumen",               
+      "blockClass": "order-placed-card-title"
+    }
+  },    
+  // each order header
+  "flex-layout.row#order-header": {
+    "props": {
+      "fullWidth": true,
+      "colSizing": "auto",
+      "colGap": 5,
+      "marginBottom": 5
+    },
+    "children": [
+      "flex-layout.col#order-header-info"
+      //"flex-layout.col#order-header-options"
+    ]
+  },
+  "flex-layout.col#order-header-info": {
+    "children": ["op-order-number"]
+  },
+  "flex-layout.col#order-header-options": {
+    "children": ["responsive-layout.desktop#order-options-desktop"]
+  },
+  "responsive-layout.desktop#order-options-desktop": {
+    "children": ["op-order-options"]
+  },
+  // payment section
+  "op-section#payments": {
+    "props": {
+      "name": "paymentMethods"
+    },
+    "children": [
+      "op-order-payment",
+      "responsive-layout.mobile#order-options-mobile"
+    ]
+  },
+  // bottom of top section of order header
+  "responsive-layout.mobile#order-options-mobile": {
+    "children": ["op-order-options#mobile"]
+  },
+  "op-order-options#mobile": {
+    "props": {
+      "blockClass": "mobile",
+      "fullWidth": true
+    }
+  },
+  "op-section#pickup-packages": {
+    "props": {
+      "name": "pickupPackages"
+    },
+    "children": ["op-order-pickup-packages"]
+  },
+  "op-section#delivery-packages": {
+    "props": {
+      "name": "deliveryPackages"
+    },
+    "children": ["custom-order-placed"]
+  },
+  "flex-layout.row#buttons":{
+    "children":[
+      "link#nueva-compra",
+      "link#mis-pedidos"    
+    ],
+    "props":{
+      "blockClass": "order-placed-buttons"
+    }
+  },
+  "link#nueva-compra": {
+    "props": {
+      "href": "/",
+      "label": "SEGUIR COMPRANDO",
+      "blockClass": "pri-button"
+    }
+  },
+  "link#mis-pedidos": {
+    "props": {
+      "href": "/account#/orders",
+      "label": "IR A MIS PEDIDOS",
+      "blockClass": "sec-button"
+    }
+  }
+}

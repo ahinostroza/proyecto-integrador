@@ -1,0 +1,22 @@
+.imageElement--imageCarousel {
+  /*max-width: 1282px;*/
+  height: 451px;
+  width: 100%;
+  object-fit: contain;
+  min-width: 2100px;
+}
+
+.imageElement--imageCarouselMarcas {
+  width: 265px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .imageElement--imageCarousel {
+    /*max-width: 1282px;*/
+    height: 381px;
+    min-width: 420px;
+    object-fit: contain;
+    min-height: unset;
+  }
+}

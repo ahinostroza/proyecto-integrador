@@ -1,0 +1,63 @@
+.footerLayout {
+  background-color: #000 !important;
+  padding: 0 3rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .footerLayout {
+    padding: 0;
+  }
+}
+
+:global(.vtex-store-components-3-x-imageElement--imgVtexCustomWidth) {
+  max-width: 100px !important;
+  margin-left: 4em;
+}
+:global(.vtex-store-components-3-x-imageElement--imgSideasCustomWidth) {
+  max-width: 50px;
+} 
+:global(.vtex-store-components-3-x-imageElementLink--imgSideasCustomWidth) {
+  max-width: 50px;
+} 
+
+
+@media screen and (max-width: 380px) {
+  :global(.vtex-store-components-3-x-imageElement--imgVtexCustomWidth) {
+    margin-left: 0em;
+  }
+  
+}
+
+@media screen and (max-width: 1024px) {
+  .footerLayout :global(.vtex-disclosure-layout-1-x-trigger){
+    margin-bottom: 0;
+    padding-left: 20px;
+  }
+  .footerLayout :global(.vtex-disclosure-layout-1-x-content){
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #231F20;
+  }
+  .footerLayout :global(.vtex__icon-caret-down){
+    color: #fff;
+  }
+
+  .footerLayout :global(.vtex-rich-text-0-x-container--copy-text){
+    justify-content: center;
+  }
+
+  .footerLayout :global(.vtex-rich-text-0-x-paragraph--tituloFooter){
+    color: #FFFFFF !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .footerLayout :global(.vtex-store-components-3-x-container){
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

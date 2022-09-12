@@ -1,0 +1,10 @@
+.flexRowContent--header-container{
+    display: grid;
+    grid-template-columns: 20% 50% 10% 10%;
+}
+
+.flexRowContent--header-container:nth-child(even){
+    display: flex;
+    justify-content: center;
+}
+

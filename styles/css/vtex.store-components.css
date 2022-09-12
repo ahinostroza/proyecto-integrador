@@ -1,0 +1,34 @@
+.newsletter .label {
+  color: #fff !important;
+}
+
+.imageElement--ImageBannerCabernat {
+  width: 100%;
+}
+
+.imageElement--Malbec,
+.imageElement--Blend {
+  width: 100% !important;
+}
+
+.imageElement--imgDelivery {
+  margin-right: 1rem;
+}
+
+:global(.vtex-store-locator-0-x-instructionsContainer) {
+  pointer-events: none;
+}
+
+:global(.vtex-store-locator-0-x-instructionsLink) {
+  color: #5d5d5d;
+}
+
+@media only screen and (max-width: 639px) {
+  .imageElementLink--imageCarouselMarcas {
+    display: flex;
+    align-items: center;
+  }
+  .imageElementLink--imageCarouselMarcas .imageElement--imageCarouselMarcas {
+    width: 170px;
+  }
+}

@@ -1,0 +1,17 @@
+.imageElement--imageSlider{
+  width: 100%;
+}
+
+
+.imageElement--imageCarouselNuestrasAlianzas{
+  width: 265px !important;
+}
+
+
+.imageElement--imagePasoParaComprar{
+  display: flex;
+  margin: 0 auto;
+  height: 91px;
+  width: 95px;
+  object-fit: cover;
+}

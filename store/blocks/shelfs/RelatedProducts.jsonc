@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#relatedProducts": {
+        "title":"Vitrina top ventas",
+        "children": [
+            "flex-layout.col#relatedProducts"
+        ],
+        "props": {
+            "colGap": 0,
+            "borderWidth": 0,
+            "colSizing": "",
+            "preventVerticalStretch": true,
+            "blockClass": ["shelf","shelfrelatedProducts"]
+        }
+    },
+    "flex-layout.col#relatedProducts":{
+        "title":"Contenido",
+        "children":[
+            "responsive-layout.desktop#relatedProducts",
+            "responsive-layout.mobile#relatedProducts-mobile",
+            /*"flex-layout.row#productosrelatedProducts"*/
+            "shelf.relatedProducts"
+        ]
+    },
+    "responsive-layout.desktop#relatedProducts":{
+        "title":"Desktop",
+        "children":["rich-text#relatedProducts"]
+    },
+    "responsive-layout.mobile#relatedProducts-mobile":{
+        "title":"Mobile",
+        "children":["rich-text#relatedProducts-mobile"]
+    },
+    "rich-text#relatedProducts":{
+        "props":{
+            "text":"También te pueden interesar",
+            "blockClass": ["shelfTitle", "relatedProducts"]
+        }
+    },
+    "rich-text#relatedProducts-mobile":{
+        "props":{
+            "text":"Novedades",
+            "blockClass": ["shelfTitle", "relatedProducts"]
+        }
+    },
+    "shelf.relatedProducts":{
+        "blocks":[
+          "product-summary.shelf"
+        ],
+        "props":{
+          "recommendation":"view",
+          "productList":{
+            "maxItems":20,
+            "titleText":"También te pueden interesar",
+            "itemsPerPage":5,
+            "showTitle":false,
+            "arrows":true
+          },
+          "blockClass":"slider-relatedProducts"
+        }
+    }
+}

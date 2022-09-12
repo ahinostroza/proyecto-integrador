@@ -1,0 +1,111 @@
+.flexRow--NuestrasAlianzas{
+  margin-top: 50px;
+}
+
+.flexRowContent--programasSolucionesContenedor{
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--programasSolucionesContenedor .stretchChildrenWidth{
+  width: auto !important;
+  margin-right: 100px;
+}
+
+.flexRow--ContactoInstitucionales{
+  background: #F5F5F5;
+  padding-bottom: 40px;
+}
+
+.flexRowContent--terminosycondicionesContainer .flexColChild{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+.flexRowContent--PasosParaComprarContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.flexRowContent--PasosParaComprarContainer .stretchChildrenWidth{
+  width: auto !important;
+  height: auto !important;
+  position: relative;
+}
+
+.flexRowContent--PasosParaComprarContainer .stretchChildrenWidth::after{
+  content: '';
+  background: #BDBDBD;
+  height: 2px;
+  width: 80px;
+  top: 50px;
+  position: relative;
+}
+
+.flexRowContent--PasosParaComprarContainer .stretchChildrenWidth:last-child::after{
+  display: none;
+}
+
+
+.flexCol--PasoParaComprarCol .flexColChild--PasoParaComprarCol{
+  height: auto !important;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+  .flexRowContent--PasosParaComprarContainer{
+    flex-direction: column;
+  }
+
+  .flexColChild--PasoParaComprarCol{
+    margin: 0 auto;
+  }
+  
+  .flexRowContent--PasosParaComprarContainer .stretchChildrenWidth::after{
+    display: none;
+  }
+
+  .flexRowContent--PasosParaComprarContainer .stretchChildrenWidth{
+    margin-bottom: 50px;
+  }
+}
+.flexRow--PasosParaComprarContainer{
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+.flexRowContent--PasosParaComprarContaine{
+  width: 68%;
+  margin: 0 auto;
+}
+.flexRow--preguntasFrecuentesContainer{
+  width: 83%;
+  margin: 0 auto;
+  margin-bottom: 7rem;
+}
+.flexColChild--terminosycondicionesColumna:last-child{
+  margin-bottom: 6rem;
+}
+.flexRowContent--programasSolucionesContenedor{
+  margin: 16px 0px 55px 0px;
+}
+:global(.vtex-flex-layout-0-x-flexColChild--colPreguntasFrecuentes) :global(.vtex-disclosure-layout-1-x-trigger){
+  transition: 1s background;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--colPreguntasFrecuentes) :global(.vtex-disclosure-layout-1-x-trigger):hover{
+  background: #F5F5F5 !important;
+}
+@media screen and (max-width: 416px){
+  .flexColChild--terminosycondicionesColumna{
+    margin: 0 !important;
+  }
+  .flexColChild--terminosycondicionesColumna:last-child{
+    margin-bottom: 40px !important;
+  }
+  .flexRow--PasosParaComprarContainer{
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+  }
+}

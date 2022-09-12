@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.paragraph--nuevoConcepto {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 0;
+  color: #262626;
+}
+
+.wrapper--descContent {
+  padding: 0 90px;
+  color: #5d5d5d;
+  font-weight: 100;
+}
+
+.paragraph--somosDebarricasDesc {
+  color: #5d5d5d;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+.paragraph--solucionContenidoDesc {
+  margin-top: 0 !important;
+  margin-bottom: 4em !important;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.paragraph--descContent {
+  margin-top: 0;
+}
+.paragraph--NuestrasNuestrasAlianzas {
+  margin-top: 0;
+}
+
+.paragraph--titleVentas {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 0;
+  color: #262626;
+}
+
+.paragraph--empresaNeed {
+  margin-bottom: 0 !important;
+}
+
+.paragraph--debarricasPodesEncontrar,
+.paragraph--debarricasProfesionales,
+.paragraph--descContacto {
+  margin-top: 0;
+  color: #5d5d5d;
+  padding: 0 100px;
+}
+
+.paragraph--programaSolucionesTexto {
+  position: relative;
+  font-weight: 600;
+  color: #424242;
+}
+
+.paragraph--programaSolucionesTexto::before {
+  content: "✔";
+  color: #5b0d2e;
+  margin-right: 10px;
+}
+
+.link--descContacto {
+  text-decoration: none;
+  color: #424242;
+  font-weight: 700;
+}
+
+.wrapper--tituloTermino {
+  width: 100%;
+}
+
+.paragraph--tituloTermino {
+  font-size: 22px;
+  width: 100%;
+  margin-top: 60px;
+  margin-bottom: 0;
+  color: #262626;
+  border-bottom: 1px solid #616161;
+  font-weight: 700;
+}
+
+.paragraph--textoTerminos {
+  margin-top: 0;
+  color: #5d5d5d;
+  margin-bottom: 0;
+}
+
+.paragraph--reglasWeb {
+  margin-top: 20px;
+}
+
+.paragraph--textoTerminoContenido {
+  color: #5d5d5d;
+}
+
+.paragraph--ComoComprarDesc {
+  margin: 0 100px;
+  color: #5d5d5d;
+}
+
+.container--textPasoParaComprar {
+  height: auto !important;
+}
+
+.paragraph--textPasoParaComprar {
+  height: auto !important;
+  color: #424242;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+}
+
+.wrapper--textPasoParaComprar {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph--tituloDeLaPregunta {
+  color: #262626;
+}
+
+.container--tituloDeLaPregunta {
+  transition: 1s background;
+  position: relative;
+}
+
+.wrapper--tituloDeLaPregunta {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.paragraph--tituloDeLaPregunta{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 16px 0;
+  border-bottom: 1px solid #ebeaea;
+}
+.paragraph--tituloDeLaPregunta::after {
+  content: "+";
+  font-size: 20px;
+  color: #5b0d2e;
+  position: relative;
+  right: 0;
+}
+
+.container--tituloDeLaPregunta::hover {
+  background: #f5f5f5;
+  color: #8b3c57;
+}
+.container--shelfTitle {
+  width: 83%;
+  margin: 0 auto;
+}
+.paragraph--shelfTitle {
+  margin-top: 37px;
+  column-gap: 36px !important;
+  font-size: 28px !important;
+}
+.paragraph--nuevoConcepto {
+  font-size: 22px;
+  margin-bottom: 18px;
+}
+.paragraph--solucionContenidoDesc {
+  font-size: 14px;
+  font-weight: bold;
+}
+.paragraph--ComoComprarDesc {
+  width: 64%;
+  margin: 0 auto;
+}
+.paragraph--tituloTermino {
+  margin-top: 42px !important;
+}
+.paragraph--debarricasPodesEncontrar {
+  margin-bottom: 19px !important;
+}
+.paragraph--titleVentas {
+  margin-bottom: 19px;
+}
+.paragraph--descContacto {
+  padding: 0px;
+  width: 55%;
+  margin: 0 auto;
+}
+.paragraph--debarricasPodesEncontrar,
+.paragraph--debarricasProfesionales {
+  font-size: 14px;
+}
+
+.paragraph--titleBuscaTuSucursal {
+  color: #000;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 416px) {
+  .container--titleTerminos {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .paragraph--titleSoluciones,
+  .paragraph--titleComoComprar,
+  .paragraph--titleQuienesSomos,
+  .paragraph--titleTerminos {
+    font-size: 20px !important;
+    column-gap: 30px !important;
+    margin-top: 15px;
+    margin-bottom: 19px;
+  }
+  .paragraph--titleSoluciones,
+  .paragraph--titleTerminos {
+    white-space: initial !important;
+  }
+  .paragraph--titleQuienesSomos {
+    white-space: nowrap;
+  }
+  .paragraph--textoTerminoContenido,
+  .wrapper--textoTerminos {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .paragraph--tituloTermino {
+    margin-top: 24px !important;
+    font-size: 17px;
+    padding-bottom: 7px;
+  }
+}

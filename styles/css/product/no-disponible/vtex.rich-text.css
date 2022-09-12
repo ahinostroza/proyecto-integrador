@@ -1,0 +1,13 @@
+.paragraph--completaTusDatos{
+  margin-top: 0 !important;
+  font-weight: 500;
+  color: #FF0000 !important;
+  font-size: 12px;
+}
+
+.paragraph--productoAgotado{
+  margin-bottom: 0 !important;
+  font-weight: 500;
+  font-size: 12px;
+  color: #FF0000 !important
+}

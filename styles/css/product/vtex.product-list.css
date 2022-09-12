@@ -1,0 +1,52 @@
+.removeButton:hover .deleteIcon{
+    color: #000 !important;
+}
+
+.price{
+    font-size: 14px;
+    color: #424242;
+    font-weight: 600;
+}
+.productPriceCurrency .currencyContainer{
+    color: #9E9E9E;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.quantitySelectorIncrease, .quantitySelectorDecrease{
+    width: 54px !important;
+    height: 48px;
+    border-left-width: 0.125rem !important;
+    border-right-width: 0.125rem !important;
+    outline: none;
+}
+
+.quantitySelectorIncrease{
+    color: #232541;
+    border-color: #232541;
+}
+.quantitySelectorIncrease:hover{
+    background-color: #232541;
+    color: #fff;
+}
+
+.quantitySelectorDecrease{
+    color: #000000;
+    border-color: #9E9E9E;
+}
+
+.quantitySelectorDecrease:hover{
+    background-color: #9E9E9E;
+    color: #fff;
+}
+/*
+:global(.vtex-numeric-stepper__input){
+    width: 100%;
+    height: 48px;
+    border: none;
+}
+*/
+.quantitySelectorIncrease, .quantitySelectorDecrease{
+    font-size: 19px;
+    margin-top: unset !important;
+}

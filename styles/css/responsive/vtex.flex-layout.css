@@ -1,0 +1,56 @@
+.flexRowContent--vinosImagesContainer{
+  gap: 23px;
+  justify-content: center;
+}
+@media only screen and (max-width: 639px){
+  .flexRowContent--MalbecBlendContainer{
+    padding-left: 0 !important;
+  }
+  .flexRow--vinosImagesContainer :global(.vtex-store-components-3-x-container){
+    overflow-x: scroll;
+  }
+  .flexRowContent--categoriasImagesContainer,
+  .flexRowContent--vinosImagesContainer{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .flexRowContent--categoriasImagesContainer .stretchChildrenWidth,
+  .flexRowContent--vinosImagesContainer .stretchChildrenWidth {
+    display: inline-block;
+  }
+  .flexRowContent--categoriasImagesContainer .stretchChildrenWidth:not(:last-child),
+  .flexRowContent--vinosImagesContainer .stretchChildrenWidth:not(:last-child) {
+    margin-right: 15px;
+  }
+  .flexRow--MalbecBlendContainer :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    padding-right: 0px !important;
+  }
+  .flexRowContent--MalbecBlendContainer{
+    padding: 0px !important;
+    padding-top: 10px !important;
+  }
+  .flexRow--MalbecBlendContainer :global(.vtex-store-components-3-x-container){
+    padding: 0px;
+  }
+  .flexRowContent--MalbecBlendContainer :global(.vtex-flex-layout-0-x-stretchChildrenWidth):first-child{
+    padding-bottom: 10px !important;
+  }
+  .flexRow--scrollX{
+    margin: 0px;
+    padding-top: 21px;
+    padding-bottom: 11px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  .flexRow--deliverySectionCont{
+    margin: 0px;
+  }
+  .flexRowContent--deliverySectionCont{
+    margin: 0px !important;
+  }
+  .flexRow--img1-del1{
+    display: flex;
+    align-items: center;
+  }
+}

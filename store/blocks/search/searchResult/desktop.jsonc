@@ -1,0 +1,328 @@
+{
+  "search-result-layout.desktop": {
+    "children": [
+      "breadcrumb.search",
+      //"flex-layout.row#barra-principal",
+      "search-title.v2",
+      //"flex-layout.row#filter",
+      "flex-layout.row#containerDesktop"
+      //"flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+  "search-title.v2": {
+    "props": {
+      "blockClass": "searchTitleCategories"
+    }
+  },
+
+  "flex-layout.row#containerDesktop": {
+    "children": ["flex-layout.col#filtro", "flex-layout.col#contenido"],
+    "props": {
+      "blockClass": "filter-product-container"
+    }
+  },
+
+  "flex-layout.row#barra-principal": {
+    "children": [
+      "flex-layout.col#productCount",
+      "flex-layout.row#orderByAndSwitcher"
+    ],
+    "props": {
+      "blockClass": "searchbread",
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true,
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.row#conjuntoProductoBread": {
+    "children": ["breadcrumb.search", "flex-layout.col#productCount"],
+    "props": {
+      "blockClass": "conjuntoProductoBread",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#filtro": {
+    "props": {
+      "width": "18%",
+      "blockClass": ["filterCol"]
+    },
+    "children": ["filter-navigator.v3"]
+  },
+
+  "filter-navigator.v3": {
+    "props": {
+      
+      "showClearByFilter":true,
+      "maxItemsCategory":4,
+      "facetOrdering": [
+        {
+          "key": "brand",
+          "orderBy": "name",
+          "order": "ASC"
+        }
+      ]
+    }
+},
+
+  "flex-layout.col#contenido": {
+    "children": [
+      "flex-layout.row#barra-principal",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#products",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "width": "82%",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "slider-layout#Departament": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "blockClass": "carouselDepartament"
+    },
+    "children": [
+      "image#SliderD1"
+      /*
+        "image#SliderD2",
+        "image#SliderD3" 
+        */
+    ]
+  },
+  "image#SliderD1": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "src": "/assets/images/bannersld.png",
+      "blockClass": "sliderTop"
+    }
+  },
+  "image#SliderD2": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "src": "https://debarricasar.vteximg.com.br/arquivos/lanilla.png",
+      "blockClass": "sliderTop"
+    }
+  },
+  "image#SliderD3": {
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "src": "https://debarricasar.vteximg.com.br/arquivos/frisa.png",
+      "blockClass": "sliderTop"
+    }
+  },
+  "flex-layout.row#info-cards": {
+    "props": {
+      "blockClass": "contentInfocard"
+    },
+    "children": [
+      "info-card#depart1",
+      "info-card#depart2",
+      "info-card#depart3",
+      "info-card#depart4",
+      "info-card#depart5"
+    ]
+  },
+  "info-card#depart1": {
+    "props": {
+      "width": "100%",
+      "id": "info-card-Departament1",
+      "isFullModeStyle": false,
+      "imageUrl": "https://debarricasar.vteximg.com.br/arquivos/-ver-todas.jpg",
+      "headline": "VER TODAS",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-Departament",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  },
+  "info-card#depart2": {
+    "props": {
+      "width": "100%",
+      "id": "info-card-Departament2",
+      "isFullModeStyle": false,
+      "imageUrl": "https://debarricasar.vteximg.com.br/arquivos/acetato.jpg",
+      "headline": "Aceto",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-Departament",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  },
+  "info-card#depart3": {
+    "props": {
+      "width": "100%",
+      "id": "info-card-Departament3",
+      "isFullModeStyle": false,
+      "imageUrl": "https://debarricasar.vteximg.com.br/arquivos/bambula.jpg",
+      "headline": "Bambula",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-Departament",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  },
+  "info-card#depart4": {
+    "props": {
+      "width": "100%",
+      "id": "info-card-Departament4",
+      "isFullModeStyle": false,
+      "imageUrl": "https://debarricasar.vteximg.com.br/arquivos/batista.jpg",
+      "headline": "Batista",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-Departament",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  },
+  "info-card#depart5": {
+    "props": {
+      "width": "100%",
+      "id": "info-card-Departament5",
+      "isFullModeStyle": false,
+      "imageUrl": "https://debarricasar.vteximg.com.br/arquivos/bengalina.jpg",
+      "headline": "Bengalina",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-Departament",
+      "textAlignment": "center",
+      "textPosition": "center"
+    }
+  },
+  "flex-layout.row#banner": {
+    "props": {
+      "fullWidth": true,
+      "blockClass": "banner-container"
+    },
+    "children": ["flex-layout.row#color-t"]
+  },
+  "flex-layout.row#color-t": {
+    "props": {
+      "blockClass": "color-t"
+    },
+    "children": ["rich-text#B"]
+  },
+  "rich-text#B": {
+    "props": {
+      "blockClass": "text-banner",
+      "textAlignment": "CENTER",
+      "textPosition": "left",
+      "text": "VER TODAS",
+      "textColor": "black",
+      "font": "t-heading-5"
+    }
+  },
+
+  "breadcrumb.search": {
+    "props": {
+      "blockClass": "BreadCrumbSearch"
+    }
+  },
+  "breadcrumb.search#mobile": {
+    "props": {
+      "width": "50%"
+    }
+  },
+
+  "flex-layout.row#fetchprevious": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": ["search-fetch-previous"]
+  },
+  "flex-layout.row#products": {
+    "children": ["search-content"]
+  },
+  "flex-layout.row#fetchmore": {
+    "props": {
+      "marginTop": 3
+    },
+    "children": ["search-fetch-more"]
+  },
+  "flex-layout.col#": {
+    "children": ["total-products.v2"],
+    "props": {
+      "width": "15%",
+      "blockClass": "productCountCol"
+    }
+  },
+
+  "flex-layout.col#productCount": {
+    "children": ["total-products.v2"],
+    "props": {
+      "blockClass": "productCountCol",
+      "width": "60%"
+    }
+  },
+
+  "flex-layout.row#orderByAndSwitcher": {
+    "children": ["order-by.v2"],
+    "props": {
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "blockClass": "orderByAndSwitcher",
+      "colGap": 3,
+      "width": "0px"
+    }
+  },
+  "flex-layout.row#orderByAndSwitcherMovile": {
+    "children": ["order-by.v2"],
+    "props": {
+      "width": "50%",
+      "horizontalAlign": "right",
+      "preventHorizontalStretch": true,
+      "blockClass": "orderByAndSwitcher",
+      "colGap": 3
+    }
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "props": {
+      "blockClass": "products-g",
+      "layouts": [
+        {
+          "name": "whole",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": 1
+        },
+        {
+          "name": "two",
+          "component": "OneOrTwoLineSummary",
+          "itemsPerRow": 2
+        },
+        {
+          "name": "many",
+          "component": "ManyByLineSummary",
+          "itemsPerRow": {
+            "desktop": 5,
+            "mobile": 1
+          }
+        }
+      ],
+      "OneOrTwoLineSummary": "product-summary.shelf",
+      "ManyByLineSummary": "product-summary.shelf"
+    }
+  }
+}

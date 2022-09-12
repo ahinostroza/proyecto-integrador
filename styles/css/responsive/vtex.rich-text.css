@@ -1,0 +1,15 @@
+@media screen and (max-width: 416px){
+    .paragraph--topVentas,
+    .paragraph--Novedades,
+    .paragraph--newOfferts{
+        font-size: 20px !important;
+        gap: 13px !important;
+        margin-top: 22px;
+    }
+    .paragraph--txtDelivery{
+        margin: 17px 0;
+        font-size: 14px;
+        font-weight: 500 !important;
+        text-align: start;
+    }
+}

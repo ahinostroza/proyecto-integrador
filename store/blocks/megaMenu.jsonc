@@ -1,0 +1,1093 @@
+{
+    "mega-menu":{
+        "props":{
+            "categories":[
+                {
+                    "id": 6,
+                    "name": "Vinos",
+                    //"href": "/vinos",
+                    "slug": "vinos",
+                    "hasChildren": true,
+                    "children": [
+                        {
+                            "name": "Tintos",
+                            "href": "/vinos/tintos/",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "name": "Blend",
+                                    "href": "/vinos/tintos/blend"
+                                },
+                                {
+                                    "name": "Bonarda",
+                                    "href": "/vinos/tintos/bonarda"
+                                },
+                                {
+                                    "name": "Cabernet Franc",
+                                    "href": "/vinos/tintos/cabernet-franc"
+                                },
+                                {
+                                    "name": "Cabernet Sauvignon",
+                                    "href": "/vinos/tintos/cabernet-sauvignon"
+                                },
+                                {
+                                    "name": "Criolla",
+                                    "href": "/vinos/tintos/criolla"
+                                },
+                                {
+                                    "name": "Garnacha",
+                                    "href": "/vinos/tintos/garnacha"
+                                },
+                                {
+                                    "name": "Malbec",
+                                    "href": "/vinos/tintos/malbec"
+                                },
+                                {
+                                    "name": "Merlot",
+                                    "href": "/vinos/tintos/merlot"
+                                },
+                                {
+                                    "name": "Petit Verdot",
+                                    "href": "/vinos/tintos/petit-verdot"
+                                },
+                                {
+                                    "name": "Pinot Noir",
+                                    "href": "/vinos/tintos/pinot-noir"
+                                },
+                                {
+                                    "name": "Sangiovese",
+                                    "href": "/vinos/tintos/sangiovese"
+                                },
+                                {
+                                    "name": "Syrah",
+                                    "href": "/vinos/tintos/syrah"
+                                },
+                                {
+                                    "name": "Tannat",
+                                    "href": "/vinos/tintos/tannat"
+                                },
+                                {
+                                    "name": "Tempranillo",
+                                    "href": "/vinos/tintos/Tempranillo"
+                                }
+                            ]
+                        },                        
+                        {
+                            "id": 7,
+                            "name": "Blancos",
+                            "href": "/vinos/blancos",
+                            "slug": "blancos",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "id": 0,
+                                    "name": "Albariño",
+                                    "href": "/vinos/blancos/albariño"
+                                },
+                                {
+                                    "name": "Chardonnay",
+                                    "href": "/vinos/blancos/chardonnay"
+                                },
+                                {
+                                    "name": "Chenin",
+                                    "href": "/vinos/blancos/chenin"
+                                },
+                                {
+                                    "name": "De corte",
+                                    "href": "/vinos/blancos/de-corte"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "GEWURZTRAMINER",
+                                    "href": "/vinos/blancos/gewurztraiminer"
+                                },
+                                {
+                                    "name": "Pinot Gris",
+                                    "href": "/vinos/blancos/pinot-gris"
+                                },
+                                {
+                                    "name": "Riesling",
+                                    "href": "/vinos/blancos/riesling"
+                                },
+                                {
+                                    "name": "SAUVIGNON BLANC",
+                                    "href": "/vinos/blancos/sauvignon-blanc"
+                                },
+                                {
+                                    "name": "Semillon",
+                                    "href": "/vinos/blancos/semillon"
+                                },
+                                {
+                                    "name": "Torrontes",
+                                    "href": "/vinos/blancos/torrontes"
+                                },
+                                {
+                                    "name": "Viognier",
+                                    "href": "/vinos/blancos/viognier"
+                                }                              
+                            ],
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 8,
+                            "name": "Espumantes",
+                            "href": "/vinos/espumantes",
+                            "slug": "espumantes",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "name": "Brut Nature",
+                                    "href": "/vinos/espumantes/brut-nature"
+                                },
+                                {
+                                    "name": "Demi sec",
+                                    "href": "/vinos/espumantes/demi-sec"
+                                },
+                                {
+                                    "name": "Dulce",
+                                    "href": "/vinos/espumantes/dulce"
+                                },
+                                {
+                                    "name": "Extra Brut",
+                                    "href": "/vinos/espumantes/extra-brut"
+                                },
+                                {
+                                    "name": "Importados",
+                                    "href": "/vinos/espumantes/importados"
+                                },
+                                {
+                                    "name": "Prosecco",
+                                    "href": "/vinos/espumantes/prosecco"
+                                },
+                                {
+                                    "name": "Rosados",
+                                    "href": "/vinos/espumantes/rosados"
+                                }
+                            ],
+                            "__typename": "Category"
+                        },                                                                                              
+                        {                                      
+                            "name": "Dulces",
+                            "href": "/vinos/dulces",
+                            "slug": "Dulces",
+                            "hasChildren": false
+                        },                                                        
+                        {                                         
+                            "name": "Organicos",
+                            "href": "/vinos/organicos",
+                            "slug": "organicos",
+                            "hasChildren": false
+                        }, 
+                        {                            
+                            "name": "Rosado",
+                            "href": "/vinos/rosado",
+                            "slug": "rosado",
+                            "hasChildren": false
+                        }                                                                     
+                    ],
+                    "__typename": "Category"
+                },
+                {
+                    "id": 9,
+                    "name": "Spirits y más",
+                    //"href": "/spirits-y-mas",
+                    "slug": "spirits-y-mas",
+                    "hasChildren": true,
+                    "children": [
+                        {
+                            "id": 10,
+                            "name": "Aperitivos",
+                            "href": "/spirits-y-mas/aperitivos",
+                            "slug": "spirits-y-mas",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "href": "/spirits-y-mas/aperitivos/bitter",
+                                    "name": "Bitter"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/aperitivos/fernet",
+                                    "name": "Fernet"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/aperitivos/vermouth",
+                                    "name": "Vermouth"
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                            
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                            
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                }                              
+                            ],
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Gin",
+                            "href": "/spirits-y-mas/gin",
+                            "slug": "gin",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "href": "/spirits-y-mas/gin/importados",
+                                    "name": "Importados"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/gin/nacionales",
+                                    "name": "Nacionales"
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                            
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                            
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                } 
+                            ],
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Whisky",
+                            "href": "/spirits-y-mas/whisky",
+                            "slug": "whisky",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "href": "/spirits-y-mas/whisky/escocia",
+                                    "name": "Escocia"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/whisky/estados-unidos",
+                                    "name": "Estados Unidos"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/whisky/Irlanda",
+                                    "name": "Irlanda"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/whisky/resto-del-mundo",
+                                    "name": "Resto del Mundo"
+                                },                            
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                            
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                                
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                            
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                            
+                                {
+                                    "name": "",
+                                    "href": ""
+                                },                            
+                                {
+                                    "name": "",
+                                    "href": ""
+                                }                              
+                            ],
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Más",
+                            "href": "/spirits-y-mas/mas",
+                            "slug": "mas",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "href": "/spirits-y-mas/mas/cervezas",
+                                    "name": "Cervezas"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/mas/Cognac",
+                                    "name": "Cognac"
+                                },                                
+                                {
+                                    "href": "/spirits-y-mas/mas/licores",
+                                    "name": "Licores"
+                                },                                
+                                {
+                                    "href": "/spirits-y-mas/mas/portos",
+                                    "name": "Portos"
+                                },                                
+                                {
+                                    "href": "/spirits-y-mas/mas/Ron",
+                                    "name": "Ron"
+                                },                                                               
+                                {
+                                    "href": "/spirits-y-mas/mas/tequila",
+                                    "name": "Tequila"
+                                },                                                               
+                                {
+                                    "href": "/spirits-y-mas/mas/vodka",
+                                    "name": "Vodka"
+                                }                                     
+                            ],
+                            "__typename": "Category"
+                        }                       
+                    ],
+                    "__typename": "Category"
+                },  
+                {
+                    "id": 22,
+                    "name": "bodegas",
+                    "href": "",
+                    "slug": "correas",
+                    "hasChildren": true,
+                    "children": [
+                       
+                    ],
+                    "__typename": "Category"
+                },             
+                {
+                    "id": 17,
+                    "name": "Regiones",
+                    "href": "",
+                    "slug": "regiones",
+                    "hasChildren": true,
+                    "children": [
+                        {
+                            "name": "San Juan",
+                            "href": "/san-juan?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 1,
+                            "hasChildren": true,                            
+                            "children": [
+                                {
+                                    "name": "Valle de perdernal",
+                                    "href": "/valle-de-perdernal?initialMap=c,c&initialQuery=vinos&map=region"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mendoza",
+                            "href": "/mendoza?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 1,
+                            "hasChildren": true,                            
+                            "children": [
+                                {
+                                    "name": "Agrelo - Lujan de Cuyo",
+                                    "href": "/Agrelo---Lujan-de-Cuyo?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Altamira - Valle de Uco",
+                                    "href": "/Altamira---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Chacayes - Valle de Uco",
+                                    "href": "/Chacayes---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "El Cepillo - Valle de Uco",
+                                    "href": "/El-Cepillo---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Gualtallaray - Valle de Uco",
+                                    "href": "/Gualtallaray---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "La Consulta - Valle de Uco",
+                                    "href": "/La-Consulta---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Las Compuertas - Lujan de Cuyo",
+                                    "href": "/Las-Compuertas---Lujan-de-Cuyo?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Lunlunta - Maipu",
+                                    "href": "/Lunlunta---Maipu?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "San Carlos - Valle de Uco",
+                                    "href": "/San-Carlos---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "San Pablo - Valle de Uco",
+                                    "href": "/San-Pablo---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Vista Flores - Valle de Uco",
+                                    "href": "/Vista-Flores---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                }
+                            ]
+                        },                                              
+                        {
+                            "name": "Neuquen",
+                            "href": "/Neuquen?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Río Negro",
+                            "href": "/Rio-negro?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Salta",
+                            "href": "/Salta?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Catamarca",
+                            "href": "/Catamarca?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Jujuy",
+                            "href": "/Jujuy?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "La Pampa",
+                            "href": "/La-pampa?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "La Rioja",
+                            "href": "/La-rioja?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Resto del mundo",
+                            "href": "/Resto-del-mundo?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {                            
+                            "name": "Imagen",
+                            "href": "",
+                            "column": 3,
+                            "image": "https://debarricasar.vtexassets.com/assets/vtex.file-manager-graphql/images/8f65569d-b3ad-4949-9397-226b8160039c___47461ad20dee5e5f8f56ec30593d7925.png"                                                       
+                        }
+                    ],
+                    "__typename": "Category"
+                },
+                {
+                    "id": 17,
+                    "name": "Más",
+                    "href": "",
+                    "slug": "más",
+                    "hasChildren": true,
+                    "children": [
+                        {
+                            "name": "Cavas",
+                            "href": "/mas/Cavas",
+                            "column": 1,
+                            "hasChildren": true,                            
+                            "children": [
+                                {
+                                    "name": "Cristalería",
+                                    "href": "/mas/Cavas/Cristalería"
+                                },
+                                {
+                                    "name": "Sacacorchos",
+                                    "href": "/mas/Cavas/Sacacorchos"
+                                }                                
+                            ]
+                        },
+                        {
+                            "name": "Accesorios",
+                            "href": "/mas/Accesorios",
+                            "column": 2,
+                            "hasChildren": true,                            
+                            "children": [
+                                {
+                                    "name": "Wine Set",
+                                    "href": "/mas/Accesorios/Wine-set"
+                                },
+                                {
+                                    "name": "Libros",
+                                    "href": "/mas/Accesorios/Libros"
+                                },
+                                {
+                                    "name": "Cajas",
+                                    "href": "/mas/Accesorios/Cajas"
+                                },
+                                {
+                                    "name": "Baúles",
+                                    "href": "/mas/Accesorios/Baúles"
+                                }   
+                            ]
+                        },
+                        {                            
+                            "name": "Imagen",
+                            "href": "/imagen",
+                            "column": 3,
+                            "image": "https://debarricasar.vtexassets.com/assets/vtex.file-manager-graphql/images/21732f43-1962-48c3-954a-8226be48eb16___d089989ab6c1ea1f23cc7516e022bf96.png"
+                        }                        
+                    ],
+                    "__typename": "Category"
+                }
+            ]
+        }
+    },
+    "menu-mobile":{
+        "props":{
+            "categories":[
+                {
+                    "id": 6,
+                    "name": "Vinos",
+                    "href": "/vinos",
+                    "slug": "vinos",
+                    "hasChildren": true,
+                    "children": [
+                        {
+                            "id": 7,
+                            "name": "Blancos",
+                            "href": "/vinos/blancos",
+                            "slug": "blancos",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "id": 0,
+                                    "name": "Albariño",
+                                    "href": "/vinos/blancos/albariño"
+                                },
+                                {
+                                    "name": "Chardonnay",
+                                    "href": "/vinos/blancos/chardonnay"
+                                },
+                                {
+                                    "name": "Chenin",
+                                    "href": "/vinos/blancos/chenin"
+                                },
+                                {
+                                    "name": "De corte",
+                                    "href": "/vinos/blancos/de-corte"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "GEWURZTRAMINER",
+                                    "href": "/vinos/blancos/gewurztraiminer"
+                                },
+                                {
+                                    "name": "Pinot Gris",
+                                    "href": "/vinos/blancos/pinot-gris"
+                                },
+                                {
+                                    "name": "Riesling",
+                                    "href": "/vinos/blancos/riesling"
+                                },
+                                {
+                                    "name": "SAUVIGNON BLANC",
+                                    "href": "/vinos/blancos/sauvignon-blanc"
+                                },
+                                {
+                                    "name": "Semillon",
+                                    "href": "/vinos/blancos/semillon"
+                                },
+                                {
+                                    "name": "Torrontes",
+                                    "href": "/vinos/blancos/torrontes"
+                                },
+                                {
+                                    "name": "Viognier",
+                                    "href": "/vinos/blancos/viognier"
+                                }                                
+                            ],
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 0,
+                            "name": "Dulces",
+                            "href": "/vinos/dulces",
+                            "slug": "Dulces",
+                            "hasChildren": false
+                        },                 
+                        {
+                            "id": 8,
+                            "name": "Espumantes",
+                            "href": "/vinos/espumantes",
+                            "slug": "espumantes",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "name": "Brut Nature",
+                                    "href": "/vinos/espumantes/brut-nature"
+                                },
+                                {
+                                    "name": "Demi sec",
+                                    "href": "/vinos/espumantes/demi-sec"
+                                },
+                                {
+                                    "name": "Dulce",
+                                    "href": "/vinos/espumantes/dulce"
+                                },
+                                {
+                                    "name": "Extra Brut",
+                                    "href": "/vinos/espumantes/extra-brut"
+                                },
+                                {
+                                    "name": "Importados",
+                                    "href": "/vinos/espumantes/importados"
+                                },
+                                {
+                                    "name": "Prosecco",
+                                    "href": "/vinos/espumantes/prosecco"
+                                },
+                                {
+                                    "name": "Rosados",
+                                    "href": "/vinos/espumantes/rosados"
+                                }
+                            ],
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 0,
+                            "name": "Organicos",
+                            "href": "/vinos/organicos",
+                            "slug": "organicos",
+                            "hasChildren": false
+                        }, 
+                        {
+                            "id": 0,
+                            "name": "Rosado",
+                            "href": "/vinos/rosado",
+                            "slug": "rosado",
+                            "hasChildren": false
+                        },                                                 
+                        {
+                            "name": "Tintos",
+                            "href": "/vinos/tintos/",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "name": "Blend",
+                                    "href": "/vinos/tintos/blend"
+                                },
+                                {
+                                    "name": "Bonarda",
+                                    "href": "/vinos/tintos/bonarda"
+                                },
+                                {
+                                    "name": "Cabernet Franc",
+                                    "href": "/vinos/tintos/cabernet-franc"
+                                },
+                                {
+                                    "name": "Cabernet Sauvignon",
+                                    "href": "/vinos/tintos/cabernet-sauvignon"
+                                },
+                                {
+                                    "name": "Criolla",
+                                    "href": "/vinos/tintos/criolla"
+                                },
+                                {
+                                    "name": "Garnacha",
+                                    "href": "/vinos/tintos/garnacha"
+                                },
+                                {
+                                    "name": "Malbec",
+                                    "href": "/vinos/tintos/malbec"
+                                },
+                                {
+                                    "name": "Merlot",
+                                    "href": "/vinos/tintos/merlot"
+                                },
+                                {
+                                    "name": "Petit Verdot",
+                                    "href": "/vinos/tintos/petit-verdot"
+                                },
+                                {
+                                    "name": "Pinot Noir",
+                                    "href": "/vinos/tintos/pinot-noir"
+                                },
+                                {
+                                    "name": "Sangiovese",
+                                    "href": "/vinos/tintos/sangiovese"
+                                },
+                                {
+                                    "name": "Syrah",
+                                    "href": "/vinos/tintos/syrah"
+                                },
+                                {
+                                    "name": "Tannat",
+                                    "href": "/vinos/tintos/tannat"
+                                },
+                                {
+                                    "name": "Tempranillo",
+                                    "href": "/vinos/tintos/Tempranillo"
+                                }
+                            ]
+                        }                     
+                    ],
+                    "__typename": "Category"
+                },
+                {
+                    "id": 9,
+                    "name": "Spirits y más",
+                    "href": "/spirits-y-mas",
+                    "slug": "spirits-y-mas",
+                    "hasChildren": true,
+                    "children": [
+                        {
+                            "id": 10,
+                            "name": "Aperitivos",
+                            "href": "/spirits-y-mas/aperitivos",
+                            "slug": "spirits-y-mas",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "href": "/spirits-y-mas/aperitivos/bitter",
+                                    "name": "Bitter"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/aperitivos/fernet",
+                                    "name": "Fernet"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/aperitivos/vermouth",
+                                    "name": "Vermouth"
+                                }                                
+                            ],
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Gin",
+                            "href": "/spirits-y-mas/gin",
+                            "slug": "gin",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "href": "/spirits-y-mas/gin/importados",
+                                    "name": "Importados"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/gin/nacionales",
+                                    "name": "Nacionales"
+                                }
+                            ],
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Whisky",
+                            "href": "/spirits-y-mas/whisky",
+                            "slug": "whisky",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "href": "/spirits-y-mas/whisky/escocia",
+                                    "name": "Escocia"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/whisky/estados-unidos",
+                                    "name": "Estados Unidos"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/whisky/Irlanda",
+                                    "name": "Irlanda"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/whisky/resto-del-mundo",
+                                    "name": "Resto del Mundo"
+                                }                                
+                            ],
+                            "__typename": "Category"
+                        },
+                        {
+                            "id": 10,
+                            "name": "Más",
+                            "href": "/spirits-y-mas/mas",
+                            "slug": "mas",
+                            "hasChildren": true,
+                            "children": [
+                                {
+                                    "href": "/spirits-y-mas/mas/cervezas",
+                                    "name": "Cervezas"
+                                },
+                                {
+                                    "href": "/spirits-y-mas/mas/Cognac",
+                                    "name": "Cognac"
+                                },                                
+                                {
+                                    "href": "/spirits-y-mas/mas/licores",
+                                    "name": "Licores"
+                                },                                
+                                {
+                                    "href": "/spirits-y-mas/mas/portos",
+                                    "name": "Portos"
+                                },                                
+                                {
+                                    "href": "/spirits-y-mas/mas/Ron",
+                                    "name": "Ron"
+                                },                                                               
+                                {
+                                    "href": "/spirits-y-mas/mas/tequila",
+                                    "name": "Tequila"
+                                },                                                               
+                                {
+                                    "href": "/spirits-y-mas/mas/vodka",
+                                    "name": "Vodka"
+                                }                                     
+                            ],
+                            "__typename": "Category"
+                        }                       
+                    ],
+                    "__typename": "Category"
+                },  
+                {
+                    "id": 22,
+                    "name": "bodegas",
+                    "href": "",
+                    "slug": "correas",
+                    "hasChildren": true,
+                    "children": [
+                       
+                    ],
+                    "__typename": "Category"
+                },             
+                {
+                    "id": 17,
+                    "name": "Regiones",
+                    "href": "",
+                    "slug": "regiones",
+                    "hasChildren": true,
+                    "children": [
+                        {
+                            "name": "San Juan",
+                            "href": "/san-juan?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 1,
+                            "hasChildren": true,                            
+                            "children": [
+                                {
+                                    "name": "Valle de perdernal",
+                                    "href": "/valle-de-perdernal?initialMap=c,c&initialQuery=vinos&map=region"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Mendoza",
+                            "href": "/mendoza?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 1,
+                            "hasChildren": true,                            
+                            "children": [
+                                {
+                                    "name": "Agrelo - Lujan de Cuyo",
+                                    "href": "/Agrelo---Lujan-de-Cuyo?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Altamira - Valle de Uco",
+                                    "href": "/Altamira---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Chacayes - Valle de Uco",
+                                    "href": "/Chacayes---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "El Cepillo - Valle de Uco",
+                                    "href": "/El-Cepillo---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Gualtallaray - Valle de Uco",
+                                    "href": "/Gualtallaray---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "La Consulta - Valle de Uco",
+                                    "href": "/La-Consulta---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Las Compuertas - Lujan de Cuyo",
+                                    "href": "/Las-Compuertas---Lujan-de-Cuyo?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Lunlunta - Maipu",
+                                    "href": "/Lunlunta---Maipu?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "San Carlos - Valle de Uco",
+                                    "href": "/San-Carlos---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "San Pablo - Valle de Uco",
+                                    "href": "/San-Pablo---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                },
+                                {
+                                    "name": "Vista Flores - Valle de Uco",
+                                    "href": "/Vista-Flores---Valle-de-Uco?initialMap=c,c&initialQuery=vinos&map=region"
+                                }
+                            ]
+                        },                                              
+                        {
+                            "name": "Neuquen",
+                            "href": "/Neuquen?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Río Negro",
+                            "href": "/Rio-negro?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Salta",
+                            "href": "/Salta?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Catamarca",
+                            "href": "/Catamarca?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Jujuy",
+                            "href": "/Jujuy?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "La Pampa",
+                            "href": "/La-pampa?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "La Rioja",
+                            "href": "/La-rioja?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {
+                            "name": "Resto del mundo",
+                            "href": "/Resto-del-mundo?initialMap=c,c&initialQuery=vinos&map=region",
+                            "column": 2
+                        },
+                        {                            
+                            "name": "Imagen",
+                            "href": "",
+                            "column": 3,
+                            "image": "https://debarricasar.vtexassets.com/assets/vtex.file-manager-graphql/images/8f65569d-b3ad-4949-9397-226b8160039c___47461ad20dee5e5f8f56ec30593d7925.png"                                                       
+                        }
+                    ],
+                    "__typename": "Category"
+                },
+                {
+                    "id": 17,
+                    "name": "Más",
+                    "href": "",
+                    "slug": "más",
+                    "hasChildren": true,
+                    "children": [
+                        {
+                            "name": "Cavas",
+                            "href": "/mas/Cavas",
+                            "column": 1,
+                            "hasChildren": true,                            
+                            "children": [
+                                {
+                                    "name": "Cristalería",
+                                    "href": "/mas/Cavas/Cristalería"
+                                },
+                                {
+                                    "name": "Sacacorchos",
+                                    "href": "/mas/Cavas/Sacacorchos"
+                                }                                
+                            ]
+                        },
+                        {
+                            "name": "Accesorios",
+                            "href": "/mas/Accesorios",
+                            "column": 2,
+                            "hasChildren": true,                            
+                            "children": [
+                                {
+                                    "name": "Wine Set",
+                                    "href": "/mas/Accesorios/Wine-set"
+                                },
+                                {
+                                    "name": "Libros",
+                                    "href": "/mas/Accesorios/Libros"
+                                },
+                                {
+                                    "name": "Cajas",
+                                    "href": "/mas/Accesorios/Cajas"
+                                },
+                                {
+                                    "name": "Baúles",
+                                    "href": "/mas/Accesorios/Baúles"
+                                }   
+                            ]
+                        },
+                        {                            
+                            "name": "Imagen",
+                            "href": "/imagen",
+                            "column": 3,
+                            "image": "https://debarricasar.vtexassets.com/assets/vtex.file-manager-graphql/images/21732f43-1962-48c3-954a-8226be48eb16___d089989ab6c1ea1f23cc7516e022bf96.png"
+                        }                        
+                    ],
+                    "__typename": "Category"
+                }
+            ]
+        }
+    }
+}

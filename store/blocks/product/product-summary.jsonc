@@ -1,0 +1,23 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "cucardas-product",
+      "product-summary-brand",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-quantity",
+      "add-to-cart-button"
+      /*
+      "product-summary-add-to-list-button",
+      "product-summary-image",
+      "product-summary-description",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary"
+      */
+    ],
+    "props": { "blockClass": "hiddeDefaultCucarda" }
+  }
+}

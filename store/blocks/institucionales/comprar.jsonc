@@ -1,0 +1,160 @@
+{
+  "store.custom#comocomprar": {
+    "blocks": [
+      "rich-text#titleGeneralComoComprar",
+
+      /* Contenido  */
+
+      "rich-text#ComoComprarDesc",
+
+      "flex-layout.row#PasosParaComprar",
+
+      /* NEWSLETTER */
+
+      "flex-layout.row#Newsletter"
+    ]
+ },
+
+ /* TITULO GENERAL */
+
+ "rich-text#titleGeneralComoComprar": {
+   "props": {
+     "text": "Cómo Comprar",
+     "blockClass": ["shelfTitle", "titleComoComprar"]
+   }
+ },
+
+ "rich-text#ComoComprarDesc": {
+   "props": {
+     "blockClass": "ComoComprarDesc",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "text": "En DeBarricas, además de ofrecerte la mejor atención y variedad de vinos, espumantes, espirituosas, aceites, delicias, regalos, etc., también brindamos soluciones para empresas que busquen agasajar o reconocer a empleados y clientes. Podés comprar en DeBarricas con 4 simples pasos:"
+   }
+ },
+
+ "flex-layout.row#PasosParaComprar": {
+   "title": "Pasos para comprar",
+   "props": {
+     "blockClass": "PasosParaComprarContainer"
+   },
+
+   "children": [
+     "flex-layout.col#PasoParaComprarCol1",
+     "flex-layout.col#PasoParaComprarCol2",
+     "flex-layout.col#PasoParaComprarCol3",
+     "flex-layout.col#PasoParaComprarCol4"
+   ]
+ },
+ 
+ /* COL 1 */ 
+
+ "flex-layout.col#PasoParaComprarCol1": {
+   "props": {
+     "blockClass": ["PasoParaComprarCol", "PasoParaComparCol1"]
+   },
+   "children": [
+     "image#PasoParaComprarCol1Image",
+     "rich-text#PasoParaComprarCol1Text"
+   ]
+ },
+
+ "image#PasoParaComprarCol1Image": {
+   "props": {
+     "blockClass": ["imagePasoParaComprar"],
+     "src": "https://imgur.com/lNkGpqb.png"
+   }
+ },
+
+ "rich-text#PasoParaComprarCol1Text": {
+   "props": {
+      "blockClass": ["textPasoParaComprar"],
+      "text": "1) Buscá y agregá tus productos al carrito."
+   }
+ },
+
+ /* COL 2 */
+
+ "flex-layout.col#PasoParaComprarCol2": {
+  "props": {
+    "blockClass": ["PasoParaComprarCol", "PasoParaComparCol1"]
+  },
+  "children": [
+    "image#PasoParaComprarCol2Image",
+    "rich-text#PasoParaComprarCol2Text"
+  ]
+},
+
+"image#PasoParaComprarCol2Image": {
+  "props": {
+    "blockClass": ["imagePasoParaComprar"],
+    "src": "https://imgur.com/fNvM6Xe.png"
+  }
+},
+
+"rich-text#PasoParaComprarCol2Text": {
+  "props": {
+     "blockClass": ["textPasoParaComprar"],
+     "text": "2) Completá tus datos de facturación."
+  }
+},
+
+
+/* COL 3 */
+
+"flex-layout.col#PasoParaComprarCol3": {
+  "props": {
+    "blockClass": ["PasoParaComprarCol", "PasoParaComparCol1"]
+  },
+  "children": [
+    "image#PasoParaComprarCol3Image",
+    "rich-text#PasoParaComprarCol3Text"
+  ]
+},
+
+"image#PasoParaComprarCol3Image": {
+  "props": {
+    "blockClass": ["imagePasoParaComprar"],
+    "src": "https://imgur.com/fNvM6Xe.png"
+  }
+},
+
+"rich-text#PasoParaComprarCol3Text": {
+  "props": {
+     "blockClass": ["textPasoParaComprar"],
+     "text": "3) Elegí el método de pago y entrega."
+  }
+},
+
+/* COL 4 */ 
+
+"flex-layout.col#PasoParaComprarCol4": {
+  "props": {
+    "blockClass": ["PasoParaComprarCol", "PasoParaComparCol1"]
+  },
+  "children": [
+    "image#PasoParaComprarCol4Image",
+    "rich-text#PasoParaComprarCol4Text"
+  ]
+},
+
+"image#PasoParaComprarCol4Image": {
+  "props": {
+    "blockClass": ["imagePasoParaComprar"],
+    "src": "https://imgur.com/5XdPyzK.png"
+  }
+},
+
+"rich-text#PasoParaComprarCol4Text": {
+  "props": {
+     "blockClass": ["textPasoParaComprar"],
+     "text": "4) ¡Y listo! Ya podés disfrutar de tu compra."
+  }
+}
+
+
+
+
+
+
+}

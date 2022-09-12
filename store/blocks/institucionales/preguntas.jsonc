@@ -1,0 +1,424 @@
+{
+  "store.custom#preguntasfrecuentes": {
+    "blocks": [
+      "rich-text#titleGeneralPreguntasFrecuentes",
+
+      /* Contenido  */
+
+      "flex-layout.row#preguntasFrecuentesContainer",
+
+      /* NEWSLETTER */
+
+      "flex-layout.row#Newsletter"
+    ]
+ },
+
+ /* TITULO GENERAL */
+
+ "rich-text#titleGeneralPreguntasFrecuentes": {
+   "props": {
+     "text": "Preguntas Frecuentes",
+     "blockClass": ["shelfTitle", "titleComoComprar"]
+   }
+ },
+
+
+ /* CONTENIDO */
+
+ "flex-layout.row#preguntasFrecuentesContainer": {
+   "title": "Preguntas frecuentes contenedor",
+   "props": {
+     "blockClass": "preguntasFrecuentesContainer"
+   },
+   "children": [
+     "flex-layout.col#preguntasFrecuentesColContainer"
+   ]
+ },
+
+ "flex-layout.col#preguntasFrecuentesColContainer": {
+   "props": {
+     "blockClass": "colPreguntasFrecuentes"
+   },
+   "children": [
+    "disclosure-layout#todasLasPreguntas1",
+    "disclosure-layout#todasLasPreguntas2",
+    "disclosure-layout#todasLasPreguntas3",
+    "disclosure-layout#todasLasPreguntas4",
+    "disclosure-layout#todasLasPreguntas5",
+    "disclosure-layout#todasLasPreguntas6",
+    "disclosure-layout#todasLasPreguntas7",
+    "disclosure-layout#todasLasPreguntas8",
+    "disclosure-layout#todasLasPreguntas9",
+    "disclosure-layout#todasLasPreguntas10"
+   ]
+ },
+
+ /* LAYOUT 1 */
+
+ "disclosure-layout#todasLasPreguntas1": {
+   "props": {
+     "blockClass": "TodasLasPreguntas"
+   },
+   "children": [
+    "disclosure-trigger#pregunta1",
+    "disclosure-content#desc1"
+   ]
+ },
+
+
+ /* LAYOUT 2 */
+
+ "disclosure-layout#todasLasPreguntas2": {
+  "props": {
+    "blockClass": "TodasLasPreguntas"
+  },
+  "children": [
+   "disclosure-trigger#pregunta2",
+   "disclosure-content#desc2"
+  ]
+},
+
+/* LAYOUT 3 */
+
+"disclosure-layout#todasLasPreguntas3": {
+  "props": {
+    "blockClass": "TodasLasPreguntas"
+  },
+  "children": [
+   "disclosure-trigger#pregunta3",
+   "disclosure-content#desc3"
+  ]
+},
+
+/* LAYOUT 4 */
+
+"disclosure-layout#todasLasPreguntas4": {
+  "props": {
+    "blockClass": "TodasLasPreguntas"
+  },
+  "children": [
+   "disclosure-trigger#pregunta4",
+   "disclosure-content#desc4"
+  ]
+},
+
+/* LAYOUT 5 */
+
+"disclosure-layout#todasLasPreguntas5": {
+  "props": {
+    "blockClass": "TodasLasPreguntas"
+  },
+  "children": [
+   "disclosure-trigger#pregunta5",
+   "disclosure-content#desc5"
+  ]
+},
+
+/* LAYOUT 6 */
+
+"disclosure-layout#todasLasPreguntas6": {
+  "props": {
+    "blockClass": "TodasLasPreguntas"
+  },
+  "children": [
+   "disclosure-trigger#pregunta6",
+   "disclosure-content#desc6"
+  ]
+},
+
+/* LAYOUT 7 */
+
+"disclosure-layout#todasLasPreguntas7": {
+  "props": {
+    "blockClass": "TodasLasPreguntas"
+  },
+  "children": [
+   "disclosure-trigger#pregunta7",
+   "disclosure-content#desc7"
+  ]
+},
+
+/* LAYOUT 8 */
+
+"disclosure-layout#todasLasPreguntas8": {
+  "props": {
+    "blockClass": "TodasLasPreguntas"
+  },
+  "children": [
+   "disclosure-trigger#pregunta8",
+   "disclosure-content#desc8"
+  ]
+},
+
+/* LAYOUT 9 */
+
+"disclosure-layout#todasLasPreguntas9": {
+  "props": {
+    "blockClass": "TodasLasPreguntas"
+  },
+  "children": [
+   "disclosure-trigger#pregunta9",
+   "disclosure-content#desc9"
+  ]
+},
+
+
+/* LAYOUT 10 */
+
+"disclosure-layout#todasLasPreguntas10": {
+  "props": {
+    "blockClass": "TodasLasPreguntas"
+  },
+  "children": [
+   "disclosure-trigger#pregunta10",
+   "disclosure-content#desc10"
+  ]
+},
+
+ /* QUESTION 1 */
+
+"disclosure-trigger#pregunta1": {
+  "children": ["rich-text#titulo1text"]
+},
+
+"disclosure-content#desc1": {
+  "children": ["rich-text#desc1desc"]
+},
+
+"rich-text#titulo1text": {
+  "props": {
+    "text": "¿Cuál es la compra mínima?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc1desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+},
+
+/* QUESTION 2 */
+
+"disclosure-trigger#pregunta2": {
+  "children": ["rich-text#titulo2text"]
+},
+
+"disclosure-content#desc2": {
+  "children": ["rich-text#desc2desc"]
+},
+
+"rich-text#titulo2text": {
+  "props": {
+    "text": "¿Quién puede recibir el pedido?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc2desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+},
+
+/* QUESTION 3 */
+
+"disclosure-trigger#pregunta3": {
+  "children": ["rich-text#titulo3text"]
+},
+
+"disclosure-content#desc3": {
+  "children": ["rich-text#desc3desc"]
+},
+
+"rich-text#titulo3text": {
+  "props": {
+    "text": "¿La cantidad mínima para acceder al precio por mayor es por color/diseño?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc3desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+},
+
+
+/* QUESTION 4 */
+
+"disclosure-trigger#pregunta4": {
+  "children": ["rich-text#titulo4text"]
+},
+
+"disclosure-content#desc4": {
+  "children": ["rich-text#desc4desc"]
+},
+
+"rich-text#titulo4text": {
+  "props": {
+    "text": "¿Tienen un lugar físico donde pueda ir a comprar?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc4desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+},
+
+/* QUESTION 5 */
+
+"disclosure-trigger#pregunta5": {
+  "children": ["rich-text#titulo5text"]
+},
+
+"disclosure-content#desc5": {
+  "children": ["rich-text#desc5desc"]
+},
+
+"rich-text#titulo5text": {
+  "props": {
+    "text": "¿Hacen envío a todo el país?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc5desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+},
+
+/* QUESTION 6 */
+
+"disclosure-trigger#pregunta6": {
+  "children": ["rich-text#titulo6text"]
+},
+
+"disclosure-content#desc6": {
+  "children": ["rich-text#desc6desc"]
+},
+
+"rich-text#titulo6text": {
+  "props": {
+    "text": "¿Cuáles son las formas de pago?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc6desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+},
+
+/* QUESTION 7 */
+
+"disclosure-trigger#pregunta7": {
+  "children": ["rich-text#titulo7text"]
+},
+
+"disclosure-content#desc7": {
+  "children": ["rich-text#desc7desc"]
+},
+
+"rich-text#titulo7text": {
+  "props": {
+    "text": "¿Cuánto demora en llegar mi pedido?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc7desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+},
+
+
+/* QUESTION 8 */
+
+"disclosure-trigger#pregunta8": {
+  "children": ["rich-text#titulo8text"]
+},
+
+"disclosure-content#desc8": {
+  "children": ["rich-text#desc8desc"]
+},
+
+"rich-text#titulo8text": {
+  "props": {
+    "text": "¿Puedo realizar mi pedido por teléfono?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc8desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+},
+
+/* QUESTION 9 */
+
+"disclosure-trigger#pregunta9": {
+  "children": ["rich-text#titulo9text"]
+},
+
+"disclosure-content#desc9": {
+  "children": ["rich-text#desc9desc"]
+},
+
+"rich-text#titulo9text": {
+  "props": {
+    "text": "¿Realizan estampas a pedido?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc9desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+},
+
+/* QUESTION 10 */
+
+"disclosure-trigger#pregunta10": {
+  "children": ["rich-text#titulo10text"]
+},
+
+"disclosure-content#desc10": {
+  "children": ["rich-text#desc10desc"]
+},
+
+"rich-text#titulo10text": {
+  "props": {
+    "text": "¿Realizan estampas a pedido?",
+    "blockClass": "tituloDeLaPregunta"
+  }
+},
+
+"rich-text#desc10desc": {
+  "props": {
+    "text": "texto...",
+    "blockClass": "DescDeLaPregunta"
+  }
+}
+
+}
+
+
+
+

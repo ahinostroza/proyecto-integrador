@@ -1,0 +1,176 @@
+{
+    "store.search": {
+        "blocks":[
+            "search-result-layout",
+            "flex-layout.row#Newsletter"
+        ],
+        "props":{
+            "context":{
+                "skuFilter":"ALL",
+                "simulationBehavior":"skip",
+                "orderByField":"",
+                "hideUnavailablreItems":false,
+                "maxItemsPerPage":16
+            }
+        }
+    },
+
+    "store.search#subcategory": {
+        "blocks":[
+            "search-result-layout",
+            "flex-layout.row#Newsletter"
+        ],
+        "props":{
+            "context":{
+                "skuFilter":"ALL",
+                "simulationBehavior":"skip",
+                "orderByField":"",
+                "hideUnavailablreItems":false,
+                "maxItemsPerPage":16
+            }
+        }
+    },
+
+    "slider-category":{
+        "props":{
+          "BlockSubCategories":"flex-layout.row#gridCategoriesChildren",
+          "AllProductOfCategorie":"flex-layout.row#banner"
+        }
+    },
+    "flex-layout.row#gridCategoriesChildren":{
+        "props":{
+            "blockClass":"gridCategoriesChildren",
+            "colSizing":"auto"
+        }
+    },     
+    "search-result-layout": {
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    },
+
+    "search-not-found-layout": {
+        "blocks": ["not-found"],
+        "children": [
+            "not-found-search", 
+            "responsive-layout.desktop#topSearchs"
+        ]
+    },
+    "responsive-layout.desktop#topSearchs":{
+        "children":["flex-layout.row#topSearchs"]
+    },
+    "flex-layout.row#topProducts":{
+        "children":[
+            "flex-layout.col#topProducts"
+        ],
+        "props":{
+            "blockClass":"topProducts"
+        }
+    },
+    "flex-layout.col#topProducts":{
+        "children":[
+            "rich-text#FeacturedProductsTitle",
+            "list-context.product-list#topProducts"
+        ],
+        "props":{
+            "blockClass":"topProducts"
+        }
+    },
+    "rich-text#topProducts":{
+        "props":{
+            "text":"Productos destacados"
+        }
+    },
+    "rich-text#FeacturedProductsTitle": {
+        "props": {
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "text": "Productos Destacados",
+          "blockClass": "FeacturedProductsTitle"
+        }
+    },
+    "list-context.product-list#topProducts": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#topProducts"],
+		"props": {
+			"blockClass":"",
+		   "orderBy": ""
+		}
+	},
+	"slider-layout#topProducts": {
+		"props": {
+		  "itemsPerPage": {
+			"desktop": 4,
+			"tablet": 3,
+			"phone": 1
+		  },
+		  "infinite": true,
+		  "fullWidth": false,
+		  "blockClass": "shelf-Slide",
+		  "showPaginationDots":"mobileOnly",
+		  "showNavigationArrows":"desktopOnly"
+		}
+	},
+    "rich-text#notF": {
+        "props": {
+          "text": "No hemos encontrado resultados para",
+          "blockClass":"txt-notF"
+        }
+    },
+
+    /*
+        DEPARTAMENTOS
+        -------------
+    */
+
+    "store.search#department": {
+        "blocks":[
+            "image#BannerImgTop",
+            "slider-category",
+            "flex-layout.row#Newsletter"
+        ],
+        "props":{
+            "context":{
+                "skuFilter":"ALL",
+                "simulationBehavior":"skip",
+                "orderByField":"",
+                "hideUnavailablreItems":false,
+                "maxItemsPerPage":16
+            }
+        }
+    },
+    "image#BannerImgTop": {
+        "props": {
+          "width": "100%",
+          "height": "auto",
+          "src": "assets/images/bannerDepartament.png",
+          "blockClass": "bannerImgTop"
+        }
+    },
+
+    /*
+    
+    CATEGORY
+    --------
+    
+    */
+
+    "store.search#category": {
+        "blocks":[
+            "search-result-layout",
+            "flex-layout.row#Newsletter"
+        ],
+        "props":{
+            "context":{
+                "skuFilter":"ALL",
+                "simulationBehavior":"skip",
+                "orderByField":"",
+                "hideUnavailablreItems":false,
+                "maxItemsPerPage":12
+            }
+        }
+    }   
+
+}

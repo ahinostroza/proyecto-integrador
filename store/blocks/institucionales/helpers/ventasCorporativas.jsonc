@@ -1,0 +1,102 @@
+{
+  "flex-layout.row#VentasCorporativas": {
+    "children": ["flex-layout.col#VentasCorporativasContenedor"],
+    "props": {
+      "blockClass": ["ventasCorporativas", "bloqueTexto"]
+    }  
+  },
+
+  "flex-layout.col#VentasCorporativasContenedor": {
+    "title": "Ventas corporativas contenedor",
+    "props": {
+      "blockClass": ["ventasCorporativas", "bloqueTexto"]
+    },
+
+    "children": [
+      "rich-text#titleVentas",
+      "rich-text#desc1empresa",
+      "rich-text#desc2debarricas",
+      "rich-text#profesionales",
+      "flex-layout.row#programasSoluciones"
+    ]
+  },
+
+  "rich-text#titleVentas": {
+    "props": {
+      "text": "Ventas Corporativas",
+      "blockClass": ["tituloContenidoTextos", "titleVentas"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#desc1empresa": {
+    "props": {
+      "text": "¿Tu empresa necesita comprar los productos que comercializamos?",
+      "blockClass": ["somosDebarricasDesc", "empresaNeed"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#desc2debarricas": {
+    "props": {
+      "text": "En DeBarricas podés encontrar más de 1.000 productos enmarcados en diferentes categorías. Con nuestras soluciones corporativas podés comprar productos o gift cards para incentivar a tus empleados, regalar en eventos o para realizar diferentes acciones de marketing.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["debarricasPodesEncontrar"]
+    }
+  },
+
+  "rich-text#profesionales": {
+    "props": {
+      "text": "Contamos con profesionales expertos en la creación de acciones que aporten un valor concreto a tus empleados, clientes y/o colaboradores. Trabajamos con diversos modelos:",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["debarricasProfesionales"]
+    }
+  },
+
+  "flex-layout.row#programasSoluciones": {
+    "title": "programas soluciones texto",
+    "props": {
+      "blockClass": ["programasTextoContenedor", "programasSolucionesContenedor"]
+    },
+    "children": [
+      "rich-text#programa1soluciones",
+      "rich-text#programa2soluciones",
+      "rich-text#programa3soluciones",
+      "rich-text#programa4soluciones"
+    ]
+  },
+
+  "rich-text#programa1soluciones": {
+    "props": {
+      "blockClass": ["programaSolucionesTexto", "programa1texto"],
+      "text": "Programas de fidelización"
+    }
+  },
+
+  "rich-text#programa2soluciones": {
+    "props": {
+      "blockClass": ["programaSolucionesTexto", "programa2texto"],
+      "text": "Programas de incentivos"
+    }
+  },
+
+  "rich-text#programa3soluciones": {
+    "props": {
+      "blockClass": ["programaSolucionesTexto", "programa3texto"],
+      "text": "Tiendas premios"
+    }
+  },
+
+  "rich-text#programa4soluciones": {
+    "props": {
+      "blockClass": ["programaSolucionesTexto", "programa4texto"],
+      "text": "Otros"
+    }
+  }
+
+}
+

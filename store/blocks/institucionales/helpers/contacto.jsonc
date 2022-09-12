@@ -1,0 +1,38 @@
+{
+  "flex-layout.row#contactoInstitucionales": {
+    "props": {
+      "blockClass": ["ContactoInstitucionales"]
+    },
+    "children": [
+      "flex-layout.col#contactoCol"    
+    ]
+  },
+
+  "flex-layout.col#contactoCol": {
+    "children": [
+      "rich-text#titleContacto",
+      "rich-text#descContacto"
+    ]
+  },
+
+  "rich-text#descContacto": {
+    "props": {
+      "text": "Para cualquier consulta envianos un email a **ventascorporativas@debarricas.com.ar**. Nuestros asesores se pondrán en contacto con vos para ofrecerte una propuesta acorde con tu necesidad.",
+      "blockClass": ["descContacto"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#titleContacto": {
+    "props": {
+      "text": "Contacto",
+      "blockClass": ["tituloContenidoTextos", "titleVentas"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+
+
+
+}

@@ -1,0 +1,1332 @@
+{
+  "store.custom#terminosycondiciones": {
+    "blocks": ["flex-layout.row#terms-container-row"]
+  },
+  "flex-layout.row#terms-container-row": {
+    "children": [
+      "flex-layout.col#terms-content-column"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "help-page-container-row"
+    }
+  },
+  "flex-layout.col#terms-content-column": {
+    "children": [
+      "responsive-layout.desktop#garantia",
+      "responsive-layout.mobile#garantia"
+    ],
+    "props": {
+      "blockClass": ["terms-content-col","col-ayuda"]
+    }
+  },
+
+  "responsive-layout.desktop#garantia": {
+    "children": [
+      "rich-text#titulo-ayuda-1",
+      "disclosure-layout-group#ayuda-1"
+    ]
+  },
+
+  "responsive-layout.mobile#garantia": {
+    "children": [
+      "rich-text#titulo-ayuda-1",
+      "disclosure-layout-group#ayuda-1"
+    ]
+  },
+
+  "rich-text#titulo-ayuda-1": {
+    "props": {
+      "text": "Términos y Condiciones",
+      "textAligment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "titulo-ayuda-1"
+    }
+  },
+
+  //TODOSSI
+  "disclosure-layout-group#ayuda-1": {
+    "children": [
+      "disclosure-layout#uno",
+      "disclosure-layout#dosC",
+      "disclosure-layout#tres",
+      "disclosure-layout#cuatro",
+      "disclosure-layout#cinco",
+      "disclosure-layout#seis",
+      "disclosure-layout#siete",
+      "disclosure-layout#ocho",
+      "disclosure-layout#nueve",
+      "disclosure-layout#diez",
+      "disclosure-layout#once",
+      "disclosure-layout#doce",
+      "disclosure-layout#trece"
+    ],
+    "props": {
+      "blockClass": "container-acordeon-ayuda"
+    }
+  },
+
+  //Opcion 1 acordeon
+  "disclosure-layout#uno": {
+    "children": ["disclosure-trigger#uno", "disclosure-content#uno"],
+    "props": {
+      "blockClass": ["opcion-acordeon","acordeon-uno"]
+    }
+  },
+
+  "disclosure-trigger#uno": {
+    "children": ["image#trigger-1","rich-text#titulo-1"],
+    "props": {
+      "blockClass": ["opcion-trigger","trigger-uno"]
+    }
+  },
+  
+  "rich-text#titulo-1": {
+    "props": {
+      "text": "TERMINOS GENERALES",
+      "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-uno"]
+
+    }
+  },
+
+  "image#trigger-1": {
+    "props": {
+      "src": "https://lacardeuse.vtexassets.com/arquivos/PF-stock.svg",
+      "maxWidth": 45,
+      "blockClass": "image-acordeon"
+    }
+  },
+
+  "disclosure-content#uno": {
+    "children": [
+      "disclosure-content#acordeon-1-1"
+    ],
+    "props": {
+      "blockClass": ["opcion-content","content-uno"]
+    }
+  },
+
+  //Opcion 1-1 acordeon
+  "disclosure-layout-group#acordeon-1-1": {
+    "children": [
+      "rich-text#titulo-1-1"
+    ]
+  },
+
+  "disclosure-layout#acordeon-1-1": {
+    "children": ["disclosure-trigger#acordeon-1-1", "disclosure-content#acordeon-1-1"]
+  },
+
+  "disclosure-trigger#acordeon-1-1": {
+    "children": ["rich-text#titulo-1-1"],
+    "props":{
+      "blockClass":["desplegable-acordeon","primertitulo"]
+    }
+  },
+  
+  "rich-text#titulo-1-1": {
+    "props": {
+      "text": "PARA PODER REALIZAR COMPRAS EL USUARIO INTERESADO DEBERÁ REGISTRARSE EN EL SITIO CONSIGNANDO LA TOTALIDAD DE INFORMACIÓN PERSONAL QUE SE REQUIERA. EL USUARIO SE OBLIGA A QUE LA INFORMACIÓN QUE CONSIGNARÁ EN TODO MOMENTO, TANTO AL REGISTRARSE EN EL SITIO COMO AL EFECTUAR UNA COMPRA, Y/O EN CUALQUIER OTRA OCASIÓN EN QUE DEBA CONSIGNARSE INFORMACIÓN, SERÁ CORRECTA Y FEHACIENTE, COMPROMETIÉNDOSE A ACTUALIZAR LA MISMA EN CASO DE SER NECESARIO, Y HACIÉNDOSE ENTERAMENTE RESPONSABLE POR LOS DAÑOS Y PERJUICIOS QUE PUDIERA CAUSAR LA INCLUSIÓN DE CUALQUIER INFORMACIÓN INCORRECTA O IMPRECISA QUE CONSIGNE AL REGISTRARSE, INCLUYENDO CUALQUIER GASTO EN QUE PUDIERA INCURRIR EL SITIO COMO CONSECUENCIA DE ELLO. ASIMISMO, EL USUARIO RECONOCE Y ACEPTA QUE LAS CLAVES O CONTRASEÑAS QUE CONSIGNE SERÁN DE USO PERSONAL Y SE OBLIGA A NO DIVULGAR LAS MISMAS. EN CASO EN QUE EL USUARIO DETECTE EL USO NO AUTORIZADO POR UN TERCERO DE SU CONTRASEÑA O CLAVE, SE OBLIGA A NOTIFICAR DE INMEDIATO AL SITIO DE DICHA CIRCUNSTANCIA. EL SITIO HA SIDO DISEÑADO PARA QUE CUALQUIER CONSUMIDOR PUEDA REALIZAR EN ÉL COMPRAS DE LOS PRODUCTOS QUE EN EL MISMO SE OFRECEN SUJETO AL STOCK DISPONIBLE AL MOMENTO DE LA COMPRA.",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-1-1", "primertitulo-1"]
+    }
+  },
+
+  "disclosure-content#acordeon-1-1": {
+    "children": ["rich-text#contenido-1-1"],
+    "props": {
+      "blockClass": ["contenido-ayuda","contenido-ayuda-1-1"]
+    }
+  },
+
+  "rich-text#contenido-1-1": {
+    "props": {
+      "text": "Las presentes disposiciones generales serán aplicables y regirán para poder operar en el sitio y/o bien hacer uso de los servicios que se ofrecen en www.debarricas.com.ar (en adelante, indistintamente, “el sitio” o “debarricas.com.ar” o debarricas) con domicilio en Dorrego 2085 de la Ciudad de Buenos Aires. El usuario de este sitio, al ingresar al mismo, acepta y declara conocer los presentes Términos y Condiciones de uso del mismo, los cuales se detallan a continuación. De no aceptar estos Términos y Condiciones deberá abstenerse a continuar operando en el sitio. La vigencia de los presentes Términos y Condiciones se mantendrá mientras se encuentren los mismos publicados en “el sitio” pudiendo DeBarricas modificarlos sin previo aviso. En virtud de ello se recomienda al usuario que revise periódicamente los presentes Términos y Condiciones. Cualquier modificación que se introduzca estará vigente a partir de su publicación en “el sitio” y el uso del sitio con posterioridad a la modificación implica aceptación de dichos cambios por parte del usuario. Podrán operar en “el sitio” personas que sean capaces para contratar conforme lo establecido por el Código Civil y leyes aplicables (en adelante el usuario). No podrán hacer uso del sitio aquellas personas que no tengan dicha capacidad legal. Este sitio constituye una plataforma virtual a través de la cual cualquier usuario registrado en él puede comprar los productos que se ofrezcan en el mismo y que se encuentren disponibles, conforme las condiciones que a continuación se detallarán. La información contenida en la misma no implica recomendación ni asesoramiento de ningún tipo, siendo información de carácter de general. En el sitio pueden existir enlaces que permitan al usuario acceder a sitios de terceros. De existir dichos enlaces, los mismos no podrán interpretarse como asociación de ningún tipo entre el sitio y dichos terceros. El usuario declara conocer que el acceso a otros sitios implicará someterse a los términos y condiciones de los mismos, que podrán ser distintos al presente.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-1-1"]
+    }
+  },
+
+  //Opcion 1-2 acordeon
+  "disclosure-layout-group#acordeon-1-2": {
+    "children": [
+      "rich-text#contenido-1-2"
+    ]
+  },
+
+  "disclosure-layout#acordeon-1-2": {
+    "children": ["disclosure-trigger#acordeon-1-2", "disclosure-content#acordeon-1-2"]
+  },
+
+  "disclosure-trigger#acordeon-1-2": {
+    "children": ["rich-text#titulo-1-2"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-1-2": {
+    "props": {
+      "text": "¿Hay algún límite de compra?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-1-2"]
+    }
+  },
+
+  "disclosure-content#acordeon-1-2": {
+    "children": ["rich-text#contenido-1-2"],
+    "props":{
+      "blockClass": ["contenido-ayuda","contenido-ayuda-1-1"]
+    }
+  },
+
+  "rich-text#contenido-1-2": {
+    "props": {
+      "text": "PARA PODER REALIZAR COMPRAS EL USUARIO INTERESADO DEBERÁ REGISTRARSE EN EL SITIO CONSIGNANDO LA TOTALIDAD DE INFORMACIÓN PERSONAL QUE SE REQUIERA. EL USUARIO SE OBLIGA A QUE LA INFORMACIÓN QUE CONSIGNARÁ EN TODO MOMENTO, TANTO AL REGISTRARSE EN EL SITIO COMO AL EFECTUAR UNA COMPRA, Y/O EN CUALQUIER OTRA OCASIÓN EN QUE DEBA CONSIGNARSE INFORMACIÓN, SERÁ CORRECTA Y FEHACIENTE, COMPROMETIÉNDOSE A ACTUALIZAR LA MISMA EN CASO DE SER NECESARIO, Y HACIÉNDOSE ENTERAMENTE RESPONSABLE POR LOS DAÑOS Y PERJUICIOS QUE PUDIERA CAUSAR LA INCLUSIÓN DE CUALQUIER INFORMACIÓN INCORRECTA O IMPRECISA QUE CONSIGNE AL REGISTRARSE, INCLUYENDO CUALQUIER GASTO EN QUE PUDIERA INCURRIR EL SITIO COMO CONSECUENCIA DE ELLO. ASIMISMO, EL USUARIO RECONOCE Y ACEPTA QUE LAS CLAVES O CONTRASEÑAS QUE CONSIGNE SERÁN DE USO PERSONAL Y SE OBLIGA A NO DIVULGAR LAS MISMAS. EN CASO EN QUE EL USUARIO DETECTE EL USO NO AUTORIZADO POR UN TERCERO DE SU CONTRASEÑA O CLAVE, SE OBLIGA A NOTIFICAR DE INMEDIATO AL SITIO DE DICHA CIRCUNSTANCIA. EL SITIO HA SIDO DISEÑADO PARA QUE CUALQUIER CONSUMIDOR PUEDA REALIZAR EN ÉL COMPRAS DE LOS PRODUCTOS QUE EN EL MISMO SE OFRECEN SUJETO AL STOCK DISPONIBLE AL MOMENTO DE LA COMPRA.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-1-2"]
+    }
+  },
+  
+  //Opcion 2 acordeon
+  "disclosure-layout#dos": {
+    "children": ["disclosure-trigger#dos", "disclosure-content#dos"],
+    "props": {
+      "blockClass": ["opcion-acordeon","acordeon-dos"]
+    }
+  },
+
+  "disclosure-trigger#dos": {
+    "children": ["image#trigger-2", "rich-text#titulo-2"],
+    "props": {
+      "blockClass": ["opcion-trigger","trigger-dos"]
+    }
+  },
+  
+  "rich-text#titulo-2": {
+    "props": {
+      "text": "Compra",
+      "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-dos"]
+    }
+  },
+
+  "image#trigger-2": {
+    "props": {
+      "src": "https://lacardeuse.vtexassets.com/arquivos/PF-envio.svg",
+      "maxWidth": 45,
+      "blockClass": "image-acordeon"
+    }
+  },
+
+  "disclosure-content#dos": {
+    "children": [
+      "disclosure-layout-group#acordeon-2-1"
+    ],
+    "props": {
+      "blockClass": ["opcion-content","content-dos"]
+    }
+  },
+
+  //Opcion 2-1 acordeon
+  "disclosure-layout-group#acordeon-2-1": {
+    "children": [
+      "rich-text#titulo-2-1"
+      
+    ]
+  },
+
+  "disclosure-layout#acordeon-2-1": {
+    "children": ["disclosure-trigger#acordeon-2-1", "disclosure-content#acordeon-2-1"]
+  },
+
+  "disclosure-trigger#acordeon-2-1": {
+    "children": ["rich-text#titulo-2-1"],
+    "props":{
+      "blockClass":["desplegable-acordeon","primertitulo"]
+    }
+  },
+  
+  "rich-text#titulo-2-1": {
+    "props": {
+      "text": "PARA PODER REALIZAR COMPRAS EL USUARIO INTERESADO DEBERÁ REGISTRARSE EN EL SITIO CONSIGNANDO LA TOTALIDAD DE INFORMACIÓN PERSONAL QUE SE REQUIERA. EL USUARIO SE OBLIGA A QUE LA INFORMACIÓN QUE CONSIGNARÁ EN TODO MOMENTO, TANTO AL REGISTRARSE EN EL SITIO COMO AL EFECTUAR UNA COMPRA, Y/O EN CUALQUIER OTRA OCASIÓN EN QUE DEBA CONSIGNARSE INFORMACIÓN, SERÁ CORRECTA Y FEHACIENTE, COMPROMETIÉNDOSE A ACTUALIZAR LA MISMA EN CASO DE SER NECESARIO, Y HACIÉNDOSE ENTERAMENTE RESPONSABLE POR LOS DAÑOS Y PERJUICIOS QUE PUDIERA CAUSAR LA INCLUSIÓN DE CUALQUIER INFORMACIÓN INCORRECTA O IMPRECISA QUE CONSIGNE AL REGISTRARSE, INCLUYENDO CUALQUIER GASTO EN QUE PUDIERA INCURRIR EL SITIO COMO CONSECUENCIA DE ELLO. ASIMISMO, EL USUARIO RECONOCE Y ACEPTA QUE LAS CLAVES O CONTRASEÑAS QUE CONSIGNE SERÁN DE USO PERSONAL Y SE OBLIGA A NO DIVULGAR LAS MISMAS. EN CASO EN QUE EL USUARIO DETECTE EL USO NO AUTORIZADO POR UN TERCERO DE SU CONTRASEÑA O CLAVE, SE OBLIGA A NOTIFICAR DE INMEDIATO AL SITIO DE DICHA CIRCUNSTANCIA. EL SITIO HA SIDO DISEÑADO PARA QUE CUALQUIER CONSUMIDOR PUEDA REALIZAR EN ÉL COMPRAS DE LOS PRODUCTOS QUE EN EL MISMO SE OFRECEN SUJETO AL STOCK DISPONIBLE AL MOMENTO DE LA COMPRA.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-2-1"]
+    }
+  },
+
+  "disclosure-content#acordeon-2-1": {
+    "children": [
+      "rich-text#contenido-2-1-1",
+      "rich-text#contenido-2-1-2"
+    ],
+    "props":{
+      "blockClass": ["contenido-ayuda","contenido-ayuda-2-1"]
+    }
+  },
+
+  "rich-text#contenido-2-1-1": {
+    "props": {
+      "text": "PARA PODER REALIZAR COMPRAS EL USUARIO INTERESADO DEBERÁ REGISTRARSE EN EL SITIO CONSIGNANDO LA TOTALIDAD DE INFORMACIÓN PERSONAL QUE SE REQUIERA. EL USUARIO SE OBLIGA A QUE LA INFORMACIÓN QUE CONSIGNARÁ EN TODO MOMENTO, TANTO AL REGISTRARSE EN EL SITIO COMO AL EFECTUAR UNA COMPRA, Y/O EN CUALQUIER OTRA OCASIÓN EN QUE DEBA CONSIGNARSE INFORMACIÓN, SERÁ CORRECTA Y FEHACIENTE, COMPROMETIÉNDOSE A ACTUALIZAR LA MISMA EN CASO DE SER NECESARIO, Y HACIÉNDOSE ENTERAMENTE RESPONSABLE POR LOS DAÑOS Y PERJUICIOS QUE PUDIERA CAUSAR LA INCLUSIÓN DE CUALQUIER INFORMACIÓN INCORRECTA O IMPRECISA QUE CONSIGNE AL REGISTRARSE, INCLUYENDO CUALQUIER GASTO EN QUE PUDIERA INCURRIR EL SITIO COMO CONSECUENCIA DE ELLO. ASIMISMO, EL USUARIO RECONOCE Y ACEPTA QUE LAS CLAVES O CONTRASEÑAS QUE CONSIGNE SERÁN DE USO PERSONAL Y SE OBLIGA A NO DIVULGAR LAS MISMAS. EN CASO EN QUE EL USUARIO DETECTE EL USO NO AUTORIZADO POR UN TERCERO DE SU CONTRASEÑA O CLAVE, SE OBLIGA A NOTIFICAR DE INMEDIATO AL SITIO DE DICHA CIRCUNSTANCIA. EL SITIO HA SIDO DISEÑADO PARA QUE CUALQUIER CONSUMIDOR PUEDA REALIZAR EN ÉL COMPRAS DE LOS PRODUCTOS QUE EN EL MISMO SE OFRECEN SUJETO AL STOCK DISPONIBLE AL MOMENTO DE LA COMPRA.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-2-1"]
+    }
+  },
+
+  "rich-text#contenido-2-1-2": {
+    "props": {
+      "text": "**CONDICIONES DE ENVÍO - IMPORTANTE:**\n\n**CABA y GBA:** La entrega se realizará con La Cardeuse Logística. Se comunicarán con vos dentro de las 48hs hábiles previas a la entrega para informarte la fecha y rango horario de la misma.\n\nEn caso de no poder recibir deberás comunicarlo en la llamada y/o respondiendo al mail correspondiente para poder reprogramar la entrega. Las entregas se realizan de Lunes a Viernes.\n\nLa entrega se realizará en la puerta del domicilio. Si es un piso alto, el producto se sube siempre que sea posible hacerlo por escalera o ascensor sin dañarlo. La Cardeuse no realiza subidas aéreas.\n\n**RESTO DEL PAÍS:** La entrega se realizará con Andreani Logística. Cuando se realice el despacho se te enviará un correo electrónico con el número de seguimiento del envío para que puedas ver el estado en el siguiente link: https://seguimiento.andreani.com/\n\nPor favor, revisa el estado de tu envío en forma constante para poder recibirlo correctamente. La entrega se realizará en la planta baja del domicilio informado.\n\nEn ambos casos te rogamos que revises la mercadería minuciosamente previo a recibirla y firmar conforme. El transportista debe esperar lo que sea necesario para que estés conforme con tu entrega.\n\nEn caso que el titular de la compra no se encuentre para recibir el pedido, será necesario dejar un formulario de recepción completo con los datos de la persona que va a recibirlo.\n\nEncontrá en este link el formulario de autorización para la recepción de productos: https://www.lacardeuse.com.ar/autorizacion.\n\nDurante acciones especiales como Hot Sale, Cybermonday y promociones en el sitio web los tiempos de procesamiento, envío y entrega pueden verse afectados. Oportunamente se informará a los clientes de las demoras respectivas.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-2-1-2"]
+    }
+  },
+
+  //Opcion 2-2 acordeon
+  "disclosure-layout-group#acordeon-2-2": {
+    "children": [
+      "disclosure-layout#acordeon-2-2"
+    ]
+  },
+
+  "disclosure-layout#acordeon-2-2": {
+    "children": ["disclosure-trigger#acordeon-2-2", "disclosure-content#acordeon-2-2"]
+  },
+
+  "disclosure-trigger#acordeon-2-2": {
+    "children": ["rich-text#titulo-2-2"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-2-2": {
+    "props": {
+      "text": "¿Cuál es el costo de envío?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-2-2"]
+    }
+  },
+
+  "disclosure-content#acordeon-2-2": {
+    "children": ["rich-text#contenido-2-2"],
+    "props": {
+      "blockClass": ["contenido-ayuda","contenido-ayuda-2-2"]
+    }
+  },
+
+  "rich-text#contenido-2-2": {
+    "props": {
+      "text": "Los envíos de colchones y sommiers son sin cargo a todo el país excepto Tierra del Fuego.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-2-2"]
+    }
+  },
+
+  //Opcion 2-3 acordeon
+  "disclosure-layout-group#acordeon-2-3": {
+    "children": [
+      "disclosure-layout#acordeon-2-3"
+    ]
+  },
+
+  "disclosure-layout#acordeon-2-3": {
+    "children": ["disclosure-trigger#acordeon-2-3", "disclosure-content#acordeon-2-3"]
+  },
+
+  "disclosure-trigger#acordeon-2-3": {
+    "children": ["rich-text#titulo-2-3"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-2-3": {
+    "props": {
+      "text": "No recibí mi pedido y ya pasó el plazo de entrega. ¿Qué hago?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-2-3"]
+    }
+  },
+
+  "disclosure-content#acordeon-2-3": {
+    "children": ["rich-text#contenido-2-3"],
+    "props":{
+      "blockClass": ["contenido-ayuda","contenido-ayuda-2-3"]
+    }
+  },
+
+  "rich-text#contenido-2-3": {
+    "props": {
+      "text": "Esto es inusual. Por favor comunicate con nosotros a través de los siguientes medios y no olvides tener a mano tu número de pedido:\n\nTelefónicamente al (011) 5368-2368\nVia Mail a ventasonline@lacardeuse.com.ar\nVia Chat en nuestra página (www.lacardeuse.com.ar)\nVia Whatsapp al (011) +549-11-2400-1797",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-2-3"]
+    }
+  },
+
+  //Opcion 2-4 acordeon
+  "disclosure-layout-group#acordeon-2-4": {
+    "children": [
+      "disclosure-layout#acordeon-2-4"
+    ]
+  },
+
+  "disclosure-layout#acordeon-2-4": {
+    "children": ["disclosure-trigger#acordeon-2-4", "disclosure-content#acordeon-2-4"]
+  },
+
+  "disclosure-trigger#acordeon-2-4": {
+    "children": ["rich-text#titulo-2-4"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-2-4": {
+    "props": {
+      "text": "¿Puedo hacer el seguimiento de mi pedido?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-2-4"]
+    }
+  },
+
+  "disclosure-content#acordeon-2-4": {
+    "children": ["rich-text#contenido-2-4"],
+    "props": {
+      "blockClass": ["contenido-ayuda","contenido-ayuda-2-4"]
+    }
+  },
+
+  "rich-text#contenido-2-4": {
+    "props": {
+      "text": "En el caso que tu pedido sea despachado por Andreani, te enviaremos un mail con un código (tracking number) y las instrucciones para que puedas hacer el seguimiento de tu pedido. Podrás realizar el seguimiento de tu pedido ingresando el código en https://seguimiento.andreani.com/",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-2-4"]
+    }
+  },
+
+  //Opcion 2-5 acordeon
+  "disclosure-layout-group#acordeon-2-5": {
+    "children": [
+      "disclosure-layout#acordeon-2-5"
+    ]
+  },
+
+  "disclosure-layout#acordeon-2-5": {
+    "children": ["disclosure-trigger#acordeon-2-5", "disclosure-content#acordeon-2-5"]
+  },
+
+  "disclosure-trigger#acordeon-2-5": {
+    "children": ["rich-text#titulo-2-5"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-2-5": {
+    "props": {
+      "text": "¿Qué pasa si no hay nadie cuando traen mi pedido?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-2-5"]
+    }
+  },
+
+  "disclosure-content#acordeon-2-5": {
+    "children": ["rich-text#contenido-2-5"],
+    "props":{
+      "blockClass": ["contenido-ayuda","contenido-ayuda-2-5"]
+    }
+  },
+
+  "rich-text#contenido-2-5": {
+    "props": {
+      "text": "En el caso en el que no haya nadie en el domicilio de entrega se reprogramará la boleta para la fecha próxima designada por La Cardeuse Logística o Andreani Logística (teniendo en cuenta que en el primer intento de entrega el cliente fue avisado previamente).",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-2-5"]
+    }
+  },
+
+  //Opcion 2-6 acordeon
+  "disclosure-layout-group#acordeon-2-6": {
+    "children": [
+      "disclosure-layout#acordeon-2-6"
+    ]
+  },
+
+  "disclosure-layout#acordeon-2-6": {
+    "children": ["disclosure-trigger#acordeon-2-6", "disclosure-content#acordeon-2-6"]
+  },
+
+  "disclosure-trigger#acordeon-2-6": {
+    "children": ["rich-text#titulo-2-6"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-2-6": {
+    "props": {
+      "text": "¿Puede recibir el paquete otra persona?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-2-6"]
+    }
+  },
+
+  "disclosure-content#acordeon-2-6": {
+    "children": ["rich-text#contenido-2-6"],
+    "props":{
+      "blockClass": ["contenido-ayuda","contenido-ayuda-2-6"]
+    }
+  },
+
+  "rich-text#contenido-2-6": {
+    "props": {
+      "text": "En caso de que la entrega sea en CABA o GBA (realizada por La Cardeuse Logística), será necesario dejar un formulario de recepción completo con los datos de la persona que va a recibir el pedido. Solicitar el formulario en el siguiente link: www.lacardeuse.com.ar/autorizacion, o respondiendo al mail de confirmación de compra.\n\nEn el caso de que la entrega sea por Andreani, no es necesario que esté presente quien realizó la compra. Puede recibirlo cualquier adulto.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-2-6"]
+    }
+  },
+
+  //Opcion 3 acordeon
+  "disclosure-layout#tres": {
+    "children": ["disclosure-trigger#tres", "disclosure-content#tres"],
+    "props": {
+      "blockClass": ["opcion-acordeon","acordeon-tres"]
+      
+    }
+  },
+
+  "disclosure-trigger#tres": {
+    "children": ["image#trigger-3", "rich-text#titulo-3"],
+    "props": {
+      "blockClass": ["opcion-trigger","trigger-tres"]
+    }
+  },
+  
+  "rich-text#titulo-3": {
+    "props": {
+      "text": "STOCK",
+      "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-tres"]
+    }
+  },
+
+  "image#trigger-3": {
+    "props": {
+      "src": "https://lacardeuse.vtexassets.com/arquivos/PF-pago.svg",
+      "maxWidth": 45,
+      "blockClass": "image-acordeon"
+    }
+  },
+
+  "disclosure-content#tres": {
+    "children": [
+      "rich-text#contenido-3-1"
+    ],
+    "props": {
+      "blockClass": ["opcion-content","content-tres"]
+    }
+  },
+
+  //Opcion 3-1 acordeon
+  "disclosure-layout-group#acordeon-3-1": {
+    "children": [
+     "rich-text#titulo-3-1"
+    ]
+  },
+
+  "disclosure-layout#acordeon-3-1": {
+    "children": ["disclosure-trigger#acordeon-3-1", "disclosure-content#acordeon-3-1"]
+  },
+
+  "disclosure-trigger#acordeon-3-1": {
+    "children": ["rich-text#titulo-3-1"],
+    "props":{
+      "blockClass":["desplegable-acordeon","primertitulo"]
+    }
+  },
+  
+  "rich-text#titulo-3-1": {
+    "props": {
+      "text": "¿Cómo puedo pagar?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-3-1", "primertitulo-1"]
+    }
+  },
+
+  "disclosure-content#acordeon-3-1": {
+    "children": [
+      "rich-text#contenido-3-1"
+    ],
+    "props": {
+      "blockClass": ["contenido-ayuda","contenido-ayuda-3-1"]
+    }
+  },
+
+  "rich-text#contenido-3-1": {
+    "props": {
+      "text": "El consumidor declara conocer que en virtud del dinamismo del sitio y que en el mismo pueden estar efectuando operaciones muchos consumidores a la vez, puede suceder que al momento de concretar la operación el producto ya no se encuentre disponible. Asimismo, una compra podrá no ser concretada en función del stock de mercadería disponible y/o por no haber sido aprobada la operación por la entidad emisora de la tarjeta de crédito con la que el consumidor opere y/o por no obtener el sitio la aprobación empresa contratada a tal efecto a los fines de evaluar el riesgo crediticio del usuario, etc. Las razones referidas, han sido enumeradas al mero título ejemplificativo. Asimismo, el consumidor reconoce aceptar que el sitio podrá requerirle datos adicionales con el objeto de poder concretar la operación. En caso de no confirmarse la operación, el sitio comunicará al usuario de dicha circunstancia mediante el envío de un correo electrónico que será cursado por el sitio. En caso de confirmarse la compra, el usuario recibirá un correo electrónico una vez que el pedido haya sido confirmado. De no recibir alguna de las dos comunicaciones anteriormente mencionadas el usuario deberá comunicarse con el sitio llamando al +54 11 4775 9255. Debido a que la comercialización de productos a través del sitio tiene como fin la venta al por menor, el sitio se reserva el derecho de limitar la cantidad de artículos que cada usuario podrán adquirir.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-3-1"]
+    }
+  },
+
+  //Opcion 3-2 acordeon
+  "disclosure-layout-group#acordeon-3-2": {
+    "children": [
+      "disclosure-layout#acordeon-3-2"
+    ]
+  },
+
+  "disclosure-layout#acordeon-3-2": {
+    "children": ["disclosure-trigger#acordeon-3-2", "disclosure-content#acordeon-3-2"]
+  },
+
+  "disclosure-trigger#acordeon-3-2": {
+    "children": ["rich-text#titulo-3-2"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-3-2": {
+    "props": {
+      "text": "¿Cómo se hace para pagar en efectivo?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-3-2"]
+    }
+  },
+
+  "disclosure-content#acordeon-3-2": {
+    "children": ["rich-text#contenido-3-2"],
+    "props": {
+      "blockClass": ["contenido-ayuda","contenido-ayuda-3-2"]
+    }
+  },
+
+  "rich-text#contenido-3-2": {
+    "props": {
+      "text": "Al llegar a la sección de Pago, debe seleccionar la opción de pagar con Mercado Pago. Una vez que se lo redireccione a dicha plataforma, podrá seleccionar como medio de pago “Cupones de Pago” y luego la cadena que vos elijas (Pago Fácil, RapiPago, etcétera). Imprimí el cupón que aparecerá en pantalla y llevalo a la sucursal que desees para abonarlo. Recordá que los cupones tienen 5 días de vigencia (pasado este lapso, la compra se cancela automáticamente). En caso de realizar el pago de un cupón vencido, el pedido NO se concretará y el dinero se acreditará en tu cuenta de MercadoPago.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-3-2"]
+    }
+  },
+
+  //Opcion 3-3 acordeon
+  "disclosure-layout-group#acordeon-3-3": {
+    "children": [
+      "disclosure-layout#acordeon-3-3"
+    ]
+  },
+
+  "disclosure-layout#acordeon-3-3": {
+    "children": ["disclosure-trigger#acordeon-3-3", "disclosure-content#acordeon-3-3"]
+  },
+
+  "disclosure-trigger#acordeon-3-3": {
+    "children": ["rich-text#titulo-3-3"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-3-3": {
+    "props": {
+      "text": "¿Cómo se hace para pagar con tarjeta de crédito?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-3-3"]
+    }
+  },
+
+  "disclosure-content#acordeon-3-3": {
+    "children": ["rich-text#contenido-3-3"],
+    "props":{
+      "blockClass": ["contenido-ayuda","contenido-ayuda-3-3"]
+    }
+  },
+
+  "rich-text#contenido-3-3": {
+    "props": {
+      "text": "Agregá los productos que te interesen a tu carrito. Antes de finalizar la compra, en el 3er paso podrás seleccionar el método de pago Tarjeta de crédito y ahí colocar la tarjeta que tengas disponible para la compra.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-3-3"]
+    }
+  },
+
+  //Opcion 3-4 acordeon
+  "disclosure-layout-group#acordeon-3-4": {
+    "children": [
+      "disclosure-layout#acordeon-3-4"
+    ]
+  },
+
+  "disclosure-layout#acordeon-3-4": {
+    "children": ["disclosure-trigger#acordeon-3-4", "disclosure-content#acordeon-3-4"]
+  },
+
+  "disclosure-trigger#acordeon-3-4": {
+    "children": ["rich-text#titulo-3-4"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-3-4": {
+    "props": {
+      "text": "¿Qué costo de financiación tienen las tarjetas?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-3-4"]
+    }
+  },
+
+  "disclosure-content#acordeon-3-4": {
+    "children": ["rich-text#contenido-3-4"],
+    "props":{
+      "blockClass": ["contenido-ayuda","contenido-ayuda-3-4"]
+    }
+  },
+
+  "rich-text#contenido-3-4": {
+    "props": {
+      "text": "Podrás averiguarlo antes de finalizar la compra, al momento de elegir la cantidad de cuotas. ",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-3-4"]
+
+    }
+  },
+
+  //Opcion 3-5 acordeon
+  "disclosure-layout-group#acordeon-3-5": {
+    "children": [
+      "disclosure-layout#acordeon-3-5"
+    ]
+  },
+
+  "disclosure-layout#acordeon-3-5": {
+    "children": ["disclosure-trigger#acordeon-3-5", "disclosure-content#acordeon-3-5"]
+  },
+
+  "disclosure-trigger#acordeon-3-5": {
+    "children": ["rich-text#titulo-3-5"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-3-5": {
+    "props": {
+      "text": "¿Entregan factura “A”?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-3-5"]
+    }
+  },
+
+  "disclosure-content#acordeon-3-5": {
+    "children": ["rich-text#contenido-3-5"],
+    "props":{
+      "blockClass": ["contenido-ayuda","contenido-ayuda-3-5"]
+
+    }
+  },
+
+  "rich-text#contenido-3-5": {
+    "props": {
+      "text": "Si. Al completar los datos de tu compra, en el paso 1 deberás hacer clic en “Quiero Factura A” y completar la Razón Social, , nombre de la empresa, y el CUIT. Luego, nuestro equipo de facturación se pondrá en contacto para solicitar la información extra que sea necesaria. La Cardeuse SA es agente de retención, por lo tanto, se podrían generar cargos extras de retenciones que se deberán abonar posteriormente.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-3-5"]
+
+    }
+  },
+
+  //Opcion 3-6 acordeon
+  "disclosure-layout-group#acordeon-3-6": {
+    "children": [
+      "disclosure-layout#acordeon-3-6"
+    ]
+  },
+
+  "disclosure-layout#acordeon-3-6": {
+    "children": ["disclosure-trigger#acordeon-3-6", "disclosure-content#acordeon-3-6"]
+  },
+
+  "disclosure-trigger#acordeon-3-6": {
+    "children": ["rich-text#titulo-3-6"],
+    "props":{
+      "blockClass":"desplegable-acordeon"
+    }
+  },
+  
+  "rich-text#titulo-3-6": {
+    "props": {
+      "text": "¿Cuándo se me debita el importe por mi compra?",
+      "blockClass": ["segundo-titulo-ayuda","segundo-titulo-ayuda-3-6"]
+    }
+  },
+
+  "disclosure-content#acordeon-3-6": {
+    "children": ["rich-text#contenido-3-6"],
+    "props":{
+      "blockClass": ["contenido-ayuda","contenido-ayuda-3-6"]
+
+    }
+  },
+
+  "rich-text#contenido-3-6": {
+    "props": {
+      "text": "Si elegiste pagar con tarjeta de crédito, verás el importe descontado en el resumen correspondiente al próximo cierre de tarjeta. Si pagaste con el dinero de tu cuenta en MercadoPago, el débito será inmediato.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-3-6"]
+
+    }
+  },
+
+  //Opcion 4 acordeon
+  "disclosure-layout#cuatro": {
+    "children": ["disclosure-trigger#cuatro", "disclosure-content#cuatro"],
+    "props": {
+      "blockClass": ["opcion-acordeon","acordeon-cuatro"]
+    }
+  },
+
+  "disclosure-trigger#cuatro": {
+    "children": ["image#trigger-4", "rich-text#titulo-4"],
+    "props": {
+      "blockClass": ["opcion-trigger","trigger-cuatro"]
+    }
+  },
+  
+  "rich-text#titulo-4": {
+    "props": {
+      "text": "PROMOCIONES",
+      "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-cuatro"]
+    }
+  },
+
+  "image#trigger-4": {
+    "props": {
+      "src": "https://lacardeuse.vtexassets.com/arquivos/PF-cambios.svg",
+      "maxWidth": 45,
+      "blockClass": "image-acordeon"
+    }
+  },
+
+  "disclosure-content#cuatro": {
+    "children": ["rich-text#contenido-4"],
+    "props": {
+      "blockClass": ["opcion-content","content-cuatro"]
+    }
+  },
+
+  "rich-text#contenido-4": {
+    "props": {
+      "text": "El sitio realiza promociones especiales. Las mismas pueden no estar vigentes permanentemente. Las distintas promociones que pudieran estar vigentes, no son acumulativas. En el supuesto de existir excepciones, ello se establecerá expresamente en el sitio.",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+    
+    }
+  },
+
+  //Opcion 5 acordeon
+  "disclosure-layout#cinco": {
+    "children": ["disclosure-trigger#cinco", "disclosure-content#cinco"],
+    "props": {
+      "blockClass": ["opcion-acordeon","acordeon-cinco"]
+    }
+  },
+
+  "disclosure-trigger#cinco": {
+    "children": ["image#trigger-5", "rich-text#titulo-5"],
+    "props": {
+      "blockClass": ["opcion-trigger","trigger-cinco"]
+    }
+  },
+  
+  "rich-text#titulo-5": {
+    "props": {
+      "text": "ENVÍOS",
+      "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-cinco"]
+    }
+  },
+
+  "image#trigger-5": {
+    "props": {
+      "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+      "maxWidth": 45,
+      "blockClass": "image-acordeon"
+    }
+  },
+
+  "disclosure-content#cinco": {
+    "children": [
+      "rich-text#contenido-5"
+    ],
+    "props": {
+      "blockClass": ["opcion-content","content-cinco"]
+    }
+  },
+
+  "rich-text#contenido-5": {
+    "props": {
+      "text": "Existen diversas formas de entrega de la mercadería. El usuario deberá recibir personalmente la mercadería adquirida exhibiendo su DNI como condición para recibirla, o bien podrá recibir la mercadería un tercero (mayor de 18 años que exhiba su documento) mediante la presentación del DNI del usuario comprador. Al concretar la operación, el usuario se está obligando a revisar la mercadería al momento de recibirla en el domicilio que éste consigne. La firma del remito correspondiente implicará la aceptación de la mercadería adquirida, sin perjuicio de los derechos que al usuario le asisten conforme la ley. Dependiendo del tipo de compra que realice el usuario y las condiciones vigentes, la operación podrá tener o no costo de envío. Cualquier costo adicional que se genere como consecuencia de errores en el ingreso de datos por parte del Usuario así como también de problemas que se deban a su exclusiva actuación, serán adicionados a la factura",
+      "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+    
+    }
+  },
+
+
+//Opcion 6 acordeon
+"disclosure-layout#seis": {
+  "children": ["disclosure-trigger#seis", "disclosure-content#seis"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-seis"]
+  }
+},
+
+"disclosure-trigger#seis": {
+  "children": ["image#trigger-6", "rich-text#titulo-6"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-seis"]
+  }
+},
+
+"rich-text#titulo-6": {
+  "props": {
+    "text": "FORMA DE PAGO",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-seis"]
+  }
+},
+
+"image#trigger-6": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#seis": {
+  "children": [
+    "rich-text#contenido-6"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-seis"]
+  }
+},
+
+"rich-text#contenido-6": {
+  "props": {
+    "text": "Para tu mayor comodidad y seguridad, aceptamos exclusivamente el pago mediante tarjeta de crédito. El plazo de entrega comienza a correr desde la aprobación del pago por parte de la entidad bancaria correspondiente y por parte de DeBarricas, lo que puede diferir del día de compra. El plazo medio de aprobación es de 72 h hábiles. IMPORTANTE: esta forma de pago estará sujeta a la confirmación de los datos, por teléfono o por correo electrónico, para la liberación efectiva del crédito por parte de la administradora de tu tarjeta de crédito. Esta medida se adopta para garantizar la seguridad completa de los titulares de las tarjetas.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+},
+
+
+
+//Opcion 7 acordeon
+"disclosure-layout#siete": {
+  "children": ["disclosure-trigger#siete", "disclosure-content#siete"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-siete"]
+  }
+},
+
+"disclosure-trigger#siete": {
+  "children": ["image#trigger-6", "rich-text#titulo-7"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-siete"]
+  }
+},
+
+"rich-text#titulo-7": {
+  "props": {
+    "text": "POLÍTICA DE CAMBIOS",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-siete"]
+  }
+},
+
+"image#trigger-7": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#siete": {
+  "children": [
+    "rich-text#contenido-7"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-siete"]
+  }
+},
+
+"rich-text#contenido-7": {
+  "props": {
+    "text": "En el supuesto que el usuario pretendiese cambiar el producto adquirido, contará con un plazo de treinta (30) días corridos para ello, contados a partir de la fecha en que sea recibido el producto en cuestión. Conforme lo establece el art. 34 de la ley 24.240 de Defensa del Consumidor tendrá también el consumidor 10 días contados a partir de la operación para poder revocar la compra. En tal caso, el usuario deberá reintegrar el producto comunicándose con el Centro de Atención al Cliente de DeBarricas al +54 11 4775 9255 de Lunes a Viernes de 10 a 18hs. Vale aclarar que el sitio no es el fabricante de la mercadería que comercializa, en tal sentido, cualquier duda que el usuario pudiera poseer respecto del producto adquirido, se le recomienda ponerse en contacto en forma directa con su fabricante.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+},
+//Opcion 8 ocho
+"disclosure-layout#ocho": {
+  "children": ["disclosure-trigger#ocho", "disclosure-content#ocho"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-ocho"]
+  }
+},
+
+"disclosure-trigger#ocho": {
+  "children": ["image#trigger-8", "rich-text#titulo-8"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-ocho"]
+  }
+},
+
+"rich-text#titulo-8": {
+  "props": {
+    "text": "PROPIEDAD INTELECTUAL",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-ocho"]
+  }
+},
+
+"image#trigger-8": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#ocho": {
+  "children": [
+    "rich-text#contenido-8"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-ocho"]
+  }
+},
+
+"rich-text#contenido-8": {
+  "props": {
+    "text": "DeBarricas, el sitio web DeBarricas.com.ar, sus logotipos y todo el material que aparece en dicho sitio, son marcas, nombres de dominio, avisos comerciales y nombres comerciales propiedad de sus respectivos titulares y están protegidos por los tratados internacionales y las leyes aplicables en materia de propiedad industrial, Ley 11.723. Los derechos de autor sobre el contenido, organización, recopilación, compilación, información, logotipos, fotografías, imágenes, programas, aplicaciones, y en general cualquier información contenida o publicada en el sitio web DeBarricas.com.ar se encuentran debidamente protegidos a favor de sus respectivos propietarios y correctamente licenciados, de conformidad con la legislación aplicable en materia de propiedad intelectual e industrial. Se prohíbe expresamente al usuario modificar, alterar o suprimir, ya sea en forma total o parcial, los avisos, marcas, nombres comerciales, señas, anuncios, logotipos o en general cualquier indicación que se refiera a la propiedad de la información contenida en el sitio. Es nuestra política actuar contra las violaciones que en materia de propiedad intelectual se pudieran generar u originar según lo estipulado en la legislación y en otras leyes de propiedad intelectual aplicables, incluyendo la eliminación o el bloqueo del acceso a material que se encuentra sujeto a actividades que infrinjan el derecho de propiedad intelectual de terceros. En caso de que algún usuario o tercero consideren que cualquiera de los contenidos que se encuentren o sean introducidos en el sitio DeBarricas.com.ar y/o cualquiera de sus servicios, violen sus derechos de propiedad intelectual deberán enviar una notificación a la siguiente dirección de correo electrónico: info@debarricas.com.ar , en la que indiquen: i) datos personales verídicos (nombre, dirección, número de teléfono y dirección de correo electrónico del reclamante); ii) firma autógrafa con los datos personales del titular de los derechos de propiedad intelectual; iii) indicación precisa y completa del (los) contenido (s) protegido (s) mediante los derechos de propiedad intelectual supuestamente infringidos, así como la localización de dichas violaciones en el sitio web referido; iv) declaración expresa y clara de que la introducción del (los) contenido (s) indicado (s) se ha realizado sin el consentimiento del titular de los derechos de propiedad intelectual supuestamente infringidos; v) declaración expresa, clara y bajo la responsabilidad del reclamante de que la información proporcionada en la notificación es exacta y de que la introducción del (los) contenido (s) constituye una violación de dichos derechos.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+},
+//Opcion 9 ocho
+"disclosure-layout#nueve": {
+  "children": ["disclosure-trigger#nueve", "disclosure-content#nueve"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-nueve"]
+  }
+},
+
+"disclosure-trigger#nueve": {
+  "children": ["image#trigger-9", "rich-text#titulo-9"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-nueve"]
+  }
+},
+
+"rich-text#titulo-9": {
+  "props": {
+    "text": "PROPIEDAD INTELECTUAL",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-nueve"]
+  }
+},
+
+"image#trigger-9": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#nueve": {
+  "children": [
+    "rich-text#contenido-9"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-nueve"]
+  }
+},
+
+"rich-text#contenido-9": {
+  "props": {
+    "text": "DeBarricas, el sitio web DeBarricas.com.ar, sus logotipos y todo el material que aparece en dicho sitio, son marcas, nombres de dominio, avisos comerciales y nombres comerciales propiedad de sus respectivos titulares y están protegidos por los tratados internacionales y las leyes aplicables en materia de propiedad industrial, Ley 11.723. Los derechos de autor sobre el contenido, organización, recopilación, compilación, información, logotipos, fotografías, imágenes, programas, aplicaciones, y en general cualquier información contenida o publicada en el sitio web DeBarricas.com.ar se encuentran debidamente protegidos a favor de sus respectivos propietarios y correctamente licenciados, de conformidad con la legislación aplicable en materia de propiedad intelectual e industrial. Se prohíbe expresamente al usuario modificar, alterar o suprimir, ya sea en forma total o parcial, los avisos, marcas, nombres comerciales, señas, anuncios, logotipos o en general cualquier indicación que se refiera a la propiedad de la información contenida en el sitio. Es nuestra política actuar contra las violaciones que en materia de propiedad intelectual se pudieran generar u originar según lo estipulado en la legislación y en otras leyes de propiedad intelectual aplicables, incluyendo la eliminación o el bloqueo del acceso a material que se encuentra sujeto a actividades que infrinjan el derecho de propiedad intelectual de terceros. En caso de que algún usuario o tercero consideren que cualquiera de los contenidos que se encuentren o sean introducidos en el sitio DeBarricas.com.ar y/o cualquiera de sus servicios, violen sus derechos de propiedad intelectual deberán enviar una notificación a la siguiente dirección de correo electrónico: info@debarricas.com.ar , en la que indiquen: i) datos personales verídicos (nombre, dirección, número de teléfono y dirección de correo electrónico del reclamante); ii) firma autógrafa con los datos personales del titular de los derechos de propiedad intelectual; iii) indicación precisa y completa del (los) contenido (s) protegido (s) mediante los derechos de propiedad intelectual supuestamente infringidos, así como la localización de dichas violaciones en el sitio web referido; iv) declaración expresa y clara de que la introducción del (los) contenido (s) indicado (s) se ha realizado sin el consentimiento del titular de los derechos de propiedad intelectual supuestamente infringidos; v) declaración expresa, clara y bajo la responsabilidad del reclamante de que la información proporcionada en la notificación es exacta y de que la introducción del (los) contenido (s) constituye una violación de dichos derechos.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+},
+
+//Opcion diez
+"disclosure-layout#diez": {
+  "children": ["disclosure-trigger#diez", "disclosure-content#diez"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-diez"]
+  }
+},
+
+"disclosure-trigger#diez": {
+  "children": ["image#trigger-10", "rich-text#titulo-10"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-diez"]
+  }
+},
+
+"rich-text#titulo-10": {
+  "props": {
+    "text": "TÉRMINOS ADICIONALES",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-diez"]
+  }
+},
+
+"image#trigger-10": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#diez": {
+  "children": [
+    "rich-text#contenido-10"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-diez"]
+  }
+},
+
+"rich-text#contenido-10": {
+  "props": {
+    "text": "Ocasionalmente, DeBarricas podrá revisar, actualizar y/o agregar a los Términos y Condiciones de Uso del presente contrato provisiones adicionales relativas a áreas específicas o nuevos servicios que se proporcionen en o a través del sitio web DeBarricas.com.ar, los cuales serán publicados en las áreas específicas o nuevos servicios de dicho sitio para su lectura y aceptación. El usuario reconoce y acepta que dichos términos adicionales forman parte integrante del presente contrato para todos los efectos legales a que haya lugar.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+},
+
+//Opcion once
+"disclosure-layout#once": {
+  "children": ["disclosure-trigger#once", "disclosure-content#once"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-once"]
+  }
+},
+
+"disclosure-trigger#once": {
+  "children": ["image#trigger-11", "rich-text#titulo-11"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-once"]
+  }
+},
+
+"rich-text#titulo-11": {
+  "props": {
+    "text": "TERMINACIÓN",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-once"]
+  }
+},
+
+"image#trigger-11": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#once": {
+  "children": [
+    "rich-text#contenido-11"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-once"]
+  }
+},
+
+"rich-text#contenido-11": {
+  "props": {
+    "text": "Ocasionalmente, DeBarricas podrá revisar, actualizar y/o agregar a los Términos y Condiciones de Uso del presente contrato provisiones adicionales relativas a áreas específicas o nuevos servicios que se proporcionen en o a través del sitio web DeBarricas.com.ar, los cuales serán publicados en las áreas específicas o nuevos servicios de dicho sitio para su lectura y aceptación. El usuario reconoce y acepta que dichos términos adicionales forman parte integrante del presente contrato para todos los efectos legales a que haya lugar.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+},
+
+//Opcion doce
+"disclosure-layout#doce": {
+  "children": ["disclosure-trigger#doce", "disclosure-content#doce"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-doce"]
+  }
+},
+
+"disclosure-trigger#doce": {
+  "children": ["image#trigger-12", "rich-text#titulo-12"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-doce"]
+  }
+},
+
+"rich-text#titulo-12": {
+  "props": {
+    "text": "SUBSISTENCIA",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-doce"]
+  }
+},
+
+"image#trigger-12": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#doce": {
+  "children": [
+    "rich-text#contenido-12"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-doce"]
+  }
+},
+
+"rich-text#contenido-12": {
+  "props": {
+    "text": "Estos Términos y Condiciones de Uso, así como los términos adicionales, constituyen el acuerdo íntegro entre las partes, y sustituye cualquier otro acuerdo o contrato celebrado con anterioridad. Cualquier cláusula o provisión del presente contrato, así como de los términos adicionales, legalmente declarada inválida, será eliminada o modificada a elección de DeBarricas, con la finalidad de corregir su vicio o defecto. Sin embargo, el resto de las cláusulas o provisiones mantendrán su fuerza, obligatoriedad y validez.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+},
+
+//Opcion trece
+"disclosure-layout#trece": {
+  "children": ["disclosure-trigger#trece", "disclosure-content#trece"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-trece"]
+  }
+},
+
+"disclosure-trigger#trece": {
+  "children": ["image#trigger-13", "rich-text#titulo-13"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-trece"]
+  }
+},
+
+"rich-text#titulo-13": {
+  "props": {
+    "text": "DOMICILIOS Y NOTIFICACIONES",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-trece"]
+  }
+},
+
+"image#trigger-13": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#trece": {
+  "children": [
+    "rich-text#contenido-13"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-trece"]
+  }
+},
+
+"rich-text#contenido-13": {
+  "props": {
+    "text": "Todas las notificaciones vinculadas con los presentes Términos y Condiciones se considerarán notificadas a los usuarios con la mera publicación de las mismas en el sitio. Las notificaciones que los usuarios pretendan cursar al sitio deberán ser remitidas a Dorrego 2085 de la Ciudad de Buenos Aires, el cual será considerado su domicilio constituido. Ante cualquier duda, puede comunicarse con el servicio de atención al cliente llamando al teléfono 54 11 4775 9255 de lunes a viernes de 10 a 18hs.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+},
+
+//Opcion catorce
+"disclosure-layout#catorce": {
+  "children": ["disclosure-trigger#catorce", "disclosure-content#catorce"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-catorce"]
+  }
+},
+
+"disclosure-trigger#catorce": {
+  "children": ["image#trigger-14", "rich-text#titulo-14"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-catorce"]
+  }
+},
+
+"rich-text#titulo-14": {
+  "props": {
+    "text": "LEY APLICABLE, JURISDICCIÓN Y COMPETENCIA",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-catorce"]
+  }
+},
+
+"image#trigger-14": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#catorce": {
+  "children": [
+    "rich-text#contenido-14"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-catorce"]
+  }
+},
+
+"rich-text#contenido-14": {
+  "props": {
+    "text": "Las partes entienden que el presente contrato ha sido celebrado en la Ciudad de Buenos Aires, sometiéndose en consecuencia a la justicia ordinaria de dicha Ciudad para la resolución de cualquier conflicto vinculado a la contratación que se desprende de las operaciones de compra-venta a realizar mediante el sitio. Ello salvo que alguna ley especifica establezca la competencia de Tribunales específicos con asiento en otro lugar de la República Argentina.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+},
+
+//Opcion dosC
+"disclosure-layout#dosC": {
+  "children": ["disclosure-trigger#dosC", "disclosure-content#dosC"],
+  "props": {
+    "blockClass": ["opcion-acordeon","acordeon-dosC"]
+  }
+},
+
+"disclosure-trigger#dosC": {
+  "children": ["image#trigger-dosC", "rich-text#titulo-dosC"],
+  "props": {
+    "blockClass": ["opcion-trigger","trigger-dosC"]
+  }
+},
+
+"rich-text#titulo-dosC": {
+  "props": {
+    "text": "COMPRA",
+    "blockClass": ["primer-titulo-ayuda","primer-titulo-ayuda-dosC"]
+  }
+},
+
+"image#trigger-dosC": {
+  "props": {
+    "src": "https://lacardeuse.vtexassets.com/arquivos/PF-preguntas.svg",
+    "maxWidth": 45,
+    "blockClass": "image-acordeon"
+  }
+},
+
+"disclosure-content#dosC": {
+  "children": [
+    "rich-text#contenido-dosC"
+  ],
+  "props": {
+    "blockClass": ["opcion-content","content-dosC"]
+  }
+},
+
+"rich-text#contenido-dosC": {
+  "props": {
+    "text": "para poder realizar compras el usuario interesado deberá registrarse en el sitio consignando la totalidad de información personal que se requiera. el usuario se obliga a que la información que consignará en todo momento, tanto al registrarse en el sitio como al efectuar una compra, y/o en cualquier otra ocasión en que deba consignarse información, será correcta y fehaciente, comprometiéndose a actualizar la misma en caso de ser necesario, y haciéndose enteramente responsable por los daños y perjuicios que pudiera causar la inclusión de cualquier información incorrecta o imprecisa que consigne al registrarse, incluyendo cualquier gasto en que pudiera incurrir el sitio como consecuencia de ello. asimismo, el usuario reconoce y acepta que las claves o contraseñas que consigne serán de uso personal y se obliga a no divulgar las mismas. en caso en que el usuario detecte el uso no autorizado por un tercero de su contraseña o clave, se obliga a notificar de inmediato al sitio de dicha circunstancia. el sitio ha sido diseñado para que cualquier consumidor pueda realizar en él compras de los productos que en el mismo se ofrecen sujeto al stock disponible al momento de la compra.",
+    "blockClass": ["texto-contenido-ayuda","texto-contenido-ayuda-4"]
+  
+  }
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

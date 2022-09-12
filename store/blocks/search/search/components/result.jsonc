@@ -1,0 +1,47 @@
+{
+  // "flex-layout.row#result": {
+  //   "children": [
+  //     "flex-layout.col#filter",
+  //     "flex-layout.col#content"
+  //   ],
+  //   "props": {
+  //     "preventHorizontalStretch": true,
+  //     "fullWidth": true,
+  //     "blockClass": "search__container"
+  //   }
+  // },
+  "flex-layout.row#result-mobile": {
+    "children": [
+      "flex-layout.row#filtros",
+      //"flex-layout.col#filter",
+      //"flex-layout.row#searchbreadMovile",
+      "flex-layout.col#content"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "search__container"
+    }
+  },
+
+  "flex-layout.row#filtros":{
+    "children":[
+      "flex-layout.col#filter"
+      //"flex-layout.row#searchbreadMovile"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true,
+      "blockClass": "filtros-movile"
+    }
+  },
+
+  "flex-layout.col#filter": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "filterCol"
+    }
+  }
+}

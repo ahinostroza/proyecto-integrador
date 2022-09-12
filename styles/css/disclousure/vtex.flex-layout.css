@@ -1,0 +1,90 @@
+@media only screen and (max-width:1024px){
+  .flexRowContent--ContainerMobileFooter .flexColChild{
+    border-bottom: 1px solid #4B4647 !important;
+    position: relative;
+  }
+
+
+  .flexRowContent--socialNetwork{
+    display: flex;
+    column-gap: 10px;
+  }
+
+  .stretchChildrenWidth .flexCol--terms-content-col.flexCol--col-ayuda {
+    margin-bottom: 60px;
+    margin-top: 30px;
+  }
+
+  
+
+  .flexRowContent--pagosContenedorImages{
+    display: flex;
+  }
+
+  
+
+  .flexRow--footer-text-Container :global(.vtex-store-components-3-x-container){
+    border-top:none !important;
+  }
+
+}
+
+.flexRowContent--socialNetwork .stretchChildrenWidth{
+    margin-top: 20px;
+    width: auto !important;
+    min-width: 22px;
+}
+
+.flexRowContent--pagosContenedorImages .stretchChildrenWidth{
+  width: auto !important;
+  min-width: 22px;
+}
+
+/*faqs*/
+.flexRow--help-page-container-row {
+  width: 100%;
+  margin: 0 0;
+}
+.flexRow--help-page-container-row :global(.vtex-store-components-3-x-containe) {
+  max-width: calc(800px + 10%);
+  margin: 0 0;
+}
+.flexRow--help-page-container-row .flexRowContent--help-page-container-row {
+  flex-flow: column;
+  margin: 0 0;
+}
+.flexRow--help-page-container-row .flexRowContent--help-page-container-row .flexCol--terms-content-col {
+  max-width: calc(800px + 10%);
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .flexRow--help-page-container-row .flexRowContent--help-page-container-row .flexCol--terms-content-col {
+    padding: 0.75rem;
+  }
+}
+
+.stretchChildrenWidth .flexCol--terms-content-col.flexCol--col-ayuda {
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .stretchChildrenWidth .flexCol--terms-content-col.flexCol--col-ayuda {
+    margin-top: 1;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flexRow--help-page-container-row {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  .flexRow--help-page-container-row :global(.vtex-store-components-3-x-container) {
+    max-width: 100% !important;
+  }
+}
+:global(.vtex-button):focus {
+  outline: none;
+}
+

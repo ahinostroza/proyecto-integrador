@@ -1,0 +1,21 @@
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.search::after{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    color: rgb(39, 39, 39);
+    content: "";
+    /*background: url('../../../assets/svg/simbolo-x.svg');*/
+    background-repeat: no-repeat;
+    transform: translate(-3px,-3px);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

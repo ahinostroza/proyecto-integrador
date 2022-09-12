@@ -1,0 +1,9 @@
+.autoCompleteOuterContainer{
+    border-width: 1px !important;
+}
+.searchBarIcon--clear .closeIcon{
+    color: #fff;
+}
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input){
+    color: #fff;
+}

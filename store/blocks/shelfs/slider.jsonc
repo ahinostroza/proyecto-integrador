@@ -1,0 +1,16 @@
+{
+    "slider-layout#shelf": {
+		"props": {
+		  "itemsPerPage": {
+			"desktop": 5,
+			"tablet": 2,
+			"phone": 1
+		  },
+		  "infinite": true,
+		  "fullWidth": true,
+		  "blockClass": "shelf",
+		  "showPaginationDots":"mobileOnly",
+		  "showNavigationArrows":"desktopOnly"
+		}
+	}
+}

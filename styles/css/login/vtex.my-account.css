@@ -1,0 +1,75 @@
+.boxContainerFooter :global(.vtex-button__label){
+    text-decoration: underline;
+}
+.boxContainer{
+    border: none;
+    box-shadow: 0 0 9px 0 rgba(0,0,0,0.13);
+    border: 5px;
+}
+:global(.vtex-account) :global(.vtex-button){
+    height: 48px;
+}
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper){
+    margin-bottom: 1rem;
+}
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper .vtex-button){
+    background-color: transparent;
+    border: none;
+    color: #424242;
+}
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper .vtex-button):hover{
+    background-color: transparent;
+    color: #424242;
+}
+
+:global(.vtex-pageHeader-link__container .vtex-button){
+    color: #262626;
+}
+:global(.vtex-pageHeader-link__container .vtex-button):hover{
+    color: #5B0D2E;
+}
+
+:global(.vtex-radioGroup__fieldset){
+    margin-left: 0;
+}
+
+:global(.vtex-radio){
+    align-items: center;
+}
+
+:global(.vtex-modal__modal){
+    max-width: 400px;
+    border-radius: 0;
+}
+
+:global(.vtex-styleguide-9-x-scrollBar){
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+:global(.vtex-modal__confirmation){
+    margin-top: 0;
+}
+
+:global(.vtex-modal__confirmation .vtex-button){
+    height: 48px;
+    width: 112px;
+}
+.addressBox{
+    flex-direction: column;
+}
+@media screen and (max-width:640px) {
+    .menu{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    :global(.vtex-pageHeader__title ){
+        margin-bottom: 1.5rem;
+    }
+    :global(.vtex-pageHeader__children),
+    :global(.vtex-my-cards-1-x-newCardButton){
+        width: 100%;
+    }
+}

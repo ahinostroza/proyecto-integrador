@@ -1,0 +1,132 @@
+.searchResultContainer{
+    padding: 0 3.125vw 60px;
+}
+.filterItem--selected :global(.vtex-checkbox__label){
+    color: #5B0D2E;
+}
+.filterItem :global(.vtex-checkbox__line-container){
+    align-items: center;
+}
+.filterItem--selected :global(.vtex-checkbox__inner-container){
+    border-color: #5B0D2E;
+}
+
+.filterTemplateOverflow :global(.vtex-slider-container){
+    padding: 0 5px;
+}
+
+.filterIsOpen .filterTitle, .filterIsOpen .filterIcon{
+    color: #5B0D2E;
+}
+.filterIsOpen{
+    border-bottom: 1px solid #5B0D2E;
+    margin-bottom: 1rem;
+}
+
+.galleryTitle--layout{
+    margin-top: 0;
+    margin-bottom: 28px;
+    padding-left: 5px;
+    color:#212121;
+    font-family: 'made_sunflowerregular';
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.totalProducts--layout{
+    display: flex;
+    margin: auto;
+}
+
+.filterPopupTitle{
+    color: #212121;
+}
+.orderByText, .totalProducts--layout{
+    color: #9E9E9E;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button){
+    padding: 10px 0;
+    background-color: #5B0D2E;
+    border-radius: 5px;
+}
+
+.filterApplyButtonWrapper :global(.vtex-button):hover{
+    background-color: #8B3C57;
+}
+
+.filterClearButtonWrapper :global(.vtex-button){
+    background-color: transparent;
+    border-radius: 5px;
+    color: #424242;
+    padding: 10px 0;
+}
+
+.filterClearButtonWrapper :global(.vtex-button):hover{
+    background-color: transparent;
+}
+
+.accordionFilterItemTag :global(.vtex-tag){
+    background-color: #5B0D2E;
+}
+
+.filterButtonsBox{
+    height: auto;
+    padding-bottom: 24px;
+}
+.filterTotalProducts{
+    display: none;
+}
+.orderByOptionsContainer{
+    top: unset !important;
+}
+.buttonShowMore :global(.vtex-button){
+    background-color: transparent;
+    border-color: #424242;
+    color: #424242;
+    border-radius: 4px;
+    padding: 10px 0;
+}
+.buttonShowMore :global(.vtex-button):hover{
+    background-color: transparent;
+    border-color: #424242;
+    color: #424242;
+}
+.searchNotFound{
+    height: 20rem;
+}
+.galleryItem{
+    padding: 0;
+}
+@media screen and (max-width:1024px) {
+    :global(.vtex-search--orderByButton), .orderByButton{
+        display: flex;
+        justify-content: center;
+    }
+    .searchNotFound{
+        height: auto;
+    }
+    .searchResultContainer{
+        padding: 0 0 30px;
+    }
+    .galleryTitle--layout{
+        margin-top: 18px;
+        margin-bottom: 18px;
+        font-size: 28px;
+        font-weight: 300;
+        padding-left: calc(10px + 16px);
+        padding-right: calc(10px + 16px);
+    }
+    .orderByDropdown{
+        border-right: 1px solid #E0E0E0;
+    }
+    .totalProducts--layout{
+        border-top: none !important;
+        border-bottom: 1px solid #F2F2F2;
+        justify-content: center;
+        width: 100%;
+    }
+    .accordionFilterOpen--categoria :global(.vtex-checkbox__label){
+        color: #5B0D2E;
+    }
+}

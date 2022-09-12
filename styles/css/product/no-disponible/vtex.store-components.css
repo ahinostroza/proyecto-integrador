@@ -1,0 +1,9 @@
+.subscriberContainer .title{
+  display: none;
+}
+
+
+.subscriberContainer .subscribeLabel{
+  font-weight: 700;
+  margin-top: 20px;
+}

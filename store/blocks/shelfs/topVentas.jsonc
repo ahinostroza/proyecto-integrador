@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#topVentas": {
+        "title":"Vitrina top ventas",
+        "children": [
+            "flex-layout.col#topVentas"
+        ],
+        "props": {
+            "colGap": 0,
+            "borderWidth": 0,
+            "colSizing": "",
+            "preventVerticalStretch": true,
+            "blockClass": ["shelf","shelfTopVentas"]
+        }
+    },
+    "flex-layout.col#topVentas":{
+        "title":"Contenido",
+        "children":[
+            "rich-text#topVentas",
+            "flex-layout.row#productostopVentas"
+        ]
+    },
+
+    "flex-layout.row#productostopVentas": {
+        "title": "Productos",
+        "props": {
+            "blockClass": "topVentasProducto"
+        },
+        "children": ["list-context.product-list#topVentas"]
+    },
+
+    "rich-text#topVentas":{
+        "props":{
+            "text":"Los más vendidos",
+            "blockClass": ["shelfTitle", "topVentas"]
+        }
+    },
+    "list-context.product-list#topVentas": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#shelf"],
+		"props": {
+			"blockClass":["topVentas", "contenedorproductos"],
+		    "orderBy": "OrderByTopSaleDESC"
+		}
+	}
+}

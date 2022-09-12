@@ -1,0 +1,36 @@
+.collapsible--collapsible-container{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.collapsible--collapsible-content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #231F20;
+}
+.collapsible--collapsible-content :global(.vtex-store-link-0-x-link--linkopc3),
+.collapsible--collapsible-content :global(.vtex-rich-text-0-x-paragraph--link){
+    font-weight: 300;
+    font-size: 15px;
+}
+.collapsible--collapsible-container svg{
+    transition: transform 250ms ease-in-out 0s, color 250ms ease-in-out 0s;
+    color: #fff;
+}
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-styleguide-9-x-jsFocusVisible)>:first-child>:last-child{
+    display: none;
+}
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-styleguide-9-x-jsFocusVisible) [aria-expanded="true"] svg{
+    transform: rotate(180deg);
+}
+
+:global(.vtex-store-footer-2-x-footerLayout) :global(.vtex-styleguide-9-x-jsFocusVisible) [aria-expanded="true"] :global(.vtex-rich-text-0-x-paragraph--questionFooterTitle){
+    color: #db5b19;
+}

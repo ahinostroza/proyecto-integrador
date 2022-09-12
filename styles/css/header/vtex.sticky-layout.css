@@ -1,0 +1,22 @@
+.container--sticky-header {
+  background: #231f20;
+}
+
+.flex.flex-grow-1.w-100.flex-column {
+  display: grid;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-styleguide-9-x-input) {
+  background: #231f20;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input-prefix__group) {
+  border-radius: 25px;
+}
+
+:global(.vtex-store-components-3-x-searchBarContainer)
+  :global(.vtex-input__suffix) {
+  background: #231f20;
+}

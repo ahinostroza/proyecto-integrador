@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#Novedades": {
+        "title":"Vitrina novedades",
+        "children": [
+            "flex-layout.col#Novedades"
+        ],
+        "props": {
+            "colGap": 0,
+            "borderWidth": 0,
+            "colSizing": "",
+            "preventVerticalStretch": true,
+            "blockClass": ["shelf","shelfNovedades","bg-gray"]
+        }
+    },
+    "flex-layout.col#Novedades":{
+        "title":"Contenido",
+        "children":[
+            "rich-text#Novedades",
+            "flex-layout.row#productosNovedades"
+        ]
+    },
+
+    "flex-layout.row#productosNovedades": {
+        "title": "Productos",
+        "props": {
+            "blockClass": "NovedadesProducto"
+        },
+        "children": ["list-context.product-list#Novedades"]
+    },
+
+    "rich-text#Novedades":{
+        "props":{
+            "text":"Novedades",
+            "blockClass": ["shelfTitle", "Novedades"]
+        }
+    },
+    "list-context.product-list#Novedades": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#shelf"],
+		"props": {
+			"blockClass":["Novedades", "contenedorproductos"],
+		    "orderBy": "OrderByTopSaleDESC"
+		}
+	}
+}

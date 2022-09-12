@@ -1,0 +1,74 @@
+.cartIcon{
+    width: 25px;
+    height: 30px;
+    color: #fff;
+}
+.minicartQuantityBadge{
+    background-color: #5B0D2E;
+}
+
+.minicartContainer :global(.vtex-button){
+    min-height: 64px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 0;
+    outline: none;
+    border: none;
+}
+.minicartContainer :global(.vtex-button):hover{
+    background-color: #4B4647;
+}
+.openIconContainer{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.formTitle{
+    color: #424242;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 19px;
+}
+
+.minicartTitle{
+    position: absolute;
+    top: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+.closeIconContainer{
+    position: relative;
+    z-index: 999;
+}
+.minicartSideBarContentWrapper{
+    align-items: center;
+}
+.minicartContentContainer{
+    align-items: center;
+}
+.minicartTitle::before{
+    content: "Mi ";
+}
+.minicartContentContainer :global(.vtex-product-list-0-x-productPriceContainer){
+    width: unset !important;
+    display: flex;
+    column-gap: 12px;
+    align-items: center;
+}
+
+.minicartContentContainer :global(.vtex-product-list-0-x-productPriceCurrency){
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+@media screen and (max-width:640px) {
+    .drawer{
+        width: 100% !important;
+    }
+    .openIconContainer{
+        padding-right: 0;
+        padding-left: 0;
+    }
+}

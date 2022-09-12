@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#ourOfferts": {
+        "title":"Vitrina nuevas ofertas",
+        "children": [
+            "flex-layout.col#ourOfferts"
+        ],
+        "props": {
+            "colGap": 0,
+            "borderWidth": 0,
+            "colSizing": "",
+            "preventVerticalStretch": true,
+            "blockClass": ["shelf","shelfourOfferts","bg-gray"]
+        }
+    },
+    "flex-layout.col#ourOfferts":{
+        "title":"Contenido",
+        "children":[
+            "rich-text#ourOfferts",
+            "flex-layout.row#productosourOfferts"
+        ]
+    },
+
+    "flex-layout.row#productosourOfferts": {
+        "title": "Productos",
+        "props": {
+            "blockClass": "ourOffertsProducto"
+        },
+        "children": ["list-context.product-list#ourOfferts"]
+    },
+
+    "rich-text#ourOfferts":{
+        "props":{
+            "text":"Nuestras ofertas",
+            "blockClass": ["shelfTitle", "ourOfferts"]
+        }
+    },
+    "list-context.product-list#ourOfferts": {
+		"blocks": ["product-summary.shelf"],
+		"children": ["slider-layout#shelf"],
+		"props": {
+			"blockClass":["ourOfferts", "contenedorproductos"],
+		    "orderBy": "OrderByTopSaleDESC"
+		}
+	}
+}

@@ -1,0 +1,50 @@
+.link--pri-button{
+  height: 54px;
+  width: 320px !important;
+  background-color: #5B0D2E;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  border-radius: 7px;
+  font-weight: 500 !important;
+}
+
+.link--sec-button{
+  box-sizing: border-box;
+  height: 54px;
+  width: 320px !important;
+  border: 1px solid #262626;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  border-radius: 7px;
+}
+
+.label--pri-button{
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  font-size: 17px;
+  color: #FFF;
+}
+
+.label--sec-button{
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  font-size: 17px;
+  color: #000;
+}
+
+@media screen and (max-width:1024px) {
+  .link--pri-button, .link--sec-button{
+      margin-right: 0px;
+      margin-left: 0px;
+  }
+}

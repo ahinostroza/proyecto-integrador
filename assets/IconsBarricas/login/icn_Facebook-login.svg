@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ICON/facebook</title>
+    <defs>
+        <path d="M0,6.55162254 L2.28694714,6.55162254 L2.28694714,4.56235739 C2.28694714,3.68468355 2.31067961,2.32950875 3.02265372,1.49243216 C3.77130529,0.605092315 4.8004315,0 6.56957929,0 C9.45199569,0 10.6666667,0.369241636 10.6666667,0.369241636 L10.0949299,3.40243602 C10.0949299,3.40243602 9.14347357,3.15691933 8.25458468,3.15691933 C7.36569579,3.15691933 6.56957929,3.44303327 6.56957929,4.23951261 L6.56957929,6.55162254 L10.2135922,6.55162254 L9.96116505,9.51522164 L6.56957929,9.51522164 L6.56957929,19.8095238 L2.28694714,19.8095238 L2.28694714,9.51522164 L0,9.51522164 L0,6.55162254 Z" id="path-1"></path>
+    </defs>
+    <g id="Home-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login-01-hovers" transform="translate(-850.000000, -287.000000)">
+            <g id="Group-Copy-3" transform="translate(791.000000, 59.000000)">
+                <g id="Group-2" transform="translate(36.000000, 97.000000)">
+                    <g id="ICON/facebook" transform="translate(23.000000, 131.000000)">
+                        <g id="COLOR/primary/black/pressed" transform="translate(0.666667, 0.095238)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#3B5998" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

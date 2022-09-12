@@ -1,0 +1,36 @@
+.arrow{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #232541;
+    border-radius: 4px;
+    color: #232541;
+}
+.arrowLeft{
+    left: unset !important;
+    right: calc(100% + 1.5rem) !important;
+}
+
+.arrowRight{
+    right: unset !important;
+    left: calc(100% + 1.5rem) !important;
+}
+.arrow:hover{
+    background-color: #232541 !important;
+    color: #fff;
+}
+.shelfContentContainer--slider-relatedProducts :global(.vtex-slider-0-x-dotsContainer){
+    display: none;
+}
+@media screen and (max-width:1024px) {
+    .shelfContentContainer--slider-relatedProducts :global(.vtex-slider-0-x-dotsContainer){
+        display: inline-block;
+    }
+    .arrow{
+        display: none;
+    }
+    .sliderContainer--slider-relatedProducts{
+        margin-bottom: 4rem;
+    }
+}

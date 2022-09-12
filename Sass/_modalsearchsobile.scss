@@ -1,0 +1,69 @@
+@use "colores" as *;
+
+.ModalSearchMobile {
+  &:hover {
+    background-color: $maroon-primario;
+  }
+  cursor: pointer;
+  color: $snow-mobile;
+  height: 64px;
+  width: 50px;
+  text-align: center;
+  position: relative;
+  padding-block-start: 23px;
+  min-width: 50px;
+  margin-left: -40px;
+}
+.SearchOpen {
+  position: absolute;
+  min-width: 100%;
+  margin-left: -9px;
+  top: 71px;
+  overflow: hidden;
+  height: 46em;
+
+  .FirstLisComponent {
+    background-color: $snow-mobile;
+    position: relative;
+    top: -17px;
+    height: 30em;
+    box-shadow: 0px 8px 1px black;
+    z-index: 100;
+    list-style: none;
+    padding-inline-start: 0px;
+  }
+  .LineDivMobile {
+    background-color: #eeee;
+    height: 2px;
+  }
+  .SearchLinksMobile {
+    color: $letras-search-mobile;
+  }
+  .SearchComponentMobile {
+    background-color: #eeee;
+  }
+  .LastListComponent {
+    position: relative;
+    height: 33em;
+    background-color: black;
+    top: -3em;
+    opacity: 0.6;
+  }
+  .ListTitlleMobile {
+    font-weight: 600;
+  }
+  .subtitleMenuMobile {
+    list-style: none;
+    padding-inline-start: 1em;
+    padding-block-end: 1em;
+    padding-block-start: 1em;
+    li {
+      padding-block-end: 8px;
+      padding-block-start: 8px;
+    }
+  }
+}
+
+.SearchClose {
+  display: none;
+}

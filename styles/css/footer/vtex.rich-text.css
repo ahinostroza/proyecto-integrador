@@ -1,0 +1,157 @@
+.paragraph--tituloFooter {
+  color: #fff;
+  position: relative;
+  font-weight: 700;
+}
+
+.paragraph--tituloFooter::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 1px;
+  background: #fff;
+  bottom: 0;
+}
+
+.paragraph--link {
+  margin-top: 0 !important;
+  margin-bottom: 10px !important;
+  color: #fff;
+  position: relative;
+}
+
+.paragraph--link {
+  display: flex;
+}
+
+.paragraph--linkopc1::before {
+  content: "";
+  margin-right: 8px;
+  background: url(https://debarricasar.vteximg.com.br/arquivos/clock-with-white-face.png);
+  background-repeat: no-repeat !important;
+  background-size: 18px 18px !important;
+  width: 21px !important;
+  height: 21px !important;
+  display: block;
+  margin-top: 4px;
+}
+
+.paragraph--linkopc2::before {
+  content: "";
+  margin-right: 10px;
+  background: url("https://svgur.com/i/_8T.svg");
+  background-repeat: no-repeat !important;
+  background-size: 21px 21px !important;
+  width: 21px !important;
+  height: 21px !important;
+  display: block;
+}
+
+.link--createdBy {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  column-gap: 8px;
+  row-gap: 12px;
+  color: #e0e0e0 !important;
+  text-decoration: none;
+}
+
+.paragraph--copy-text {
+  color: #e0e0e0 !important;
+}
+.paragraph--copy-text.mobile-terms{
+  border-bottom: 1px solid #3D3D3D;
+  color: #9E9E9E !important;
+  padding-bottom: 12px;
+  margin-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 15px;
+}
+
+/*
+.link--createdBy::after {
+  content: ""; 
+  background-size: 40px 40px;
+  background-image: url("assets/images/suno.png");
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+*/
+.paragraph--newsLetterText {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.container--newsLetterText {
+  justify-content: center;
+}
+
+.wrapper--newsLetterText .paragraph {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-size: 23px;
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  .paragraph--tituloFooter {
+    min-width: 170px;
+  }
+}
+
+@media screen and (max-width: 1125px) {
+  .container--newsLetterText {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .paragraph--newsLetterText {
+    margin-bottom: 0;
+    font-size: 22px;
+    margin-top: 3px;
+  }
+
+  .container--newsLetterText {
+    justify-content: center;
+  }
+
+  .wrapper--newsLetterText .paragraph {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 434px) {
+  .wrapper--newsLetterText {
+    text-align: center;
+  }
+
+  .paragraph--newsLetterText {
+    font-size: 15px !important;
+  }
+}
+
+:global(.vtex-store-link-0-x-childrenContainer--footer){
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .container--createdBy {
+    display: flex;
+    justify-content: center;
+  }
+
+  .link--createdBy {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+    color: #E0E0E0;
+  }
+  
+}

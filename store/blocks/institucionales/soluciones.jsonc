@@ -1,0 +1,85 @@
+{
+  "store.custom#soluciones": {
+    "blocks": [
+      "rich-text#titleGeneralSoluciones",
+      "rich-text#descContentSomos",
+      "slider-layout#Soluciones",
+
+      /* ALINZAS */
+      "flex-layout.row#CarouselNuestrasAlianzas",
+      "flex-layout.row#VentasCorporativas",
+      "flex-layout.row#contactoInstitucionales",
+
+      /* NEWSLETTER */
+
+      "flex-layout.row#Newsletter"
+    ]
+ },
+
+ /* TITULO GENERAL */
+
+ "rich-text#titleGeneralSoluciones": {
+   "props": {
+     "text": "Soluciones Corporativas",
+     "blockClass": ["shelfTitle", "titleSoluciones"]
+   }
+ },
+
+ /* CONTENIDO */
+
+
+ /* SLIDER*/
+
+ "slider-layout#Soluciones": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "showPaginationDots": "desktopOnly",
+    "blockClass": ["SolucionesSlider", "sliderInstitucionales"],
+    "fullWidth": "true"
+  },
+  "children": [
+    "image#SolucionesSlider1Image",
+    "image#SolucionesSlider2Image",
+    "image#SolucionesSlider3Image"
+  ]
+},
+
+"image#SolucionesSlider1Image": {
+  "props": {
+    "src": "https://imgur.com/z2Lqedh.png",
+    "blockClass": ["imageSlider", "SolucionesSlider1Image"]
+  }
+},
+
+"image#SolucionesSlider2Image": {
+  "props": {
+    "src": "https://imgur.com/z2Lqedh.png",
+    "blockClass": ["imageSlider", "SolucionesSlider1Image"]
+  }
+},
+
+"image#SolucionesSlider3Image": {
+  "props": {
+    "src": "https://imgur.com/z2Lqedh.png",
+    "blockClass": ["imageSlider", "SolucionesSlider1Image"]
+  }
+},
+
+/* CONTENIDO DE LOS TEXTO */
+
+"rich-text#descContentSomos": {
+  "props": {
+    "text": "En DeBarricas, además de ofrecerte la mejor atención y variedad de vinos, espumantes, espirituosas, aceites, delicias, regalos, etc., también brindamos soluciones para empresas que busquen agasajar o reconocer a empleados y clientes. Contamos con un sistema logístico nacional e internacional con el cual podemos cumplir con todos los objetivos de tu empresa, ya sea con la venta directa de nuestros productos o gift cards, o con diferentes modelos de alianzas.",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": ["descContent", "solucionContenidoDesc"]
+  }
+}
+
+}

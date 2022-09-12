@@ -1,0 +1,671 @@
+{
+  "store.home": { 
+    "blocks": [
+      "responsive-layout.desktop#sliderp",
+      "responsive-layout.mobile#sliderp",
+
+      /* Notification bar */
+      "responsive-layout.desktop#notificationbar",
+      "responsive-layout.mobile#notificationbar",
+      
+      /* Promociones del mes */
+      "flex-layout.row#newOfferts",
+      
+      /* Categorias */
+      "flex-layout.row#Categorias",
+      
+      /* Slider */
+      "responsive-layout.desktop#vinoslider",
+      "responsive-layout.mobile#vinoslider",
+      
+      /* Los mas vendidos */
+      "flex-layout.row#topVentas",
+
+      /* Marcas */
+      "flex-layout.row#CarouselMarcas",
+
+      // "flex-layout.row#MalbecBlend", 
+      // "flex-layout.row#Novedades",
+      // "flex-layout.row#BannerCabernat",
+      // "flex-layout.row#Newsletter",
+      "whatsapp-button"
+    ]
+  },
+  "responsive-layout.desktop#notificationbar": {
+    "children": [
+      "flex-layout.row#notificationbar"
+    ]
+  },
+  "flex-layout.row#notificationbar": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "image#notificationimages1"
+    ]
+  },
+  "responsive-layout.mobile#notificationbar": {
+    "children": [
+      "flex-layout.row#notificationbar"
+    ]
+  },
+  "flex-layout.row#notificationbarmobile": {
+    "props": {
+      "fullWidth": true
+    },
+    "children": [
+      "image#notificationimages2"
+    ]
+  },
+  "image#notificationimages1": {
+    "props": {
+        "src": "assets/images/notificacion-1.jpg",
+        "blockClass": [
+        ]
+    }
+  },
+  "image#notificationimages2": {
+    "props": {
+        "src": "assets/images/notificacion-1.jpg",
+        "blockClass": [
+        ]
+    }
+  },
+  "responsive-layout.desktop#vinoslider":{
+    "children":[
+      "flex-layout.row#vinosImages"
+    ]
+  },
+  "responsive-layout.mobile#vinoslider":{
+    "children":[
+      "flex-layout.row#vinosImagesmobile"
+    ]
+  },
+  "flex-layout.row#scrollX":{
+    "children":["flex-layout.row#DeliverSection"],
+    "props":{
+      "blockClass":"scrollX"
+    }
+  },
+  "flex-layout.row#BannerCabernat": {
+    "props": {
+      "blockClass": "BannerCabernat",
+      "paddingTop": 6,
+      "paddingBottom": 6
+    },
+    "children": ["image#BannerCabernat"]
+  },
+
+  "image#BannerCabernat": {
+    "props": {
+      "src": "https://imgur.com/vawLtBa.png",
+      "blockClass": "ImageBannerCabernat"
+    }
+  },
+
+
+  ///////////////////delivery section init
+
+  "slider-layout#carrousel-delivery": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "mobileOnly",
+      "showPaginationDots": "never",
+      "blockClass": "carrouselDelivery"
+    },
+    "children": ["flex-layout.row#img1", "flex-layout.row#img2", "flex-layout.row#img3"]
+  },
+
+	"flex-layout.row#DeliverSection": {
+	  "children": [
+		  /* "slider-layout#DelSection" */
+      "flex-layout.row#img1",
+		  "flex-layout.row#img2",
+	  	"flex-layout.row#img3"
+	  ],
+	  "props": {
+      "colGap": 0,
+      "marginTop": 8,
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "preserveLayoutOnMobile":true,
+      "blockClass": ["deliverySectionCont"],
+      "marginBottom": 8
+	  }
+	},
+	// "slider-layout#DelSection": {
+	//   "children": [
+	// 	"flex-layout.row#img1",
+	// 	"flex-layout.row#img2",
+	// 	"flex-layout.row#img3"
+	//   ],
+	//   "props": {
+	// 	  "itemsPerPage": {
+	// 		  "desktop": 3,
+	// 		  "tablet": 1,
+	// 		  "phone": 1
+	// 	  },
+	// 	  "blockClass" : "deliverySection",
+	// 	  "showNavigationArrows" : "never",
+	// 	  "showPaginationDots" : "never"
+	//   }
+	// },
+	"flex-layout.row#img1": {
+		"children": [
+			"image#del1",
+			"rich-text#imgdel1"
+		  ],
+		"props":{
+			"blockClass" : ["img1-del1"],
+      "preserveLayoutOnMobile":true
+		}
+	},
+	"image#del1": {
+		"props": {
+			"height":"100%",
+			"src": "assets/IconsBarricas/home-header/icnCartBanner.svg",
+			"link": "#",
+			"blockClass":"imgDelivery"
+		}
+	},
+	"rich-text#imgdel1":{
+		"props": {
+			"width":"70%",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Comprá online y retirá en tienda",
+			"blockClass": ["tximgdel1","txtDelivery"]
+		  }
+	},
+	"flex-layout.row#img2": {
+		"children": [
+			"image#del2",
+			"rich-text#imgdel2"
+		  ],
+		"props":{
+      "preserveLayoutOnMobile":true,
+			"blockClass" : "img1-del1"
+		}
+	},
+	"image#del2": {
+		"props": {
+			"height":"100%",
+			"src": "assets/IconsBarricas/home-header/icntarjetabanner.svg",
+			"link": "#",
+			"blockClass":"imgDelivery"
+		}
+	},
+	"rich-text#imgdel2":{
+		"props": {
+			"width":"70%",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Pagá con todas las tarjetas",
+			"blockClass": ["tximgdel2","txtDelivery"]
+		  }
+	},
+	"flex-layout.row#img3": {
+		"children": [
+			"image#del3",
+			"rich-text#imgdel3"
+		  ],
+		"props":{
+      "preserveLayoutOnMobile":true,
+			"blockClass" : "img1-del1"
+		}
+	},
+	"image#del3": {
+		"props": {
+			"height":"100%",
+			"src": "assets/IconsBarricas/home-header/icnofertasbanner.svg",
+			"link": "#",
+			"blockClass":"imgDelivery"
+		}
+	},
+	"rich-text#imgdel3":{
+		"props": {
+			"width":"70%",
+			"textAlignment": "CENTER",
+			"textPosition": "CENTER",
+			"text": "Ofertas exclusivas en la web",
+			"blockClass": ["tximgdel3","txtDelivery"]
+		  }
+	},
+
+
+  /*
+  
+  VINOS IMAGES
+  
+  
+  */
+
+
+
+
+  "flex-layout.row#vinosImages": {
+    "props": {
+      "blockClass": "vinosImagesContainer",
+      "paddingBottom": 6,
+      "paddingTop": 8,
+      "colSizing":"auto"
+    },
+    "children": [
+      "image#vinoimages1",
+      "image#vinoimages2",
+      "image#vinoimages3"
+    ]
+  },
+  "flex-layout.row#vinosImagesmobile": {
+    "props": {
+      "blockClass": "vinosImagesContainer",
+      "paddingBottom": 6,
+      "paddingTop": 6,
+      "colSizing":"auto"
+    },
+    "children": [
+      "image#vinoimages1",
+      "image#vinoimages2",
+      "image#vinoimages3"
+    ]
+  },
+
+
+  // "slider-layout#VinosHomeSlider": {
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 3,
+  //       "tablet": 2,
+  //       "phone": 1
+  //     },
+  //     "infinite": false,
+  //     "showNavigationArrows": "never",
+  //     "showPaginationDots": "never",
+  //     "blockClass": "carouselVinosHomeSlider",
+  //     "fullWidth": "true"
+  //   },
+    
+  // },
+
+
+  "image#vinoimages1": {
+    "props": {
+      "src": "https://imgur.com/N3YjhIK.png",
+      "blockClass": ["vinoimages", "vinoimages1"]
+    }
+  },
+
+  "image#vinoimages2": {
+    "props": {
+      "src": "https://imgur.com/yM6KY1P.png",
+      "blockClass": ["vinoimages", "vinoimages2"]
+    }
+  },
+  
+  "image#vinoimages3": {
+    "props": {
+      "src": "https://imgur.com/2mS8wIG.png",
+      "blockClass": ["vinoimages", "vinoimages3"]
+    }
+  },
+
+  "image#vinoimages1mobile": {
+    "props": {
+      "src": "https://imgur.com/N3YjhIK.png",
+      "blockClass": ["vinoimages", "vinoimages1"]
+    }
+  },
+
+  "image#vinoimages2mobile": {
+    "props": {
+      "src": "https://imgur.com/yM6KY1P.png",
+      "blockClass": ["vinoimages", "vinoimages2"]
+    }
+  },
+  
+  "image#vinoimages3mobile": {
+    "props": {
+      "src": "https://imgur.com/2mS8wIG.png",
+      "blockClass": ["vinoimages", "vinoimages3"]
+    }
+  },
+  
+  /* 
+  
+  Carousel home
+  
+  
+  */ 
+
+  "flex-layout.row#CarouselContainer": {
+    "props": {
+      "blockClass": "carouselContainer",
+      "fullWidth": "true"
+    },
+    "children": [
+      "slider-layout#CarouselHome"
+    ]
+  },
+  "flex-layout.row#CarouselContainer-mobile": {
+    "props": {
+      "blockClass": "carouselContainer",
+      "fullWidth": "true"
+    },
+    "children": [
+      "slider-layout#CarouselHome-mobile"
+    ]
+  },
+  "responsive-layout.mobile#sliderp":{
+    "children":[
+      "flex-layout.row#CarouselContainer-mobile"
+      // "slider-layout#carrousel-delivery"
+    ]
+  },
+  "responsive-layout.desktop#sliderp":{
+    "children":[
+      "flex-layout.row#CarouselContainer"
+      // "flex-layout.row#scrollX"
+    ]
+  },
+  "slider-layout#CarouselHome": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "carousel",
+      "fullWidth": "true"
+    },
+    "children": [
+      "image#imageCarousel1",
+      "image#imageCarousel2",
+      "image#imageCarousel3"
+    ]
+  },
+  "slider-layout#CarouselHome-mobile": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": "carousel",
+      "fullWidth": "true"
+    },
+    "children": [
+      "image#imageCarousel1-mobile",
+      "image#imageCarousel2-mobile",
+      "image#imageCarousel3-mobile"
+    ]
+  },
+
+  "image#imageCarousel1": {
+    "props": {
+      "src": "https://imgur.com/v15LSe3.png",
+      "blockClass": ["imageCarousel"]
+    }
+  },
+
+  "image#imageCarousel2": {
+    "props": {
+      "src": "https://imgur.com/v15LSe3.png",
+      "blockClass": ["imageCarousel"]
+    }
+  },
+
+  "image#imageCarousel3": {
+    "props": {
+      "src": "https://imgur.com/v15LSe3.png",
+      "blockClass": ["imageCarousel"]
+    }
+  },
+
+
+  "image#imageCarousel1-mobile": {
+    "props": {
+      "src": "https://imgur.com/v15LSe3.png",
+      "blockClass": ["imageCarousel"]
+    }
+  },
+
+  "image#imageCarousel2-mobile": {
+    "props": {
+      "src": "https://imgur.com/v15LSe3.png",
+      "blockClass": ["imageCarousel"]
+    }
+  },
+
+  "image#imageCarousel3-mobile": {
+    "props": {
+      "src": "https://imgur.com/v15LSe3.png",
+      "blockClass": ["imageCarousel"]
+    }
+  },
+
+
+
+  /* 
+  
+  
+  Carousel nuestras marcas
+  
+  
+  */
+
+  "flex-layout.row#CarouselMarcas": {
+    "props": {
+      "blockClass": ["carouselContainer","marcas"],
+      "paddingBottom": 8,
+      "paddingTop": 8
+    },
+    "children": [
+      "flex-layout.col#CarouselMarcasCol"
+    ]
+  },
+
+  "flex-layout.col#CarouselMarcasCol": {
+    "children": [
+      "rich-text#NuestrasMarcas",
+      "responsive-layout.desktop#CarouselMarcasContentD",
+      "responsive-layout.mobile#CarouselMarcasContentM"
+    ]
+  },
+  "responsive-layout.desktop#CarouselMarcasContentD":{
+    "children": [
+      "slider-layout#CarouselMarcasContent"
+    ]
+  },
+  "responsive-layout.mobile#CarouselMarcasContentM":{
+    "children": [
+      "flex-layout.row#MarcasImgs"
+    ]
+  },
+
+  "flex-layout.row#MarcasImgs": {
+    "props": {
+      "blockClass": "marcasMovile",
+      "paddingBottom": 6,
+      "paddingTop": 6
+    },
+    "children": [
+      "image#imageCarouselMarcas1",
+      "image#imageCarouselMarcas2",
+      "image#imageCarouselMarcas3",
+      "image#imageCarouselMarcas4",
+      "image#imageCarouselMarcas5"
+    ]
+  },
+
+  "rich-text#NuestrasMarcas": {
+    "props": {
+      "blockClass": ["NuestrasMarcas","flower"],
+      "text": "Nuestras Marcas"
+    }
+  },
+
+  "slider-layout#CarouselMarcasContent": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "always",
+      "blockClass": ["carousel","marcas"],
+      "showPaginationDots": "always"
+    },
+    "children": [
+      "image#imageCarouselMarcas1",
+      "image#imageCarouselMarcas2",
+      "image#imageCarouselMarcas3",
+      "image#imageCarouselMarcas4",
+      "image#imageCarouselMarcas5"
+    ]
+  },
+
+  "image#imageCarouselMarcas1": {
+    "props": {
+      "src": "https://imgur.com/IZt3cv9.png",
+      "blockClass": ["imageCarouselMarcas"]
+    }
+  },
+
+  "image#imageCarouselMarcas2": {
+    "props": {
+      "src": "https://imgur.com/YSWycmb.png",
+      "blockClass": ["imageCarouselMarcas"]
+    }
+  },
+
+  "image#imageCarouselMarcas3": {
+    "props": {
+      "src": "https://imgur.com/RDDosne.png",
+      "blockClass": ["imageCarouselMarcas"]
+    }
+  },
+
+  "image#imageCarouselMarcas4": {
+    "props": {
+      "src": "https://imgur.com/bAp8q7E.png",
+      "blockClass": ["imageCarouselMarcas"]
+    }
+  },
+
+  "image#imageCarouselMarcas5": {
+    "props": {
+      "src": "https://imgur.com/bAp8q7E.png",
+      "blockClass": ["imageCarouselMarcas"]
+    }
+  },
+
+
+
+
+
+  /* 
+  
+  Malbec Blend
+  
+  */
+
+
+
+
+  "flex-layout.row#MalbecBlend": {
+    "props": {
+      "blockClass": "MalbecBlendContainer",
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "colGap": 9,
+      "colSizing": "auto",
+      "rowGap": 6
+    },
+
+    "children": [
+      "image#Malbec",
+      "image#Blend"
+    ]
+  },
+
+  "image#Malbec": {
+    "props": {
+      "width":"60%",
+      "src": "https://imgur.com/6O0pOAQ.png",
+      "href": "",
+      "blockClass": "Malbec"
+    }
+  },
+
+  "image#Blend": {
+    "props": {
+      "width":"40%",
+      "src": "https://imgur.com/6CL07ow.png",
+      "href": "",
+      "blockClass": "Blend"
+    }
+  },
+
+
+
+
+
+
+
+  /*
+  
+  
+
+
+  NEWSLETTER 
+
+  
+
+  
+  
+  */
+
+  "flex-layout.row#Newsletter":{
+	  "props":{
+		"blockClass":"newsLetters",
+		"width":"100%"
+	  },
+	  "children":["flex-layout.col#ContNewsletter"]
+	},
+	"flex-layout.col#ContNewsletter": {
+	  "children": [
+		"newsletter"
+	  ],
+	  "props": {
+		"blockClass":"newsletterForm",
+		"rowGap": 0,
+		"verticalAlign":"middle",
+		"preventVerticalStretch": false,
+		"width": "55%"
+	  }
+	},
+
+	"newsletter":{
+		"props":{
+			"label":"¡Recibí todas nuestras ofertas!",
+			"placeholder": "Ingresa tu e-mail",
+			"submit": "¡SUSCRIBIRME!"
+		}
+	}
+  
+
+
+
+}

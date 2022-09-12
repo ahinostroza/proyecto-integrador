@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#product-description":{
+    "title":"Descripcion del producto",
+    "props":{
+      "blockClass":["shelf","bg-gray"],
+      "horizontalAlign":"center"
+    },
+    "children":["product-description#product-store"]
+  },
+  "product-description#product-store":{
+      "props":{
+        "title":"Información",
+        "blockClass":"description-text",
+        "collapseContent":false
+      }
+  }
+}

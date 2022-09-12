@@ -1,0 +1,116 @@
+{
+  "store.custom#quienessomos": {
+    "blocks": [
+      "rich-text#titleGeneral",
+      "slider-layout#QuienesSomos",
+
+      /* Contenido texto */
+
+      "rich-text#titleContentSomos",
+      "rich-text#descContentSomos",
+      "rich-text#descSucursales",
+      "rich-text#somosDeBarricas",
+
+
+
+      /* NEWSLETTER */
+
+      "flex-layout.row#Newsletter"
+    ]
+ },
+
+ /* TITULO GENERAL */
+
+ "rich-text#titleGeneral": {
+   "props": {
+     "text": "Quienes Somos",
+     "blockClass": ["shelfTitle", "titleQuienesSomos"]
+   }
+ },
+
+ /* CONTENIDO */
+
+
+ /* SLIDER*/
+
+ "slider-layout#QuienesSomos": {
+  "props": {
+    "itemsPerPage": {
+      "desktop": 1,
+      "tablet": 1,
+      "phone": 1
+    },
+    "infinite": true,
+    "showNavigationArrows": "desktopOnly",
+    "showPaginationDots": "desktopOnly",
+    "blockClass": ["QuienesSomosSlider", "sliderInstitucionales","carousel","dotsGray"],
+    "fullWidth": "true"
+  },
+  "children": [
+    "image#QuienesSomosSlider1Image",
+    "image#QuienesSomosSlider2Image",
+    "image#QuienesSomosSlider3Image"
+  ]
+},
+
+"image#QuienesSomosSlider1Image": {
+  "props": {
+    "src": "https://i.imgur.com/2tJstZ1.png",
+    "blockClass": ["imageSlider", "QuienesSomosSlider1Image"]
+  }
+},
+
+"image#QuienesSomosSlider2Image": {
+  "props": {
+    "src": "https://i.imgur.com/2tJstZ1.png",
+    "blockClass": ["imageSlider", "QuienesSomosSlider1Image"]
+  }
+},
+
+"image#QuienesSomosSlider3Image": {
+  "props": {
+    "src": "https://i.imgur.com/2tJstZ1.png",
+    "blockClass": ["imageSlider", "QuienesSomosSlider1Image"]
+  }
+},
+
+/* CONTENIDO DE LOS TEXTO */
+
+"rich-text#titleContentSomos": {
+  "props": {
+    "text": "Un nuevo concepto en vinotecas",
+    "blockClass": ["tituloContenidoTextos", "nuevoConcepto"],
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER"
+  }
+},
+
+"rich-text#descContentSomos": {
+  "props": {
+    "text": "Somos un nuevo concepto en vinotecas, con 5 sucursales en los puntos más exclusivos de Capital Federal. Podés encontrarnos en los barrios de Palermo, Galerías Pacífico, Puerto Madero, Belgrano y Recoleta. Atendido por sommeliers, DeBarricas te invita a descubrir y comprender el mundo del vino y de las bebidas con alcohol, con asesoramiento de primer nivel y atención personalizada en cada punto de venta. Compartimos nuestra experiencia y conocimiento sobre el vino argentino y mundial ofreciendo una amplia variedad de etiquetas y promociones irresistibles.",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": ["descContent", "somosContenidoDesc"]
+  }
+},
+"rich-text#descSucursales": {
+  "props": {
+    "text": "Para conocer nuestras sucursales ingresá a [Nuestras Sucursales.](/points)",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": ["descContent", "somosContenidoDesc"]
+  }
+},
+
+"rich-text#somosDeBarricas": {
+  "props": {
+    "text": "Somos DeBarricas. Te esperamos.",
+    "textAlignment": "CENTER",
+    "textPosition": "CENTER",
+    "blockClass": ["descContentSomos", "somosDebarricasDesc"]
+  }
+}
+
+
+
+}

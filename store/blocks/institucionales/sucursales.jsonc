@@ -1,0 +1,137 @@
+// {
+//   // "store.storelocator": {
+//   //   "blocks": [
+//   //     /* TITULO */
+//   //     "rich-text#titleGeneralSucursales",
+
+//   //     /* CONTENIDO */
+//   //     "flex-layout.row#container",
+
+//   //     /* NEWSLETTER */
+//   //     "flex-layout.row#Newsletter"
+//   //   ],
+//   //   "props": {
+//   //     //"blockClass": "LocationSucursales"
+//   //   }
+//   // },
+
+//   /* TITULO GENERAL */
+
+//   "rich-text#titleGeneralSucursales": {
+//     "props": {
+//       "text": "Nuestras Sucursales",
+//       "blockClass": ["shelfTitle", "titleSucursales"]
+//     }
+//   },
+
+//   /* CONTENT */
+
+//   "flex-layout.row#title": {
+//     "children": ["flex-layout.col#title"]
+//   },
+
+//   "flex-layout.row#container": {
+//     "children": ["flex-layout.row#title"],
+//     "props": {
+//       "blockClass": "storeListContainer"
+//     }
+//   },
+
+//   // "store-list": {
+//   //   "props": {
+//   //     "filterByTag": "debarricas"
+//   //   }
+//   // },
+
+//   "flex-layout.col#title": {
+//     "children": ["rich-text#title"],
+//     "props": {
+//       "blockClass": "title",
+//       "preventVerticalStretch": true
+//     }
+//   },
+//   "rich-text#title": {
+//     "props": {
+//       "text": "Busca tu sucursal más cercana: ",
+//       "blockClass": "titleBuscaTuSucursal"
+//     }
+//   },
+//   // "store.storedetail": {
+//   //   "blocks": ["flex-layout.row#titleStore", "store-group"],
+//   //   "props": {
+//   //     "blockClass": "storeDetailContainer"
+//   //   }
+//   // },
+//   // "store-group": {
+//   //   "children": ["flex-layout.row#containerStore"],
+//   //   "props": {
+//   //     "title": "{storeName} Store",
+//   //     "blockClass": "storeGroupContainer",
+//   //     "instructionsAsPhone": true
+//   //   }
+//   // },
+//   "flex-layout.row#titleStore": {
+//     "children": ["flex-layout.col#titleStore"]
+//   },
+//   "flex-layout.row#containerStore": {
+//     "children": ["flex-layout.col#detail", "flex-layout.col#map"],
+//     "props": {
+//       "blockClass": "ContainerStore"
+//     }
+//   },
+
+//   "flex-layout.col#titleStore": {
+//     "children": ["rich-text#titleGeneralSucursales"],
+//     "props": {
+//       "blockClass": "title",
+//       "preventVerticalStretch": true
+//     }
+//   },
+
+//   "flex-layout.col#map": {
+//     "props": {
+//       "blockClass": "mapa"
+//     },
+//     "children": []
+//   },
+
+//   "flex-layout.col#detail": {
+//     "children": [
+//       // "store-back-link",
+//       // "flex-layout.col#store",
+//       "flex-layout.row#detailAdressName",
+//       "store-hours"
+     
+//     ],
+//     "props": {
+//       "width": "30%",
+//       "preventVerticalStretch": true,
+//       "blockClass": "detailOtherPage"
+//     }
+//   },
+
+//   "flex-layout.row#detailAdressName": {
+//     "children": [
+//       "store-address",
+//       "store-instructions"
+//     ],
+//     "props": {
+//       "blockClass": "detailAdressName"
+//     }
+//   }
+
+//   // "store-back-link": {
+//   //   "props": {
+//   //     "label": "Volver a todas las sucursales"
+//   //   }
+//   // },
+
+//   // "store-instructions": {
+//   //   "props": {
+//   //     "label": ""
+//   //   }
+//   // }
+// }
+{
+  
+}

@@ -1,0 +1,115 @@
+@media only screen and (max-width:1024px){
+
+  .paragraph--tituloFooter::before{
+    content: '';
+    display: none !important;
+  }
+
+  .paragraph--copy-text{
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+  }
+
+
+}
+
+.paragraph--titulo-ayuda-1 {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 35px;
+  font-family: 'made_sunflowerregular' !important;
+}
+@media screen and (max-width: 768px) {
+  .paragraph--titulo-ayuda-1 {
+    font-size: 22px;
+  }
+}
+
+.container--primer-titulo-ayuda .wrapper--primer-titulo-ayuda .paragraph {
+  font-size: 23px;
+  font-weight: bold;
+  padding-left: 30px;
+}
+@media screen and (max-width: 768px) {
+  .container--primer-titulo-ayuda .wrapper--primer-titulo-ayuda .paragraph {
+    font-size: 17px;
+    padding-left: 17px;
+  }
+}
+
+.container--segundo-titulo-ayuda .wrapper--segundo-titulo-ayuda .paragraph {
+  font-size: 21px;
+  font-weight: normal;
+  padding-left: 30px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.container--segundo-titulo-ayuda .wrapper--segundo-titulo-ayuda .paragraph.paragraph--primertitulo-1 {
+  margin-top: 30px;
+}
+@media screen and (max-width: 768px) {
+  .container--segundo-titulo-ayuda .wrapper--segundo-titulo-ayuda .paragraph {
+    font-weight: bold;
+    font-size: 17px;
+    padding-left: 15px;
+  }
+  .container--segundo-titulo-ayuda .wrapper--segundo-titulo-ayuda .paragraph.paragraph--primertitulo-1 {
+    margin-top: 20px;
+  }
+}
+
+
+
+.paragraph--texto-contenido-ayuda {
+  color: #5d5d5d;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+}
+@media screen and (max-width: 768px) {
+  .paragraph--texto-contenido-ayuda {
+    font-size: 17px;
+  }
+}
+
+.list--texto-contenido-ayuda .listItem--texto-contenido-ayuda {
+  list-style-type: "- ";
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+}
+@media screen and (max-width: 768px) {
+  .list--texto-contenido-ayuda .listItem--texto-contenido-ayuda {
+    font-size: 17px;
+  }
+}
+
+.wrapper--texto-contenido-ayuda-2-1-2 {
+  background: #7070701A;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+.wrapper--texto-contenido-ayuda-2-1-2:first-child {
+  padding-top: 20px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.wrapper--texto-contenido-ayuda-2-1-2:last-child {
+  padding-bottom: 20px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.wrapper--texto-contenido-ayuda-2-1-2 .paragraph {
+  font-size: 16px;
+  line-height: 19px;
+}
+@media screen and (max-width: 768px) {
+  .wrapper--texto-contenido-ayuda-2-1-2 {
+    width: 100%;
+    word-break: break-word;
+  }
+}
+

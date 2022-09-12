@@ -1,0 +1,70 @@
+/* sin stock */
+
+/* form */ 
+
+form :global(.vtex-input-prefix__group){
+  border: 1px solid #8c8c8c !important;
+  margin-right: 2px;
+}
+
+:global(.vtex-store-components-3-x-submit) :global(.vtex-button){
+  background: #5B0D2E;
+  color:#fff;
+  height: 100%;
+  font-weight: 700;
+}
+
+
+:global(.vtex-store-components-3-x-submit) :global(.vtex-button):hover{
+  cursor: pointer;
+}
+
+:global(.vtex-store-components-3-x-form) :global(.vtex-store-components-3-x-input){
+  margin-right: 0 !important;
+}
+
+
+form :global(.vtex-input-prefix__group) :global(.vtex-styleguide-9-x-noAppearance){
+  font-size:15px;
+}
+
+form :global(.vtex-store-form-0-x-formSubmitContainer){
+  background: #008cbe !important;
+  min-width: 120px !important;
+}
+
+form :global(.vtex-store-form-0-x-formSubmitContainer) :global(.vtex-button){
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+form :global(.vtex-store-form-0-x-formSubmitButton) :global(.vtex-button){
+  width: 100%;
+}
+
+
+form :global(.vtex-store-form-0-x-formSubmitContainer) :global(.vtex-button) :global(.vtex-button__label) {
+  font-weight: 700 !important;
+}
+
+form :global(.vtex-rich-text-0-x-paragraph--title-contact){
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+:global(.vtex-flex-layout-0-x-flexCol--ContenedorNoDisponibleText){
+  border: 1px solid #DE0138;
+  margin-top: 10px;
+  padding: 0 20px;
+}
+
+:global(vtex-store-components-3-x-productImageTag){
+  width: 400px !important;
+}
+
+
+
+
+
+

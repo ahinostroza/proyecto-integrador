@@ -1,0 +1,16 @@
+query getCategory($id:Int!){
+  category(id:$id)
+  @context(provider: "vtex.store-graphql"){
+    name
+    hasChildren
+    metaTagDescription
+    children{
+      name
+      href
+      children{
+        name
+        href
+      }
+    }
+  }
+}

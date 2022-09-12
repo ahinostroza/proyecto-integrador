@@ -1,0 +1,17 @@
+{
+    "store.custom#comocomprar":{
+        "path": "/como-comprar"
+    },
+    "store.custom#preguntasfrecuentes": {
+        "path": "/preguntas-frecuentes"
+    },
+    "store.custom#quienessomos": {
+        "path": "/quienes-somos"
+    },
+    "store.custom#soluciones": {
+        "path": "/stores"
+    },
+    "store.custom#terminosycondiciones": {
+        "path": "/terminos-y-condiciones"
+    }
+}

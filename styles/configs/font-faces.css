@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'made_sunflowerregular';
+    src: url('assets/fonts/sunflower-webfont.woff2') format('woff2'),
+         url('assets/fonts/sunflower-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face{
+    font-family: Roboto;
+    src: url('/assets/fonts/Roboto-Black.ttf'), url('/assets/fonts/Roboto-BlackItalic.ttf'), url('/assets/fonts/Roboto-Bold.ttf'), url('/assets/fonts/Roboto-BoldItalic.ttf'), url('/assets/fonts/Roboto-Medium.ttf'), url('/assets/fonts/Roboto-MediumItalic.ttf'), url('/assets/fonts/Roboto-Regular.ttf'), url('/assets/fonts/Roboto-Light.ttf'), url('/assets/fonts/Roboto-LightItalic.ttf');
+    font-style: normal;
+    font-weight: normal;
+}

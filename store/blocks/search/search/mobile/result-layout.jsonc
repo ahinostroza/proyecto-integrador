@@ -1,0 +1,19 @@
+{
+  "search-result-layout.mobile": {
+    "children": [
+      "search-title.v2",
+      "search-products-count-per-page",
+      "flex-layout.row#result-mobile"
+      //"flex-layout.row#spacer"
+    ],
+    "props": {
+      "preventRouteChange": true,
+      "hideUnavailableItems": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      },
+      "__unstableProductOriginVtex": true
+    }
+  }
+}
